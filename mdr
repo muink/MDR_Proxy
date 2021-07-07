@@ -1,0 +1,175 @@
+#!/usr/bin/env bash
+# dependent: bash curl coreutils-base64 openssl-util coreutils-md5sum coreutils-sha1sum getopt
+#
+# MDR xml tool cli
+# Author: muink
+# Github: https://github.com/muink/MDR_Proxy
+#
+
+# Init
+categoryID='HP001'
+serviceID='MDRID285300'
+#
+rawData=
+header=
+cryptedData=
+decryptedData=
+
+# Get options
+GETOPT=$(getopt -n $(basename $0) -o c:s:o:O -l categoryid:,serviceid:,out:,help -- "$@")
+[ $? -ne 0 ] && echo -e "\tUse the --help option get help" && exit 1
+eval set -- "$GETOPT"
+ERROR=$(echo "$GETOPT" | sed "s|'[^']*'||g; s| -- .+$||; s| --$||")
+
+# Duplicate options
+for ru in --help\|--help -c\|--categoryid -s\|--serviceid -o\|--out -O\|-O; do
+  eval "echo \"\$ERROR\" | grep -E \" ${ru%|*}[ .+]* ($ru)| ${ru#*|}[ .+]* ($ru)\" >/dev/null && >&2 echo \"\$(basename \$0): Option '\$ru' option is repeated\" && exit 1"
+done
+# Independent options
+for ru in --help\|--help; do
+  eval "echo \"\$ERROR\" | grep -E \"^ ($ru) .+|.+ ($ru) .+|.+ ($ru) *\$\" >/dev/null && >&2 echo \"\$(basename \$0): Option '\$(echo \"\$ERROR\" | sed -E \"s,^.*($ru).*\$,\\1,\")' cannot be used with other options\" && exit 1"
+done
+# Conflicting options
+echo "$ERROR" | grep -E " (-o|--out)\b" | grep -E " -O\b" >/dev/null && >&2 echo "$(basename $0): Option '-o|--out' cannot be used with option '-O'" && exit 1
+
+
+# Sub function
+_help() {
+printf "\n\
+Usage: mdr [OPTION]... \n\
+MDR xml tool cli\n\
+\n\
+Options:\n\
+  -c, --categoryid <categoryID>       -- Input categoryID\n\
+  -s, --serviceid <serviceID>         -- Input serviceID\n\
+  -o, --out <fileName>                -- Output to file\n\
+  -O                                  -- Output to file with a default name\n\
+  --help                              -- Returns help info\n\
+\n"
+}
+
+downloadRaw() {
+  local downUrl='https://info.update.sony.net/${categoryID}/${serviceID}/info/info.xml'
+
+  curl —XGET -Lso - \
+    -H "User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; XQ-AT52 Build/58.1.A.5.159)" \
+    -H "Accept-Encoding: gzip" \
+    $(eval "echo \"$downUrl\"") |
+  gzip -d 2>/dev/null | base64
+}
+
+# splitRaw <val_Raw> <var_head> <var_cryptedData>
+splitRaw() {
+  local raw="$1"
+  local headerLength=$[ $(echo "$raw"|base64 -d|sed -n '/^$/='|head -n1) -1 ]
+
+  eval "$2=\$(echo \"\$raw\"|base64 -d|head -n \$headerLength)"
+  eval "$3=\$(echo \"\$raw\"|base64 -d|tail -n +\$[ \$headerLength +2 ]|base64)"
+}
+
+# decryptData <val_head> <val_cryptedData> <var_decryptedData>
+decryptData() {
+  local headerSplit=(eaid daid digest)
+  for _key in "${headerSplit[@]}"; do
+    eval "local $_key=\$(echo \"\$1\"|sed -En \"/^\$_key:.*/I s|^\$_key:||i p\")"
+    if [ -z "$(eval "echo \$$_key")" ]; then >&2 echo -e "$(basename $0): Data header error."; return 1; fi
+  done
+# Analytical header
+local enc has datahash hash
+case "$eaid" in
+  ENC*);;&
+    ???0001)enc=none;;
+    ???0002)enc=des-ede3;;
+    ???0003)enc=aes-128-ecb;;
+  *)enc=;;
+esac
+case "$daid" in
+  HAS*);;&
+    ???0001)has=none;;
+    ???0002)has=md5;;
+    ???0003)has=sha1;;
+  *)has=;;
+esac
+if [ -z "$enc" -o -z "$has" ]; then >&2 echo -e "$(basename $0): Undefined encryption method:\n\t$eaid:{eaid:-null}\n\tdaid:${daid:-null}" && return 1; fi
+# Decrypt
+case "$enc" in
+  none)eval "$3=\$(echo \"\$2\"|base64 -d|base64)";;
+  des-ede3)eval "$3=\$(echo \"\$2\"|base64 -d|openssl enc -d -des-ede3 -K 000000000000000000000000000000000000000000000000 -nopad|base64)";;
+  aes-128-ecb)eval "$3=\$(echo \"\$2\"|base64 -d|openssl enc -d -aes-128-ecb -K 4FA27999FFD08B1FE4D260D57B6D3C17 -nopad|base64)";;
+esac
+# openssl enc -e -des-ede3 -in des-ede3_decrypted.xml -out des-ede3_out.txt -K 000000000000000000000000000000000000000000000000 -nosalt -nopad
+# openssl enc -d -des-ede3 -in des-ede3_crypted.xml -out des-ede3_in.txt -K 000000000000000000000000000000000000000000000000 -nopad
+# openssl enc -e -aes-128-ecb -in aes-128-ecb_decrypted.xml -out aes-128-ecb_out.txt -K 4FA27999FFD08B1FE4D260D57B6D3C17 -nosalt -nopad
+# openssl enc -d -aes-128-ecb -in aes-128-ecb_crypted.xml -out aes-128-ecb_in.txt -K 4FA27999FFD08B1FE4D260D57B6D3C17 -nopad
+# Verify
+case "$has" in
+  none)hash="$digest";;
+  md5)eval "datahash=\$(echo \"\$$3\"|base64 -d|md5sum -b|cut -f1 -d' ')"; hash="$(echo -n "$datahash$serviceID$categoryID"|md5sum -b|cut -f1 -d' ')";;
+  sha1)eval "datahash=\$(echo \"\$$3\"|base64 -d|sha1sum -b|cut -f1 -d' ')"; hash="$(echo -n "$datahash$serviceID$categoryID"|sha1sum -b|cut -f1 -d' ')";;
+esac
+if [ "$hash" != "$digest" ]; then >&2 echo -e "$(basename $0): Data checksum error. Decryption failed." && return 1; fi
+}
+
+
+
+# Main
+# Get options
+while [ -n "$1" ]; do
+  case "$1" in
+    --help)
+      _help
+      exit
+    ;;
+    -c|--categoryid)
+      if [ -n "$2" ]; then categoryID="$2"
+      else
+        >&2 echo -e "$(basename $0): Option '$1' requires a valid argument."
+        exit 1
+      fi
+      shift
+    ;;
+    -s|--serviceid)
+      if [ -n "$2" ]; then serviceID="$2"
+      else
+        >&2 echo -e "$(basename $0): Option '$1' requires a valid argument."
+        exit 1
+      fi
+      shift
+    ;;
+    -o|--out)
+      OUTT=true
+      OUTPUT="$2"
+      shift
+    ;;
+    -O)
+      OUTT=true
+      OUTPUT="${categoryID}_${serviceID}.xml"
+    ;;
+    --)
+      shift
+      break
+    ;;
+    *)
+      >&2 echo -e "$(basename $0): '$1' is not an option\n\tUse the --help option get help"
+      exit 1
+    ;;
+  esac
+  shift
+done
+# Get parameters
+[ -z "$1" ]&& _help && exit
+
+# Output
+rawData=$(downloadRaw)
+[ -z "$rawData" ]&& >&2 echo -e "$(basename $0): Raw info.xml download failed.\n\tPlease use the correct categoryID/serviceID\n\t and check the network connection." && exit 1
+
+splitRaw "$rawData" header cryptedData
+decryptData "$header" "$cryptedData" decryptedData
+
+if [ "$OUTT" == "true" ]; then
+  echo "$decryptedData"|base64 -d >"$OUTPUT"
+else
+  echo "$decryptedData"|base64 -d
+fi
+
+
