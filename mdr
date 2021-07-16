@@ -45,7 +45,7 @@ Options:\n\
 \n"
 }
 
-# downloadRaw [var_Raw]
+# downloadRaw
 downloadRaw() {
   local downUrl='https://info.update.sony.net/${categoryID}/${serviceID}/info/info.xml'
 
@@ -58,13 +58,7 @@ downloadRaw() {
     local errcode="$(echo "$err"|sed -En "s/^curl: \(([0-9]+)\).*/\1/p")"
     [ -n "$err" ]&& >&2 echo -e "$(basename $0): downloadRaw: $err" && exit ${errcode:-0}
   ) \
-  >  >(
-    if [ -n "$1" ];then
-      eval "$1=\"\$(tee|gzip -d 2>/dev/null|base64)\""
-    else
-      tee|gzip -d 2>&-
-    fi
-  )
+  | gzip -d 2>&-
 }
 
 # splitRaw <val_Raw> <var_head> <var_cryptedData>
@@ -161,8 +155,8 @@ done
 #
 
 # Output
-downloadRaw rawData; errCode="$?"
-[ -z "$rawData" ]&& >&2 echo -e "$(basename $0): Raw info.xml download failed.\n\tPlease use the correct categoryID/serviceID\n\t and check the network connection." && exit ${errCode:-0}
+rawData="$(downloadRaw|base64)"
+[ -z "$rawData" ]&& >&2 echo -e "$(basename $0): Raw info.xml download failed.\n\tPlease use the correct categoryID/serviceID\n\t and check the network connection." && exit ${errCode:-1}
 splitRaw "$rawData" header cryptedData
 decryptData "$header" "$cryptedData" decryptedData
 echo "$decryptedData"
