@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+# dependent: bash curl coreutils-base64 coreutils-sha1sum
+#
+# MDR ROMs mirror tool
+# Author: muink
+# Github: https://github.com/muink/MDR_Proxy
+# License: MIT License
+#
+
+# Init
+WORKDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/" # <--
+PATH="$WORKDIR:$PATH"
+ASSETDIR="${WORKDIR}assets/"
+INDEXDIR="${ASSETDIR}indexes/"
+ROMDIR="${ASSETDIR}roms/"
+DISCLAIMERDIR="${ASSETDIR}disclaimers/"
+#
+README='README.md'
+#
+model='WF-1000XM4'
+categoryID='HP002'
+serviceID='MDRID294800'
+#
+
+
+# Sub function
+# setElements <str_model> <var_model> <var_categoryID> <var_serviceID>
+setElements() {
+  if [ -f "$WORKDIR$README" ]; then
+    local form="$(cat "$WORKDIR$README" | grep -Ei "^$1\|HP[0-9]+\|MDRID[0-9]+" 2>/dev/null)"
+    if [ -n "$form" ]; then
+      eval "$(echo "$form"|sed -En "s,^([^|]+)\|([^|]+)\|([^|]+).*,$2=\1; $3=\2; $4=\3, p")"
+    else
+      >&2 echo -e "$(basename $0): Please enter a valid Model."
+      exit 1
+    fi
+  else
+    >&2 echo -e "$(basename $0): $README not existed."
+    exit 1
+  fi
+}
+
+# genMDRIDlist <stdval_model> <val_categoryID> <val_serviceID>
+genMDRIDlist() {
+  if [ ! -f "$ASSETDIR$1" ]; then
+    mkdir -p "$ASSETDIR"
+    echo $(for _n in $(seq 0 7); do mdr -c "$2" -s "${3:0:-1}$_n" >/dev/null 2>/dev/null &&echo " $2_${3:0:-1}$_n"; done)>"$ASSETDIR$1"
+  fi
+  cat "$ASSETDIR$1" | grep -Evi "\bHP[0-9]+_MDRID[0-9]+\b" >/dev/null && >&2 echo -e "$(basename $0): MDRIDlist file generation failed.\n\tPlease check the network connection." && exit 1
+}
+
+# mirror <stdval_model>
+mirror() {
+local model categoryid serviceid info index version fwurl fwname fwsize fwhash dlurl dlname dlsize dlhash
+
+if [ -f "$ASSETDIR$1" ]; then
+  for _id in $(cat "$ASSETDIR$1"); do
+    categoryid="${_id%%_*}"
+    serviceid="${_id##*_}"
+    info="$(mdr -c "$categoryid" -s "$serviceid")"
+    [ -z "$info" ]&& >&2 echo -e "$(basename $0): Get info.xml failed.\n\tPlease check MDRIDlist file and the network connection." && exit 1
+    index="$(echo "$info"|base64 -d)"
+    model="$(echo "$index"|sed -En 's|\s*<Rule Type="System" Key="Model" Value="(.+)" Operator=".+"/>.*|\1| p')"
+    version="$(echo "$index"|sed -En 's|\s*<Rule Type="System" Key="FirmwareVersion" Value="(.+)" Operator=".+"/>.*|\1| p')"
+    fwurl=; fwname=; fwsize=; fwhash=; eval "$(echo "$index"|sed -En 's|\s*<Distribution ID="FW" InstallParams=".*" InstallType="binary" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|fwhash="\1"; fwsize="\2"; fwurl="\3"| p')"; fwname="${fwurl##*/}"
+    dlurl=; dlname=; dlsize=; dlhash=; eval "$(echo "$index"|sed -En 's|\s*<Distribution ID="Disclaimer" InstallParams=".*" InstallType="notice" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|dlhash="\1"; dlsize="\2"; dlurl="\3"| p')"; dlname="${dlurl##*/}"
+
+# Write info.xml
+mkdir -p "$INDEXDIR$model/${categoryid}_${serviceid}/$version/"
+if [ ! "$(cat "$INDEXDIR$model/${categoryid}_${serviceid}/$version/info.xml" 2>&- |sha1sum -b|cut -c-40)" == "$(echo "$info"|base64 -d|sha1sum -b|cut -c-40)" ]; then
+  echo "$info"|base64 -d>"$INDEXDIR$model/${categoryid}_${serviceid}/$version/info.xml"
+  echo -e "$(basename $0): ${model}-${categoryid}${serviceid}-$version info.xml download completed."
+fi
+# Write ROM file
+mkdir -p "$ROMDIR${fwhash:0:2}"
+if [ ! -f "$ROMDIR${fwhash:0:2}/$fwhash" ]; then
+  curl -LsfSRo "$ROMDIR${fwhash:0:2}/$fwhash" "$fwurl"
+  if [ "$(cat "$ROMDIR${fwhash:0:2}/$fwhash" 2>&- |sha1sum -b|cut -c-40)" == "$fwhash" -a "$(wc -c "$ROMDIR${fwhash:0:2}/$fwhash" 2>&- |cut -f1 -d' ')" == "$fwsize" ]; then
+    echo -e "$(basename $0): ${model}-${categoryid}${serviceid}-$version $fwname download completed."
+  else
+    >&2 echo -e "$(basename $0): ${model}-${categoryid}${serviceid}-$version $fwname download failed."
+    rm -f "$ROMDIR${fwhash:0:2}/$fwhash" 2>&-
+  fi
+fi
+# Write Disclaimer file
+mkdir -p "$DISCLAIMERDIR${dlhash:0:2}"
+if [ ! -f "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" ]; then
+  curl -LsfSRo "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" "$dlurl"
+  if [ "$(cat "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" 2>&- |sha1sum -b|cut -c-40)" == "$dlhash" -a "$(wc -c "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" 2>&- |cut -f1 -d' ')" == "$dlsize" ]; then
+    echo -e "$(basename $0): ${model}-${categoryid}${serviceid}-$version $dlname download completed."
+  else
+    >&2 echo -e "$(basename $0): ${model}-${categoryid}${serviceid}-$version $dlname download failed."
+    rm -f "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" 2>&-
+  fi
+fi
+
+
+  done
+else
+  >&2 echo -e "$(basename $0): The MDRIDlist file for '$1' is missing.\n\tPlease regenerate the file." && exit 1
+fi
+}
+
+
+
+# Main
+# Get model, categoryID and serviceID form README.md
+setElements "$1" model categoryID serviceID
+# Generate region list for MDRID (if region list is not existed)
+genMDRIDlist "$model" "$categoryID" "$serviceID"
+# Mirror the latest firmware
+mirror "$model"
+
+
