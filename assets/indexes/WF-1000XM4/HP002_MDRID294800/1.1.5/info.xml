@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2021-06-07T09:03:32Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WF-1000XM4" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.1.5" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="193e8ce5e676311c1763bd34776b7770e2291deb" Size="2275536" Type="" URI="https://info.update.sony.net/HP002/MDRID294800/contents/0001/UPG_1.1.5_except_enc.bin" Version="1.1.5"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="ba17a0880e18f8fa63d6ce2287ca7c8f01b2ec93" Size="87984" Type="" URI="https://info.update.sony.net/HP002/MDRID294800/contents/0001/HDX-2948_V0115_disclaimer_20210607.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+           

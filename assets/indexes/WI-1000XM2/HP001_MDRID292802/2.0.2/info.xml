@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2020-09-03T05:56:11Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WI-1000XM2" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="2.0.2" Operator="LessThan"/>
+                <Rule Type="System" Key="ClientVersion" Value="7.1.0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="eca950bf74f7bd51711206363f6c67887885081f" Size="1018560" Type="" URI="http://info.update.sony.net/HP001/MDRID292802/contents/0001/UPG_NOVP_2928_2.0.2_enc.bin" Version="2.0.2"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="dd16218603da7f79bf8cef79c3814808e0a71817" Size="62095" Type="" URI="http://info.update.sony.net/HP001/MDRID292802/contents/0001/WI-1000XM2_NoG_v2.0.2_.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="Brazilian" Title="BRPT"><![CDATA[Não insira cabos de áudio ou cabos USB. 
+Isso pode causar mau funcionamento da unidade.]]></Description>
+                <Description Lang="Chinese(Simplified)" Title="CS"><![CDATA[请勿插入音频线或USB线。 
+否则可能会导致本设备发生故障。]]></Description>
+                <Description Lang="Chinese(Traditional)" Title="CT"><![CDATA[請勿插入音訊纜線或 USB 連接線。 
+否則可能會造成主機故障。]]></Description>
+                <Description Lang="Dutch" Title="NL"><![CDATA[Geen audiokabels of USB-kabels aansluiten. 
+Dat kan leiden tot storingen in het toestel.]]></Description>
+                <Description Lang="English" Title="GB"><![CDATA[Do not insert audio cables or USB cables. 
+Doing so may cause malfunction of this unit.]]></Description>
+                <Description Lang="Finnish" Title="FI"><![CDATA[Älä aseta audiojohtoja tai USB-johtoja. 
+Muuten seurauksena voi olla tämän yksikön toimintahäiriö.]]></Description>
+                <Description Lang="French" Title="FR"><![CDATA[Ne pas insérer des câbles audio ou des câbles USB. 
+Cette opération pourrait affecter le fonctionnement de cette unité.]]></Description>
+                <Description Lang="German" Title="DE"><![CDATA[Stecken Sie keine Audio- oder USB-Kabel ein. 
+Andernfalls kann es zu einer Fehlfunktion des Geräts kommen.]]></Description>
+                <Description Lang="Italian" Title="IT"><![CDATA[Non inserire cavi audio o cavi USB. 
+Questa operazione può causare un malfunzionamento dell'unità.]]></Description>
+                <Description Lang="Japanese" Title="JP"><![CDATA[オーディオケーブルやUSBケーブルを挿入しないでください。 
+これらの操作をすると、本機が使用できなくなることがあります。]]></Description>
+                <Description Lang="Korean" Title="KR"><![CDATA[오디오 케이블이나 USB 케이블을 끼우지 마십시오. 
+본 기기의 오작동을 유발할 수 있습니다.]]></Description>
+                <Description Lang="Portuguese" Title="PT"><![CDATA[Não introduzir cabos de áudio ou cabos USB. 
+Se o fizer, poderá avariar esta unidade.]]></Description>
+                <Description Lang="Russian" Title="RU"><![CDATA[Не вставляйте аудиокабели и кабели USB. 
+Это может привести к неисправности устройства.]]></Description>
+                <Description Lang="Spanish" Title="ES"><![CDATA[No inserte cables de audio ni cables USB. 
+Si lo hace, podría provocar un funcionamiento incorrecto de la unidad.]]></Description>
+                <Description Lang="Swedish" Title="SE"><![CDATA[Sätt inte i ljudkablar eller USB-kablar. 
+Det kan göra så att den här enheten slutar fungera.]]></Description>
+                <Description Lang="Turkish" Title="TR"><![CDATA[Ses kablosu veya USB kablosu takmayın. 
+Bunu yapmanız bu ünitenin arızalanmasına yol açabilir.]]></Description>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+              
