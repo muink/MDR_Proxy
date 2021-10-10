@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2021-05-10T07:23:27Z" Noop="false" Version="1.0">
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2021-07-26T04:55:28Z" Noop="false" Version="1.0">
     <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
     <ApplyConditions>
         <ApplyCondition ApplyOrder="1" Force="false">
@@ -8,8 +8,8 @@
                 <Rule Type="System" Key="FirmwareVersion" Value="2.5.0" Operator="LessThan"/>
             </Rules>
             <Distributions>
-                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="97529f0f6630238e77ce76bfc6766aa5616e78e7" Size="1395504" Type="" URI="https://info.update.sony.net/HP002/MDRID294303/contents/0005/UPG_2.5.0_20210413_enc.bin" Version="2.5.0"/>
-                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="0e520cbc00e4f9bb69e077ad569617a664e9a16a" Size="90040" Type="" URI="https://info.update.sony.net/HP002/MDRID294303/contents/0005/HDX-2943_disclaimer_20210419_NoG.xml" Version="1"/>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="97529f0f6630238e77ce76bfc6766aa5616e78e7" Size="1395504" Type="" URI="https://info.update.sony.net/HP002/MDRID294303/contents/0006/UPG_2.5.0_20210413_enc.bin" Version="2.5.0"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="e7059f81e0c6fa60419906006b9463a486408ebf" Size="93567" Type="" URI="https://info.update.sony.net/HP002/MDRID294303/contents/0006/HDX-2943_disclaimer_20210419_G.xml" Version="1"/>
             </Distributions>
             <Descriptions DefaultLang="English">
                 <Description Lang="Brazilian" Title="BRPT"><![CDATA[Não insira cabos de áudio ou cabos USB.
@@ -48,4 +48,4 @@ Bunu yapmanız bu ünitenin arızalanmasına yol açabilir.]]></Description>
         </ApplyCondition>
     </ApplyConditions>
 </InformationFile>
-       
+         

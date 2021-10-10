@@ -11,14 +11,15 @@
 本体アップデート前に、最新のバージョンにアップデートをしてください
 
 [バージョン2.5.0でのアップデート内容]
-[1] 特定条件でのBluetooth接続安定性を向上しました。
-[2] 通話品質を改善しました。
+[1] Google アシスタントを使って音声で本体の操作の一部が可能になりました。
+[2] 特定条件でのBluetooth接続安定性を向上しました。
+[3] 通話品質を改善しました。
 
 本アップデートは、上記の対象機種で過去に実施したアップデート内容も含んでおります。
 
 [ご注意]
 1) ソフトウェア更新には、およそ40分(Android機器/iOS機器)かかります。
-アップデートのダウンロード中、データ転送中もヘッドホンとして継続してお使いいただけます。
+アップデートのダウンロード中、データ転送中もヘッドホンとして継続してお使いいただけます。但し、Googleアシスタント機能はお使いになれません。
 2)本ヘッドホンやAndroid機器（もしくはiOS機器）のバッテリー残量が十分にあることをご確認の上アップデートを行って下さい。
 3)WH-1000XM4を装着しない状態でアップデートする際は、「Sony | Headphones Connect」の"自動電源オフ"機能（非装着による電源オフ機能）を"オフしない"にしてください。
 ※ "ヘッドホンを外したらオフする"を選択していると約15分後に、自動で電源が切れ、アップデート用ファイルのデータ転送も中断します。その場合、次回本機の電源を入れてBluetoothが再接続されると、データ転送の途中から再開されます。
@@ -41,7 +42,7 @@ Sony | Headphones Connectアプリの画面右上のメニューから[WH-1000XM
 
 以上をご了承いただいた上、アップデートにお進みください。
 
-
+※GoogleおよびAndroidはGoogle LLC.の商標です。
 
 ]]></Text>
     </Notice>
@@ -55,14 +56,15 @@ Sony | Headphones Connectアプリの画面右上のメニューから[WH-1000XM
 Please update to the latest version before updating the main unit
 
 [Update details in version 2.5.0]
-[1] Improved the Bluetooth connection stability under specific conditions.
-[2] Improves the hands-free calling quality
+[1] Some controls on the device can be performed through voice commands using the Google Assistant.
+[2] Improved the Bluetooth connection stability under specific conditions.
+[3] Improves the hands-free calling quality
 
 This update includes update content that had previously been applied to the above applicable models.
 
 [Notes]
 1) Software update takes about 40 minutes for Android or about 40 minutes for iOS.
-This product continues to function as headphones even when downloading updates and transferring data.
+This product continues to function as headphones even when downloading updates and transferring data, but the Google Assistant is not available.
 2)Perform update after confirming that the remaining battery charge is sufficient on the headphones and Android device (or iOS device).
 3)Set the "Automatic Power Off" function (power off function when non-equipped) of "Sony | Headphones Connect" to "Do not turn off" when updating while WH-1000XM4 is unequipped. 
 *If "Off when headphones are taken off" is selected, the power is turned off after approximately 15 minutes, and data transfer of update files will be canceled. In this case, data transfer will resume when the power is turned on the next time and Bluetooth is reconnected.
@@ -85,7 +87,7 @@ EXCEPT FOR LIABILITIES ARISING IN CONNECTION WITH GROSS NEGLIGENCE TORT OR WILLF
 
 IF YOU ACCEPT THESE TERMS ABOVE, PLEASE PROCEED TO UPDATING SOFTWARE.
 
-
+※Google and Android are trademarks of Google LLC.
 
 ]]></Text>
     </Notice>
@@ -99,14 +101,15 @@ IF YOU ACCEPT THESE TERMS ABOVE, PLEASE PROCEED TO UPDATING SOFTWARE.
 Veuillez actualiser à la dernière version avant d'actualiser l'unité principale
 
 [Mettez à jour les détails dans la version 2.5.0]
-[1] Amélioration de la stabilité de la connexion Bluetooth dans des conditions spécifiques.
-[2] Qualité améliorée pendant les appels 
+[1] Certaines commandes de l’appareil peuvent être effectuées par l’intermédiaire de commandes vocales à l’aide de l’Assistant Google.
+[2] Amélioration de la stabilité de la connexion Bluetooth dans des conditions spécifiques.
+[3] Qualité améliorée pendant les appels 
 
 Cette mise à jour inclut du contenu de mise à jour qui a été appliqué précédemment aux modèles concernés ci-dessus.
 
 [Avertissement]
 1) La mise à jour du logiciel prend environ 40 minutes pour Android et environ 40 minutes pour iOS.
- Ce produit continue de fonctionner comme casque même lors du téléchargement des mises à jour et du transfert de données.
+ Ce produit continue de fonctionner comme casque même lors du téléchargement des mises à jour et du transfert de données, mais l'Assistant Google n'est pas disponible. 
 2)Effectuez la mise à jour après avoir vérifié que le niveau de charge de la batterie est suffisant sur le casque et l’appareil Android (ou l’appareil iOS).
 3)Réglez la fonction « Éteindre Automatiquement » (fonction de mise hors tension lorsque vous ne portez pas le casque) de « Sony | Headphones Connect » sur « Ne pas éteindre » lorsque vous effectuez la mise à jour pendant que vous ne portez pas le WH-1000XM4. 
 *Si « Se désactive en retirant le casque » est sélectionné, le casque s’éteint après environ 15 minutes, et le transfert de données des fichiers de mise à jour s’annulera. Dans ce cas, le transfert de données reprendra lors de la prochaine mise sous tension et lors de la reconnexion du Bluetooth.
@@ -129,7 +132,7 @@ EXCEPTÉ POUR LES RESPONSABILITÉS QUI DÉCOULENT D’UNE NÉGLIGENCE GRAVE, D�
 
 SI VOUS ACCEPTEZ LES PRÉSENTES CONDITIONS CI-DESSUS, VEUILLEZ PROCÉDER À LA MISE À JOUR DU LOGICIEL.
 
-
+※Google et Android sont des marques commerciales de Google LLC.
 
 ]]></Text>
     </Notice>
@@ -143,14 +146,15 @@ SI VOUS ACCEPTEZ LES PRÉSENTES CONDITIONS CI-DESSUS, VEUILLEZ PROCÉDER À LA M
 Führen Sie vor der Aktualisierung des Hauptgeräts eine Aktualisierung auf die aktuelle Version durch 
 
 [Aktualisierungsdetails in Version 2.5.0]
-[1] Die Stabilität der Bluetooth-Verbindung unter bestimmten Bedingungen wurde verbessert.
-[2] Verbesserung der Qualität bei Anruf
+[1] Einige Steuerungen auf dem Gerät können über Sprachbefehle mithilfe des Google Assistant ausgeführt werden.
+[2] Die Stabilität der Bluetooth-Verbindung unter bestimmten Bedingungen wurde verbessert.
+[3] Verbesserung der Qualität bei Anru
 
 Dieses Update enthält Aktualisierungsinhalte, die zuvor auf die anwendbaren Modelle oben angewandt wurden.
 
 [Achtung]
 1) Die Softwareaktualisierung dauert ungefähr 40 Minuten für Android bzw. ungefähr 40 Minuten für iOS.
-Dieser Produkt fungiert weiterhin als Kopfhörer, auch wenn Aktualisierungen heruntergeladen oder Daten übertragen werden.
+Dieser Produkt fungiert weiterhin als Kopfhörer, auch wenn Aktualisierungen heruntergeladen oder Daten übertragen werden, aber Google Assistant ist dann nicht verfügbar.
 2)Führen Sie das Update durch, nachdem Sie bestätigt haben, dass die verbleibende Batterieladung auf dem Kopfhörer und dem Android-Gerät (oder iOS-Gerät) ausreichend ist.
 3)Stellen Sie die Funktion „Automatisch Ausschalten“ (Ausschaltfunktion, wenn nicht ausgestattet) von „Sony | Headphones Connect“ auf „Nicht ausschalten“, wenn Sie aktualisieren, während WH-1000XM4 nicht ausgestattet ist. 
 * Wenn „Aus bei Abnahme des Kopfhörers“ ausgewählt ist, wird das Gerät nach ungefähr 15 Minuten ausgeschaltet und die Datenübertragung von Update-Dateien wird abgebrochen. In diesem Fall wird die Datenübertragung fortgesetzt, wenn das Gerät das nächste Mal eingeschaltet und die Bluetooth-Verbindung wiederhergestellt wird.
@@ -173,7 +177,7 @@ MIT AUSNAHME VON VERBINDLICHKEITEN, DIE IM ZUSAMMENHANG MIT FAHRLÄSSIGKEITSDELI
 
 WENN SIE DIESE OBEN GENANNTEN BEDINGUNGEN AKZEPTIEREN, FAHREN SIE BITTE MIT DER AKTUALISIERUNG DER SOFTWARE FORT.
 
-
+※Google und Android sind Markenzeichen von Google LLC.
 
 ]]></Text>
     </Notice>
@@ -187,14 +191,15 @@ WENN SIE DIESE OBEN GENANNTEN BEDINGUNGEN AKZEPTIEREN, FAHREN SIE BITTE MIT DER 
 Actualice a la última versión antes de actualizar la unidad principal.
 
 [Detalles de la actualización en la versión 2.5.0]
-[1] La estabilidad de la conexión Bluetooth en determinadas condiciones ha sido mejorada.
-[2] Mejora de la calidad de las llamadas 
+[1] Se pueden realizar ciertos controles en el dispositivo mediante comandos de voz utilizando el Asistente de Google.
+[2] La estabilidad de la conexión Bluetooth en determinadas condiciones ha sido mejorada.
+[3] Mejora de la calidad de las llamadas 
 
 Esta actualización incluye contenido de actualización que ya ha sido aplicado previamente a los modelos en cuestión mencionados anteriormente.
 
 [Precaución]
 1) La actualización de software tarda aproximadamente 40 minutos en el caso de Android o unos 40 minutos en el caso de iOS.
-Este producto sigue en funcionamiento como auriculares incluso durante la descarga de actualizaciones y transferencia de datos.
+Este producto sigue en funcionamiento como auriculares incluso durante la descarga de actualizaciones y transferencia de datos, pero el Asistente de Google no está disponible.
 2)Realice la actualización después de haber comprobado que la carga restante de la batería es suficiente en los auriculares y en el dispositivo Android (o en el dispositivo iOS).
 3)Establezca la función "Apagado Automático" (función de apagado para cuando los auriculares no están puestos) de "Sony | Headphones Connect" en "No apagar" al realizar la actualización mientras los WH-1000XM4 no están puestos. 
 *Si "Se desactiva al quitarse los auriculares" está seleccionado, los auriculares se apagan después de aproximadamente 15 minutos, y se cancelará la transferencia de datos de los archivos de actualización. En este caso, se reanudará la transferencia de datos al encender los auriculares la vez siguiente y al reconectar el Bluetooth.
@@ -217,7 +222,7 @@ CON EXCEPCIÓN DE LA RESPONSABILIDAD QUE SURGE EN RELACIÓN CON LA NEGLIGENCIA G
 
 SI ACEPTA LOS TÉRMINOS ANTEDICHOS, REALICE LA ACTUALIZACIÓN DEL SOFTWARE.
 
-
+※Google y Android son marcas comerciales de Google LLC.
 
 ]]></Text>
     </Notice>
@@ -231,14 +236,15 @@ SI ACEPTA LOS TÉRMINOS ANTEDICHOS, REALICE LA ACTUALIZACIÓN DEL SOFTWARE.
 Eseguire l'aggiornamento alla versione più recente prima di aggiornare l'unità principale 
 
 [Dettagli dell'aggiornamento nella versione 2.5.0]
-[1] Migliorata la stabilità della connessione Bluetooth in condizioni specifiche.
-[2] Qualità migliorata durante le chiamate 
+[1] Alcuni controlli sul dispositivo possono essere eseguiti tramite i comandi vocali utilizzando l’Assistente Google.
+[2] Migliorata la stabilità della connessione Bluetooth in condizioni specifiche.
+[3] Qualità migliorata durante le chiamate 
 
 Questo aggiornamento include contenuto aggiornato che era stato applicato in precedenza ai modelli idonei sopra indicati.
 
 [Attenzione]
 1) L'aggiornamento del software richiede circa 40 minuti per Android o circa 40 minuti per iOS.
-Il prodotto continua a funzionare come cuffia anche durante il download degli aggiornamenti e il trasferimento dei dati.
+Il prodotto continua a funzionare come cuffia anche durante il download degli aggiornamenti e il trasferimento dei dati, ma l'Assistente Google non è disponibile.
 2)Eseguire l’aggiornamento dopo aver verificato che la carica residua della batteria nelle cuffie e nel dispositivo Android (o iOS) sia sufficiente.
 3)Impostare la funzione “Alimentaz. Disatt. Automatic." (funzione di spegnimento se non indossate) di “Sony | Headphones Connect" su “Non disattivare" durante l’aggiornamento quando le WH-1000XM4 non sono indossate. 
 *Se è selezionato "Disattivato quando le cuffie sono tolte", l’alimentazione si spegne dopo circa 15 minuti e il trasferimento dei dati dei file di aggiornamento sarà annullato. In tal caso, il trasferimento dei dati riprenderà nel corso dell’accensione successiva e alla riconnessione del Bluetooth.
@@ -261,7 +267,7 @@ AD ECCEZIONE DELLE RESPONSABILITÀ DERIVANTI DA NEGLIGENZA GRAVE O COMPORTAMENTO
 
 PREVIA ACCETTAZIONE DEI TERMINI DI CUI SOPRA, SI PREGA DI PROCEDERE ALL’AGGIORNAMENTO DEL SOFTWARE.
 
-
+※Google e Android sono marchi di Google LLC.
 
 ]]></Text>
     </Notice>
@@ -275,14 +281,15 @@ PREVIA ACCETTAZIONE DEI TERMINI DI CUI SOPRA, SI PREGA DI PROCEDERE ALL’AGGIOR
 Atualize para a versão mais recente antes de atualizar a unidade principal.
 
 [A versão 2.5.0 tem as seguintes atualizações]
-[1] Melhorou a estabilidade da ligação Bluetooth em condições específicas.
-[2] A qualidade nas chamadas foi melhorada 
+[1] Alguns controlos no dispositivo podem ser efetuados através de comandos de voz utilizando o Google Assistant.
+[2] Melhorou a estabilidade da ligação Bluetooth em condições específicas.
+[3] A qualidade nas chamadas foi melhorada 
 
 Esta atualização inclui conteúdos atualizados que foram previamente aplicados nos modelos aplicáveis acima apresentados.
 
 [Atenção]
 1) A atualização do software demora cerca de 40 minutos para Android ou cerca de 40 minutos para iOS.
-Estes auscultadores continuam a funcionar durante a transferência de atualizações e dados.
+Estes auscultadores continuam a funcionar durante a transferência de atualizações e dados, mas o Google Assistant deixa de estar disponível.
 2)Execute a atualização após confirmar que as cargas restantes nas baterias dos auscultadores e do dispositivo Android (ou dispositivo iOS) são suficientes.
 3)Defina a função “Desligamento Automático" (função de desligar quando não estão colocados nos ouvidos) da aplicação “Sony | Headphones Connect" como “Não desligar" quando executar a atualização com os auscultadores WH-1000XM4 não colocados nos ouvidos. 
 *Se a opção "Desligado ao retirar os auscultadores" estiver selecionada, a alimentação é desligada após cerca de 15 minutos e a transferência de dados da atualização será cancelada. Neste caso, a transferência de dados será retomada quando a alimentação voltar a ser ligada e a ligação Bluetooth voltar a ser estabelecida.
@@ -305,7 +312,7 @@ EXCETO PARA RESPONSABILIDADES RESULTANTES DE CULPA GRAVE, DELITO OU INCUMPRIMENT
 
 SE ACEITAR ESTES TERMOS ACIMA, PROCEDA À ATUALIZAÇÃO DO SOFTWARE.
 
-
+※Google e Android são marcas comerciais da Google LLC.
 
 ]]></Text>
     </Notice>
@@ -319,14 +326,15 @@ SE ACEITAR ESTES TERMOS ACIMA, PROCEDA À ATUALIZAÇÃO DO SOFTWARE.
 Voer een update uit naar de recentste versie voor u de update van de hoofdeenheid uitvoert
 
 [Updategegevens in versie 2.5.0]
-[1] De stabiliteit van de Bluetooth-verbinding onder specifieke voorwaarden is verbeterd.
-[2] Verbeterde kwaliteit bij oproepen
+[1] Bepaalde bedieningen op het apparaat kunnen via stemopdrachten met behulp van de Google Assistant worden uitgevoerd.
+[2] De stabiliteit van de Bluetooth-verbinding onder specifieke voorwaarden is verbeterd.
+[3] Verbeterde kwaliteit bij oproepen
 
 Deze update bevat update-inhoud die eerder toegepast werd op de bovenstaande betrokken modellen.
 
 [Waarschuwing]
 1) Het bijwerken van de software duurt ongeveer 40 minuten bij Android en ongeveer 40 minuten bij iOS.
-Dit product blijft functioneren als hoofdtelefoon, zelfs bij het downloaden van updates en het overbrengen van gegevens. 
+Dit product blijft functioneren als hoofdtelefoon, zelfs bij het downloaden van updates en het overbrengen van gegevens. Enkel de Google Assistant is niet beschikbaar.
 2)Voer de update uit nadat u gecontroleerd heeft dat de accu’s van de hoofdtelefoon en het Android-apparaat (of iOS-apparaat) voldoende geladen zijn.
 3)Stel de functie “Automatisch Uitschakelen" (uitschakelfunctie indien niet gedragen) van “Sony | Headphones Connect" in op “Niet uitschakelen" bij het updaten terwijl de WH-1000XM4 niet wordt gedragen. 
 *Als "Uit bij afnemen van de hoofdtelefoon" geselecteerd is, wordt de voeding uitgeschakeld na ongeveer 15 minuten, en de gegevensoverdracht van updatebestanden wordt geannuleerd. In dit geval zal de gegevensoverdracht hervatten wanneer de voeding de volgende keer wordt ingeschakeld en Bluetooth opnieuw wordt verbonden.
@@ -349,7 +357,7 @@ BEHOUDENS DE AANSPRAKELIJKHEID DIE ONTSTAAT MET BETREKKING TOT GROVE SCHULD, ONR
 
 INDIEN U DE VOORWAARDEN HIERBOVEN ACCEPTEERT, KUNT U DOORGAAN MET HET BIJWERKEN VAN DE SOFTWARE.
 
-
+※Google en Android zijn handelsmerken van Google LLC.
 
 ]]></Text>
     </Notice>
@@ -363,14 +371,15 @@ INDIEN U DE VOORWAARDEN HIERBOVEN ACCEPTEERT, KUNT U DOORGAAN MET HET BIJWERKEN 
 Uppdatera till den senaste versionen innan uppdatering av huvudenheten
 
 [Uppdateringsinformation i version 2.5.0]
-[1] Förbättrat stabiliteten för Bluetooth-anslutningar under särskilda förhållanden.
-[2] Förbättrad samtalskvalitet 
+[1] Vissa kontroller på enheten kan styras med röstkommandon till Google Assistant.
+[2] Förbättrat stabiliteten för Bluetooth-anslutningar under särskilda förhållanden.
+[3] Förbättrad samtalskvalitet 
 
 Denna uppdatering inkluderar uppdatering av innehåll som tidigare har tillämpats för lämpliga modeller ovan.
 
 [Försiktighet]
 1) Det tar ungefär 40 minuter för Android eller ungefär 40 minuter för iOS att uppdatera programvaran.
-Den här produkten fortsätter att fungera som hörlurar även vid hämtning av uppdateringar och överföring av data. 
+Den här produkten fortsätter att fungera som hörlurar även vid hämtning av uppdateringar och överföring av data men Google Assistant är inte tillgänglig.
 2)Utför uppdateringen efter att du kontrollerat så att återstående batteriladdning är tillräcklig för hörlurarna och Android-enheten (eller iOS-enhet).
 3)Ställ in funktionen "Automatisk Avstängning" (avstängningsfunktion när enheten inte används) för "Sony | Headphones Connect" till "Stäng inte av" vid uppdatering när WH-1000XM4 inte används. 
 *Om du valt "Stängs av när hörlurarnas tas av" stängs strömmen av efter cirka 15 minuter och dataöverföringen av uppdateringsfiler avbryts. Om så är fallet återupptas dataöverföringen nästa gång strömmen slås på och Bluetooth återansluts.
@@ -393,7 +402,7 @@ MED UNDANTAG FÖR ANSVAR SOM UPPSTÅR I SAMBAND MED GROV OAKTSAM ÅTALBAR HANDLI
 
 OM DU GODKÄNNER OVAN VILLKOR KAN DU FORTSÄTTA TILL ATT UPPDATERA PROGRAMMET.
 
-
+※Google och Android är varumärken som tillhör Google LLC.
 
 ]]></Text>
     </Notice>
@@ -407,14 +416,15 @@ OM DU GODKÄNNER OVAN VILLKOR KAN DU FORTSÄTTA TILL ATT UPPDATERA PROGRAMMET.
 Päivitä uusimpaan versioon  ennen kuin päivität päälaitteen 
 
 [Päivitystiedot versiolle 2.5.0]
-[1] Parannettu Bluetooth-yhteyden vakaus erityisolosuhteissa.
-[2] Laadukkaammat puhelut 
+[1] Laitteen tietyt ohjaukset voidaan suorittaa äänikomennoilla käyttämällä Google Assistantia.
+[2] Parannettu Bluetooth-yhteyden vakaus erityisolosuhteissa.
+[3] Laadukkaammat puhelut 
 
 Tämä päivitys sisältää päivityssisällön, jota oli aikaisemmin sovellettu edellä oleviin malleihin.
 
 [Huomio]
 1) Ohjelmistopäivitys vie noin 40 Android-järjestelmällä tai noin 40 minuuttia iOS-järjestelmällä.
-Tämä tuote toimii kuulokkeina silloinkin, kun päivityksiä ladataan ja tietoa siirretään.
+Tämä tuote toimii kuulokkeina silloinkin, kun päivityksiä ladataan ja tietoa siirretään, mutta Google Assistant ei ole käytettävissä.
 2)Suorita päivitys varmistettuasi, että akun jäljellä oleva varaus kuulokkeissa ja Android-laitteessa (tai iOS-laitteessa) riittää.
 3)Valitse "Automaattinen Virrankatkaisu" -toiminnon (virrankatkaisun, kun kuulokkeet eivät ole korvilla) asetukseksi "Sony | Headphones Connect" -sovelluksessa "Älä sammuta", kun WH-1000XM4 poistetaan korvilta päivityksen ajaksi. 
 *Jos "Pois, kun kuulokkeet poistetaan" on valittuna, virta katkaistaan noin 15 minuutin kuluttua ja päivitystiedostojen siirto peruutetaan. Tässä tapauksessa tiedonsiirto jatkuu, kun virta kytketään seuraavan kerran ja Bluetooth yhdistetään uudelleen.
@@ -437,7 +447,7 @@ LUKUUN OTTAMATTA VELVOITTEITA, JOTKA JOHTUVAT SONY CORPORATIONIN, SONY GROUP COM
 
 JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 
-
+※Google ja Android ovat tavaramerkkejä, jotka omistaa Google LLC.
 
 ]]></Text>
     </Notice>
@@ -451,14 +461,15 @@ JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 Выполните обновление до последней версии перед обновлением основного устройства
 
 [Сведения об обновлении в версии 2.5.0]
-[1] Улучшена стабильность соединения Bluetooth при определенных условиях.
-[2] Улучшено качество звонков 
+[1] Некоторые элементы управления на устройстве можно выполнять при помощи голосовых команд, используя Google Ассистент.
+[2] Улучшена стабильность соединения Bluetooth при определенных условиях.
+[3] Улучшено качество звонков 
 
 Это обновление включает содержимое обновления, которое ранее применялось к вышеуказанным целевым моделям.
 
 [Внимание]
 1) Обновление программного обеспечения занимает около 40 минут для Android и около 40 минут для iOS.
-Данный продукт продолжает работать как наушники даже при загрузке обновлений и передачи данных.
+Данный продукт продолжает работать как наушники даже при загрузке обновлений и передачи данных, но функция Google Ассистент недоступна.
 2)Выполните обновление после подтверждения наличия достаточного уровня остаточного заряда аккумулятора в наушниках и в устройстве Android (или в устройстве iOS).
 3)Установите функцию «Автоматическ. Выкл. Питания» (функция отключения питания, когда вы не носите наушники) в «Sony | Headphones Connect» на «Не выключайте» при обновлении, если вы не носите WH-1000XM4. 
 *Если выбрана опция «Выключение при снятии наушников», питание отключается примерно через 15 минут, а передача данных файлов обновления будет отменена. В этом случае передача данных возобновится при следующем включении питания и повторном подключении Bluetooth.
@@ -481,7 +492,7 @@ JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 
 ЕСЛИ ВЫ ПРИНИМАЕТЕ ВЫШЕПЕРЕЧИСЛЕННЫЕ УСЛОВИЯ, ПОЖАЛУЙСТА, ПЕРЕХОДИТЕ К ОБНОВЛЕНИЮ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ.
 
-
+※Google и Android являются товарными знаками Google LLC.
 
 ]]></Text>
     </Notice>
@@ -495,14 +506,15 @@ JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 更新主机之前，请更新至最新版本
 
 [在版本2.5.0中更新详细信息]
-[1] 改善了特定条件下的Bluetooth连接稳定性。
-[2] 提高了通话
+[1] 可以使用Google Assistant，通过语音命令执行设备上的某些控制。
+[2] 改善了特定条件下的Bluetooth连接稳定性。
+[3] 提高了通
 
 此更新包括先前应用于上述适用型号的更新内容。
 
 [警告]
 1) 软件更新大约需要40分钟（Android）或40分钟（iOS）。
-即使在下载更新和传输数据时，此产品仍可继续用作耳机。
+即使在下载更新和传输数据时，此产品仍可继续用作耳机，但Google Assistant无法使用。
 2)确认耳机和Android设备（或iOS设备）的剩余电池电量充足后执行更新。
 3)在未装备WH-1000XM4的情况下进行更新时，请将"Sony | Headphones Connect"的“自动断电"功能（未装备时断电功能）设置为"不关闭"。
 *如果选择"当耳机取下时关闭"，则大约15分钟后电源将关闭，更新文件的数据传输将取消。在这种情况下，下次打开电源并重新连接蓝牙时，数据传输将恢复。
@@ -525,7 +537,7 @@ JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 
 如果您接受上述条款，请继续更新软件。
 
-
+※Google和Android是Google LLC.的商标。
 
 ]]></Text>
     </Notice>
@@ -539,14 +551,15 @@ JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
 Atualize para a versão mais recenteantes de atualizar a unidade principal 
 
 [Detalhes da atualização na versão 2.5.0]
-[1] Melhora a estabilidade da conexão Bluetooth sob condições específicas.
-[2] Melhor qualidade nas chamadas 
+[1] Alguns controles no dispositivo podem ser acionados por comandos de voz através do Google Assistente.
+[2] Melhora a estabilidade da conexão Bluetooth sob condições específicas.
+[3] Melhor qualidade nas chamadas 
 
 Esta atualização inclui conteúdo de atualização que foi aplicado anteriormente aos modelos aplicáveis acima.
 
 [Atenção]
 1) A atualização do software leva cerca de 40 minutos para Android e aproximadamente 40 minutos para iOS. 
-Este produto continua funcionando como fones de ouvido mesmo ao baixar atualizações e ao transferir dados.
+Este produto continua funcionando como fones de ouvido mesmo ao baixar atualizações e ao transferir dados, mas o Google Assistente não está disponível.
 2)Execute a atualização após confirmar que a carga restante da bateria é suficiente nos fones de ouvido e no dispositivo Android (ou dispositivo iOS).
 3)Defina a função "Desligamento Automático" (função de desligamento quando não está equipado) do "Sony | Headphones Connect" para "Não desligue" ao atualizar quando o WH-1000XM4 não estiver equipado. 
 *Se "Desat. quando fones ouvido são retir." for selecionado, os fones de ouvido serão desligados após aproximadamente 15 minutos e a transferência de dados dos arquivos de atualização será cancelada. Neste caso, a transferência de dados será retomada quando os fones de ouvido forem ligados novamente e o Bluetooth for reconectado.
@@ -569,7 +582,7 @@ EXCETO POR DANOS RESULTANTES OU RELACIONADOS A CASOS GRAVES DE NEGLIGÊNCIA, ATO
 
 APÓS ACEITAR OS TERMOS ACIMA, DÊ INÍCIO À ATUALIZAÇÃO DOS SOFTWARES.
 
-
+※Google e Android são marcas comerciais da Google LLC.
 
 ]]></Text>
     </Notice>
@@ -583,14 +596,15 @@ APÓS ACEITAR OS TERMOS ACIMA, DÊ INÍCIO À ATUALIZAÇÃO DOS SOFTWARES.
 更新主機前，請先更新到最新版本
 
 [版本 2.5.0 的更新詳情]
-[1] 已提升特定條件下的Bluetooth連線穩定性。
-[2] 改進通話品質
+[1] 可以使用Google Assistant透過語音命令進行裝置上的某些控制。
+[2] 已提升特定條件下的Bluetooth連線穩定性。
+[3] 改進通話品質
 
 本次更新包括以前曾經套用於以上適用機型的更新內容。
 
 [注意]
 1) 軟體更新在 Android 上需要約 40 分鐘，在 iOS 上需要約 40 分鐘。
-即使正在下載更新與傳輸資料，本產品依然能當成耳機使用。
+即使正在下載更新與傳輸資料，本產品依然能當成耳機使用，但是 Google Assistant 將無法使用。
 2)確認耳機和Android裝置（或iOS裝置）上的剩餘電池電量充足後，進行更新。
 3)在未配備WH-1000XM4的情況下進行更新時，將「Sony | Headphones Connect」的「自動關閉電源」功能（未配備的情況下的電源關閉功能）設定為「請勿關閉」。
 *如果選擇「取下耳機時關閉」，則電源將大約15分鐘後關閉，並且將取消更新檔的資料傳輸。在這種情況下，將於下次開啟電源且藍牙重新連線時繼續傳輸資料。
@@ -613,7 +627,7 @@ APÓS ACEITAR OS TERMOS ACIMA, DÊ INÍCIO À ATUALIZAÇÃO DOS SOFTWARES.
 
 如果您接受以上這些條款，請繼續更新軟體。
 
-
+※Google和Android是Google LLC.的商標。
 
 ]]></Text>
     </Notice>
@@ -627,14 +641,15 @@ APÓS ACEITAR OS TERMOS ACIMA, DÊ INÍCIO À ATUALIZAÇÃO DOS SOFTWARES.
 본체를 업데이트하기 전 최신 버전으로 업데이트하십시오.
 
 [버전 2.5.0의 업데이트 세부 정보]
-[1] 특정 조건에서 Bluetooth 연결 안정성을 개선했습니다.
-[2] 통화 품질 향상
+[1] Google 어시스턴트를 사용하여 음성 명령을 통해 장치에서 일부 제어를 수행할 수 있습니다.
+[2] 특정 조건에서 Bluetooth 연결 안정성을 개선했습니다.
+[3] 통화 품질 향상
 
 이 업데이트에는 전에 위의 해당 모델에 적용된 업데이트 내용도 포함되어 있습니다.
 
 [주의]
 1) 소프트웨어 업데이트는 Android의 경우 약 40분, iOS의 경우 약 40분이 소요됩니다.
-이 제품은 업데이트를 다운로드하고 데이터를 전송할 때도 헤드폰으로 계속 작동합니다.
+이 제품은 업데이트를 다운로드하고 데이터를 전송할 때도 헤드폰으로 계속 작동하지만 Google 어시스턴트를 사용할 수 없습니다.
 2)헤드폰 및 Android 장치(또는 iOS 장치)의 배터리 잔량이 충분한지를 확인하신 후 업데이트하십시오.
 3)WH-1000XM4를 장착하지 않은 상태에서 업데이트할 경우 "Sony | Headphones Connect"의 "자동 전원 끄기" 기능(장착되지 않은 경우 전원 끄기 기능)을 "끄지 않음"으로 설정하십시오. 
 *"헤드폰을 벗을 때 끄기 "를 선택한 경우 약 15분 후에 자동으로 전원이 꺼지므로 업데이트 파일의 데이터 전송이 취소됩니다. 이 경우 다음에 장치의 전원을 켜고 Bluetooth가 다시 연결되면 데이터 전송이 재개됩니다.
@@ -657,7 +672,7 @@ Sony | Headphones Connect 응용 프로그램 화면의 오른쪽 상단 메뉴�
 
 위의 약관에 동의하면 소프트웨어 업데이트를 진행하십시오.
 
-
+※Google 및 Android는 Google LLC.의 상표입니다.
 
 ]]></Text>
     </Notice>
@@ -671,14 +686,15 @@ Sony | Headphones Connect 응용 프로그램 화면의 오른쪽 상단 메뉴�
 Lütfen ana ünitede güncelleme yapmadan önce son sürüme güncelleyin
 
 [Sürüm 2.5.0 için güncelleme detayları]
-[1] Belirli koşullarda Bluetooth bağlantısı kararlılığı geliştirildi.
-[2] Görüşme sırasında kalite artırıldı 
+[1] Bazı cihaz denetimleri Google Asistan kullanılarak sesli komutlarla yapılabilir.
+[2] Belirli koşullarda Bluetooth bağlantısı kararlılığı geliştirildi.
+[3] Görüşme sırasında kalite artırıldı 
 
 Bu güncelleme, önceden yukarıdaki uygulanabilir modellere uygulanan güncelleme içeriğini içerir.
 
 [Dikkat]
 1) Yazılım güncellemesi Android'de yaklaşık 40 dakika veya iOS'ta yaklaşık 40 dakika sürer.
-Bu ürün, güncelleme indirirken ve veri aktarırken bile kulaklık seti olarak görev yapar.
+Bu ürün, güncelleme indirirken ve veri aktarırken bile kulaklık seti olarak görev yapar, ancak Google Asistan kullanılamaz.
 2)Kalan pil şarjının kulaklıklarda ve Android cihazda (veya iOS cihazda) yeterli olduğunu onayladıktan sonra güncellemeyi yapın.
 3)WH-1000XM4 donatılmamış olduğunda güncelleme yaparken “Sony | Headphones Connect" in “Otomatik Güç Kapatma" işlevini (donatılmadığında güç kapatma işlevi) “Kapatmayın" olarak ayarlayın. 
 *"Kulaklıklar çıkarıldığında kapalı" seçilirse, güç yaklaşık 15 dakika sonra kapatılır ve güncelleme dosyalarının veri aktarımı iptal edilir. Bu durumda, bir dahaki sefer güç açıldığında ve Bluetooth yeniden bağlandığında veri aktarımı devam eder.
@@ -701,7 +717,7 @@ SONY CORPORATION, SONY GROUP ŞİRKETİ VE/VEYA ÜÇÜNCÜ TARAF LİSANS VERENLE
 
 YUKARIDAKİ ŞARTLARI KABUL EDİYORSANIZ LÜTFEN YAZILIMI GÜNCELLEMEYE DEVAM EDİN.
 
-
+※Google ve Android, Google LLC.’in ticari markalarıdır.
 
 ]]></Text>
     </Notice>
