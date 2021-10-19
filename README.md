@@ -1,5 +1,13 @@
 支持了最新版headphones 8, 为了方便, 修改版headphones放入Releases, 请自行下载
 
+关于扩充内容与工具
++ `mdrproxy_ca.pem`: 用于MITM劫持headphones app下载流量的中间人证书, 名称Green AS(Green TLS CA)
+  如果使用原版headphones app, 使用MDR_Proxy安装固件时则需要作为系统证书安装此文件并允许此证书
++ `mdr`: `mdr.ts`的Bash实现, 并扩展其功能使其成为一个Cli工具
+  使用方法为`./mdr -c <categoryID> -s <serviceID> | base64 -d`
++ `mirror`: 固件镜像工具, 可以从官网下载最新的固件并保存到`./assets`目录下
+  使用方法为`./mirror <Model>`
+
 Model|categoryID|serviceID|HTTPS
 -|-|-|-
 WI-1000X|HP001|MDRID285300|❌
