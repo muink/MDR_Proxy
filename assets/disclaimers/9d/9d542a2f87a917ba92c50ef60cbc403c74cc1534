@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NoticeFile Version="1.0" DefaultLocale="UK">
+    <Notice Locale="Japan">
+        <Text><![CDATA[
+※ソフトウェアを更新するには、Google Assistantの設定を解除する必要があります。
+※極力Bluetoothの接続が安定している環境でアップデートを行って下さい。
+※電車など乗り物に乗っている状態やWi-Fiや電子レンジ、コードレス電話などの2.4GHz帯の電波が多く飛び交うような環境ではアップデートを行わないようご注意ください。
+
+※ Sony | Headphones Connect ※
+本体アップデート前に、最新のバージョンにアップデートをしてください
+
+[バージョン4.5.2でのアップデート内容]
+[1] 本体ソフトウェアのセキュリティを強化しました。
+[2] その他の機能を改善しました。
+
+本アップデートは、上記の対象機種で過去に実施したアップデート内容も含んでおります。
+
+[ご注意]
+1) ソフトウェア更新には、およそ60分(Android機器/iOS機器)かかります。
+アップデートのダウンロード中、データ転送中、アップデート実行中には、絶対に「電源OFF」しないでください。
+これらの操作をしてしまいますと、本機が使用できなくなることがあります。
+2) 本ヘッドホンやAndroid機器（もしくはiOS機器）のバッテリー残量が十分にあることをご確認の上アップデートを行って下さい。
+3)Android機器（もしくはiOS機器）にBluetooth Low Energy機器（ウェアラブル端末、スマート・ウォッチなど）が接続されていると、アップデートできないことがあります。本機以外のすべてのBluetooth機器とAndroid機器（もしくはiOS機器）の接続を切断してからアップデートをおこなってください。
+
+[ソフトウェアバージョン確認方法]
+Sony | Headphones Connectアプリの画面右上のメニューから[WH-H900N バージョン]を選択し確認してください。
+
+
+・アップデートの前に以下の注意をお読みください。
+
+対象製品にはソニーホームエンタテインメント＆サウンドプロダクツ株式会社、ソニーホームエンタテインメント＆サウンドプロダクツ株式会社の関係会社（以下「ソニーグループ会社」といいます）、及び／又はその他第三者ライセンサーが著作権を有するソフトウェアが組み込まれています。このソフトウェアは著作権法、その他の法令、条約によって保護されています。お客様はソフトウェアを対象製品の機能の一部としてのみお使いいただけます。但し、個々のソフトウェアに適用される使用許諾条件で許される場合はこの限りでありません。
+
+アップデートプログラムは、セキュリティ機能の向上、エラーの修正、アップデート機能の向上等の目的で対象製品上のソフトウェアをアップデートするものです。但し、アップデートプログラムによって対象製品上のソフトウェアのすべてのエラーが修正されるものではありません。
+アップデートに伴い、ソフトウェアの機能が追加、変更又は削除されることがあります。
+
+アップデートされたソフトウェアの著作権も、ソニーホームエンタテインメント＆サウンドプロダクツ株式会社、ソニーグループ会社及び／又はその他第三者ライセンサーに帰属します。
+
+アップデートプログラムを適用したこと、又は適用しないことによってお客様に生じる損害についてソニーホームエンタテインメント＆サウンドプロダクツ株式会社、ソニーグループ会社及び／又はその他第三者ライセンサーは一切の責任を負いません。なお、この注意書きはお客様の法律上の権利を制限するものではありません。
+
+以上をご了承いただき、アップデートにお進みください。
+
+※GoogleおよびAndroidはGoogle LLC.の商標です。
+
+]]></Text>
+    </Notice>
+    <Notice Locale="UK">
+        <Text><![CDATA[
+※Prior to updating the software, you must turn off the “Google Assistant” function.
+※ Please update in an environment where the Bluetooth connection is most stable.
+* Please be careful not to update while in riding on vehicles, such as trains, or in environments where 2.4 GHz band radio waves such as Wi-Fi, microwave ovens, cordless phones and many other radio waves are intermingled.
+
+※ Sony | Headphones Connect ※
+Please update to the latest version before updating the main unit
+
+[Update details in version 4.5.2]
+[1] Enhanced security features of the system software.
+[2] Improved other functions.
+
+This update includes update content that had previously been applied to the above applicable models.
+
+[Notes]
+1) Software update takes about 60 minutes for Android or about 60 minutes for iOS.
+Never turn the "Power OFF" during update download, data transfer and updating.
+If you do, the unit may become unusable.
+2) Perform update after confirming that the remaining battery charge is sufficient on the headphones and Android device (or iOS device).
+3)Update may be unavailable if a Bluetooth Low Energy device (wearable device, smartwatch, etc.) is connected to the Android device (or iOS device). Perform update after disconnecting all Bluetooth devices other than this device from the Android device (or iOS device).
+
+[How to check the software version]
+Select [WH-H900N Version] from the upper right menu of Sony | Headphones Connect application screen. 
+
+
+YOU SHOULD CAREFULLY READ THE BELOW BEFORE UPDATING YOUR SOFTWARE.
+
+This product contains software, the title to and copyright in which are owned and controlled by Sony Home Entertainment & Sound Products Inc., affiliates of Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) and/or its third party licensors. The software is protected by copyright laws, international copyright treaties and any other intellectual property laws. You may only use the software as a part of functions provided by the product, unless otherwise granted by a separate license agreement made between you and Sony Home Entertainment & Sound Products Inc., Sony Group Company and/or its third party licensors.
+
+This update program shall be provided to update the software of this product for the purpose of (i) upgrading security function, (ii) bug fix or error modification, and (iii) upgrading update features. You expressly acknowledge and agree that use of the update program shall not correct all bugs or errors in the software incorporated in the product. By installing this update program, the function of the software may be added, changed or deleted.
+
+The title and copyright of the updated software shall belong to Sony Home Entertainment & Sound Products Inc., Sony Group Company and/or third party licensors.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company and third party licensors shall not be liable for any loss or damage arising from the performance or non-performance of such updated program.
+
+The above terms shall not limit your rights granted by any applicable law.
+
+※Google and Android are trademarks of Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="France">
+        <Text><![CDATA[
+※Avant la mise à jour du logiciel, vous devez désactiver la fonction « Google Assistant ».
+※ Veuillez actualiser dans un environnement où la connexion Bluetooth est la plus stable possible.
+* Assurez-vous de ne pas actualiser si vous êtes dans des véhicules, comme des trains, ou dans des environnements avec des ondes radio de 2,4 GHz comme celles des réseaux Wi-Fi, des fours à micro-ondes, des téléphones sans fils et où de nombreuses autres ondes radio se mélangent.
+
+※ Sony | Headphones Connect ※
+Veuillez actualiser à la dernière version avant d'actualiser l'unité principale
+
+[Mettez à jour les détails dans la version 4.5.2]
+[1] Amélioration des fonctionnalités de sécurité du logiciel système.
+[2] Amélioration d’autres fonctions.
+
+Cette mise à jour inclut du contenu de mise à jour qui a été appliqué précédemment aux modèles concernés ci-dessus.
+
+[Avertissement]
+1) La mise à jour du logiciel prend environ 60 minutes pour Android et environ 60 minutes pour iOS.
+N'éteignez jamais l'unité « Power OFF » lors du téléchargement d'une actualisation, le transfert de données ou l'actualisation.
+Si vous faites cela, l'unité pourrait être inutilisable.
+2) Effectuez la mise à jour après avoir vérifié que le niveau de charge de la batterie est suffisant sur le casque et l’appareil Android (ou l’appareil iOS).
+3)La mise à jour risque de ne pas être possible si un appareil Bluetooth basse consommation (ordinateur vestimentaire, montre intelligente, etc.) est connecté à l’appareil Android (ou à l’appareil iOS). Effectuez la mise à jour après avoir déconnecté tous les appareils Bluetooth autres que cet appareil-ci à partir de l’appareil Android (ou de l’appareil iOS).
+
+[Comment vérifier la version du logiciel]
+Sélectionnez [WH-H900N Version] à partir du menu en haut à droite de l'écran dans l'application Sony | Headphones Connect.
+
+
+VEUILLEZ LIRE ATTENTIVEMENT CE QUI SUIT AVANT DE METTRE A JOUR VOTRE LOGICIEL.
+
+Ce produit contient un logiciel, dont la propriété et le droit d’auteur (copyright) appartiennent et sont contrôlés par Sony Home Entertainment & Sound Products Inc., sociétés affiliées de Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) et/ou ses concédants tiers. Le logiciel est protégé en vertu des lois et traités internationaux relatifs à la protection du droit d’auteur et toutes autres lois sur la propriété intellectuelle. Vous ne pouvez utiliser le logiciel que dans le cadre des fonctions proposées par le produit, sauf disposition contraire d’un contrat de licence distinct conclu entre vous et Sony Home Entertainment & Sound Products Inc., Sony Group Company et/ou ses concédants tiers.
+
+Ce programme de mise à jour est fourni afin de mettre à jour le logiciel de ce produit dans le but de (i) mettre à niveau la fonction sécurité, (ii) corriger les erreurs ou les bogues et (iii) mettre à niveau les fonctionnalités de mise à jour. Vous reconnaissez et acceptez expressément que l’utilisation du programme de mise à jour n’a pas vocation à corriger toutes les erreurs du logiciel intégré au produit. En installant ce programme de mise à jour, les fonctions du logiciel peuvent être complétées, modifiées ou supprimées.
+
+La propriété et le droit d’auteur du logiciel tel que mis à jour appartiennent à Sony Home Entertainment & Sound Products Inc., Sony Group Company et/ou à ses concédants tiers.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company et les concédants tiers ne sont pas responsables des pertes ou dommages résultant du fonctionnement ou non-fonctionnement du programme mis à jour. 
+
+Les dispositions ci-dessus ne limitent pas vos droits prévus par la loi applicable.
+
+※Google et Android sont des marques commerciales de Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Germany">
+        <Text><![CDATA[
+※Vor der Aktualisierung der Software müssen Sie die „Google Assistant“-Funktion ausschalten.
+※ Führen Sie die Aktualisierung in einer Umgebung durch, in der die Bluetooth-Verbindung besonders stabil ist.
+* Achten Sie darauf, die Aktualisierung nicht während der Fahrt in Fahrzeugen, wie Zügen, oder in Umgebungen durchzuführen, in denen 2,4-GHz-Band-Radiowellen (wie Wi-Fi, Mikrowellengeräte, kabellose Telefone) und viele andere Funkwellen vorhanden sind.
+
+※ Sony | Headphones Connect ※
+Führen Sie vor der Aktualisierung des Hauptgeräts eine Aktualisierung auf die aktuelle Version durch 
+
+[Aktualisierungsdetails in Version 4.5.2]
+[1] Sicherheitsfunktionen der Systemsoftware wurden erweitert.
+[2] Andere Funktionen wurden verbesser
+
+Dieses Update enthält Aktualisierungsinhalte, die zuvor auf die anwendbaren Modelle oben angewandt wurden.
+
+[Achtung]
+1) Die Softwareaktualisierung dauert ungefähr 60 Minuten für Android bzw. ungefähr 60 Minuten für iOS.
+Schalten Sie das Gerät niemals während des Downloads der Aktualisierung, dem Datentransfer oder der Aktualisierung aus.
+Andernfalls kann das Gerät instabil werden.
+2) Führen Sie das Update durch, nachdem Sie bestätigt haben, dass die verbleibende Batterieladung auf dem Kopfhörer und dem Android-Gerät (oder iOS-Gerät) ausreichend ist.
+3)Das Update ist möglicherweise nicht verfügbar, wenn ein Bluetooth Low Energy-Gerät (tragbares Gerät, Smartwatch usw.) mit dem Android-Gerät (oder iOS-Gerät) verbunden ist. Führen Sie das Update durch, nachdem Sie alle anderen Bluetooth-Geräte als dieses Gerät vom Android-Gerät (oder iOS-Gerät) getrennt haben.
+
+[So prüfen Sie die Softwareversion]
+Wählen Sie [WH-H900N Version] im oben rechts angezeigten Menü des Anwendungsbildschirms Sony | Headphones Connect aus.
+
+
+BITTE LESEN DIE DEN FOLGENDEN TEXT AUFMERKSAM, BEVOR SIE IHRE SOFTWARE AKTUALISIEREN.
+
+Das Eigentum und die Urheberrechte an der Software, die in diesem Produkt enthalten ist, stehen der Sony Home Entertainment & Sound Products Inc., den Tochtergesellschaften der Sony Home Entertainment & Sound Products Inc. („Sony Konzerngesellschaft“) und/oder ihren Drittlizenzgebern zu und werden von diesen kontrolliert. Die Software ist durch Urheberrechtsgesetze, internationale Abkommen zu Urheberrechten und andere Gesetze über gewerbliche Schutzrechte geschützt. Sie dürfen die Software nur im Rahmen der durch das Produkt zur Verfügung gestellten Funktionen nutzen, es sei denn, etwas anderes ist durch eine separate Lizenzvereinbarung zwischen Ihnen und der Sony Home Entertainment & Sound Products Inc., der Sony Konzerngesellschaft und/oder ihren Drittlizenzgebern gestattet.
+
+Dieses Update-Programm wird zur Verfügung gestellt, um die Software dieses Produkts für die folgenden Zwecke zu aktualisieren: (i) Upgrade der Sicherheitsfunktion, (ii) Fehlerbehebung oder Mängelanpassung und (iii) Upgrade von Update-Funktionen. Sie erkennen ausdrücklich an und stimmen zu, dass die Benutzug des Update-Programms nicht alle Fehler oder Mängel der im Produkt enthaltenen Software beseitigt. Durch die Installation dieses Update-Programms kann die Funktion der Software erweitert, verändert oder entfernt werden.
+
+Das Eigentum und die Urheberrechte an der aktualisierten Software stehen der Sony Home Entertainment & Sound Products Inc., der Sony Konzerngesellschaft und/oder Drittlizenzgebern zu.
+
+Sony Home Entertainment & Sound Products Inc., die Sony Konzerngesellschaft und Drittlizenzgeber haften nicht für einen Verlust oder Schaden, der aufgrund der Leistung oder Nicht-Leistung eines solchen aktualisierten Programms entsteht.
+
+Die vorstehenden Bedingungen beschränken nicht die Rechte, die Ihnen aufgrund eines anwendbaren Rechts zustehen.
+
+※Google und Android sind Markenzeichen von Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Spain">
+        <Text><![CDATA[
+※Antes de actualizar el software, debe desactivar la función "Google Assistant".
+※ Realice la actualización en un entorno con la conexión Bluetooth más estable.
+* Evite realizar la actualización mientras esté circulando en vehículos, como un tren, o en entornos en los que las ondas de radio de la banda de 2.4 GHz, como conexiones Wi-Fi, hornos microondas, teléfonos inalámbricos y otras ondas de radio, puedan provocar interferencias.
+
+※ Sony | Headphones Connect ※
+Actualice a la última versión antes de actualizar la unidad principal.
+
+[Detalles de la actualización en la versión 4.5.2]
+[1] Las características de seguridad del software del sistema han sido mejoradas.
+[2] Optimización de otras funciones.
+
+Esta actualización incluye contenido de actualización que ya ha sido aplicado previamente a los modelos en cuestión mencionados anteriormente.
+
+[Precaución]
+1) La actualización de software tarda aproximadamente 60 minutos en el caso de Android o unos 60 minutos en el caso de iOS.
+Nunca apague el equipo durante la descarga de la actualización, la transferencia de datos o la actualización.
+Si lo hace, la unidad podría dejar de funcionar correctamente.
+2) Realice la actualización después de haber comprobado que la carga restante de la batería es suficiente en los auriculares y en el dispositivo Android (o en el dispositivo iOS).
+3)Tal vez no se pueda realizar la actualización si un dispositivo Bluetooth de bajo consumo (dispositivo portátil, reloj inteligente, etc.) está conectado al dispositivo Android (o al dispositivo iOS). Realice la actualización después de desconectar todos los dispositivos Bluetooth distintos de este dispositivo desde el dispositivo Android (o desde el dispositivo iOS).
+
+[Comprobación de la versión del software]
+Seleccione [WH-H900N Versión] en el menú de la parte superior derecha de la pantalla de la aplicación Sony | Headphones Connect.
+
+
+LEA ATENTAMENTE ESTA NOTIFICACIÓN ANTES DE ACTUALIZAR EL SOFTWARE. 
+
+Este producto contiene software cuya titularidad y derechos de autor pertenecen a Sony Home Entertainment & Sound Products Inc., filiales de Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) y/o a sus terceros licenciantes y se encuentran controlados por éstos. El software está protegido por las leyes de copyright, los convenios internacionales en materia de derechos de autor y demás leyes de propiedad intelectual. Únicamente podrá utilizar el software como parte de las funciones ofrecidas por el producto, salvo que se autorice lo contrario en un contrato de licencia suscrito por separado entre Ud. y Sony Home Entertainment & Sound Products Inc., Sony Group Company y/o sus terceros licenciantes.
+
+Este programa de actualización se facilitará para actualizar el software de este producto con el fin de (i) mejorar la función de seguridad, (ii) corregir errores o modificar incorrecciones, y (iii) mejorar las características de actualización. Ud reconoce y acepta expresamente que el uso del programa de actualización no subsanará la totalidad de los errores e incorrecciones del software incorporado en el producto. Al instalar este programa de actualización, la función del software podrá añadirse, cambiarse o eliminarse.
+
+La titularidad y los derechos de autor del software actualizado pertenecerán a Sony Home Entertainment & Sound Products Inc., Sony Group Company y/o a sus terceros licenciantes.
+
+Ni Sony Home Entertainment & Sound Products Inc., ni Sony Group Company ni los terceros licenciantes serán responsables de cualesquiera pérdidas o daños derivados del funcionamiento o de la falta de funcionamiento del mencionado programa actualizado.
+
+Lo anteriormente dispuesto no limitará los derechos que le confieren las leyes vigentes.
+
+※Google y Android son marcas comerciales de Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Italy">
+        <Text><![CDATA[
+※Prima di aggiornare il software, è necessario disattivare la funzione "Google Assistant".
+※ Effettuare l'aggiornamento in un ambiente in cui la connessione Bluetooth sia più stabile.
+* Fare attenzione a non effettuare l'aggiornamento durante la guida di veicoli, come ad esempio i treni, o in ambienti in cui si mescolano onde radio della banda 2.4 GHz, come ad esempio Wi-Fi, onde del forno a microonde, telefoni cordless e molte altre onde radio.
+
+※ Sony | Headphones Connect ※
+Eseguire l'aggiornamento alla versione più recente prima di aggiornare l'unità principale 
+
+[Dettagli dell'aggiornamento nella versione 4.5.2]
+[1] Funzionalità di sicurezza avanzate del software di sistema.
+[2] Migliorate altre funzioni.
+
+Questo aggiornamento include contenuto aggiornato che era stato applicato in precedenza ai modelli idonei sopra indicati.
+
+[Attenzione]
+1) L'aggiornamento del software richiede circa 60 minuti per Android o circa 60 minuti per iOS.
+Non spegnere mai il dispositivo durante il download dell'aggiornamento, il trasferimento dei dati e l'aggiornamento.
+Così facendo, l'unità potrebbe diventare inutilizzabile.
+2) Eseguire l’aggiornamento dopo aver verificato che la carica residua della batteria nelle cuffie e nel dispositivo Android (o iOS) sia sufficiente.
+3)L’aggiornamento potrebbe non essere disponibile se al dispositivo Android (o iOS) è connesso un dispositivo Bluetooth Low Energy (dispositivo indossabile, smartwatch, ecc.). Eseguire l’aggiornamento dopo aver scollegato tutti i dispositivi Bluetooth diversi da questo dispositivo dal dispositivo Android (o iOS).
+
+[Come verificare la versione del software]
+Selezionare [WH-H900N Versione] dal menu in alto a destra della schermata dell'applicazione Sony | Headphones Connect.
+
+
+PRIMA DI AGGIORNARE IL SOFTWARE, LEGGERE ATTENTAMENTE QUANTO SEGUE.
+
+Il prodotto contiene il software, il titolo e il copyright di proprietà e controllati da Sony Home Entertainment & Sound Products Inc., dagli affiliati di Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) e/o dai relativi licenziatari di terze parti. Il software è protetto dalle leggi sul copyright, dai trattati internazionali sul copyright e da ogni altra norma sulla proprietà intellettuale. È possibile usare il software solo come parte delle funzioni fornite dal prodotto, se non diversamente concesso da un contratto di licenza separato stipulato tra Sony Home Entertainment & Sound Products Inc., Sony Group Company e/o i relativi licenziatari di terze parti.
+
+Questo programma di aggiornamento è fornito per aggiornare il software del presente prodotto, con lo scopo di (i) aggiornare e migliorare le funzioni di sicurezza, (ii) correggere bug o modificare errori e (iii) aggiornare e migliorare le funzionalità di aggiornamento. Lei riconosce e accetta espressamente che l’uso del programma di aggiornamento potrebbe non correggere tutti i bug o gli errori del software incorporato nel prodotto. Installando questo programma di aggiornamento, potranno essere aggiunte, modificate o cancellate funzioni del software.
+
+Il titolo e il copyright del software aggiornato appartengono a Sony Home Entertainment & Sound Products Inc., Sony Group Company e/o a licenziatari di terze parti.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company e i licenziatari di terze parti non sono responsabili di perdite o danni derivanti dalle prestazioni o dalle mancate prestazioni del programma aggiornato.
+
+Quanto sopra non limiterà in alcun modo i diritti che Le sono concessi da ogni legge eventualmente applicabile.
+
+※Google e Android sono marchi di Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Portugal">
+        <Text><![CDATA[
+※Antes de atualizar o software, deve desligar a função "Google Assistant".
+※ Efetue a atualização num ambiente em que a ligação Bluetooth seja muito estável.
+* Tenha cuidado e não efetue a atualização dentro de veículos, como comboios, nem em ambientes em que existam interferências nas ondas de rádio da banda de 2,4 GHz, como Wi-Fi, fornos micro-ondas, telefones sem fios e outros dispositivos emissores de ondas de rádio.
+
+※ Sony | Headphones Connect ※
+Atualize para a versão mais recente antes de atualizar a unidade principal.
+
+[A versão 4.5.2 tem as seguintes atualizações]
+[1] Funcionalidades de segurança melhoradas do software do sistema.
+[2] Melhorias noutras funções.
+
+Esta atualização inclui conteúdos atualizados que foram previamente aplicados nos modelos aplicáveis acima apresentados.
+
+[Atenção]
+1) A atualização do software demora cerca de 60 minutos para Android ou cerca de 60 minutos para iOS.
+Nunca desligue a alimentação durante o download da atualização, a transferência de dados e a atualização.
+Se o fizer, pode inutilizar a unidade.
+2) Execute a atualização após confirmar que as cargas restantes nas baterias dos auscultadores e do dispositivo Android (ou dispositivo iOS) são suficientes.
+3)A atualização poderá estar indisponível se tiver um dispositivo Bluetooth de baixo consumo (dispositivo de usar no corpo, smartwatch, etc.) ligado ao dispositivo Android (ou dispositivo iOS). Execute a atualização após desligar todos os dispositivos Bluetooth, exceto este, do dispositivo Android (ou dispositivo iOS).
+
+[Como verificar a versão do software]
+Selecione [WH-H900N Versão] no menu superior direito do ecrã da aplicação Sony | Headphones Connect.
+
+
+DEVERÁ LER CUIDADOSAMENTE O TEXTO SEGUINTE ANTES DE EFECTUAR A ACTUALIZAÇÃO DO SEU SOFTWARE.
+
+Este produto contém software, cuja propriedade e direito de autor/copyright são detidos e controlados pela Sony Home Entertainment & Sound Products Inc., filiais da Sony Home Entertainment & Sound Products Inc. ("Sony Group Company") e/ou os seus terceiros licenciados. Este software está protegido pelas leis de direito de autor e copyright, tratados internacionais de direito de autor/copyright e quaisquer outras leis de propriedade intelectual. Apenas poderá utilizar o software como parte de funções disponibilizadas pelo produto, exceto se de outra forma lhe tiver sido concedido esse direito mediante acordo de licença separado celebrado entre si e Sony Home Entertainment & Sound Products Inc., Sony Group Company e/ou os seus terceiros licenciados.
+
+Este programa de actualização será disponibilizado para actualização do software deste produto para efeitos de (i) melhoramento da função de segurança, (ii) correcção de falhas (bugs) ou modificação de erros, e (iii) melhoramento de funcionalidades de actualização. Expressamente reconhece e concorda que a utilização do programa de actualização não corrigirá todas as falhas (bugs) ou erros do software incorporado no produto. Ao instalar este programa de actualização, funções do software poderão ser acrescidas, alteradas ou eliminadas.
+
+A propriedade e direito de autor/copyright sobre o software atualizado pertencerão à Sony Home Entertainment & Sound Products Inc., Sony Group Company e/ou terceiros licenciados.
+
+A Sony Home Entertainment & Sound Products Inc., Sony Group Company e os terceiros licenciados não serão responsáveis por qualquer perda ou dano resultante do funcionamento ou não funcionamento de tal programa atualizado. 
+
+Os termos acima indicados não limitarão os direitos que lhe sejam concedidos por qualquer lei aplicável.
+
+※Google e Android são marcas comerciais da Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Netherlands">
+        <Text><![CDATA[
+※Voorafgaand aan het bijwerken van de software moet u de functie "Google Assistant" uitschakelen.
+※ Voer de update uit in een omgeving waar de Bluetooth-verbinding het meest stabiel is.
+* Voer de update niet uit terwijl u in een voertuig zoals een trein rijdt, of in omgevingen waar radiogolven in de 2,4 GHz-band zoals Wi-Fi, magnetronovens, draadloze telefoons en talrijke andere radiogolven door elkaar worden gebruikt.
+
+※ Sony | Headphones Connect ※
+Voer een update uit naar de recentste versie voor u de update van de hoofdeenheid uitvoert
+
+[Updategegevens in versie 4.5.2]
+[1] De beveiligingsfuncties van de systeemsoftware werden versterkt.
+[2] Verbetering van overige functies.
+
+Deze update bevat update-inhoud die eerder toegepast werd op de bovenstaande betrokken modellen.
+
+[Waarschuwing]
+1) Het bijwerken van de software duurt ongeveer 60 minuten bij Android en ongeveer 60 minuten bij iOS.
+Schakel de stroomtoevoer nooit uit tijdens het downloaden van de update, de gegevensoverdracht en het uitvoeren van de update.
+Als u dit toch doet, kan de eenheid onbruikbaar worden.
+2) Voer de update uit nadat u gecontroleerd heeft dat de accu’s van de hoofdtelefoon en het Android-apparaat (of iOS-apparaat) voldoende geladen zijn.
+3)Mogelijk kunt u de update niet uitvoeren als er een Bluetooth Low Energy-apparaat (draagbaar apparaat, smartwatch enz.) verbonden is met het Android-apparaat (of iOS-apparaat). Voer de update uit nadat u de verbinding met alle Bluetooth-apparaten, behalve met dit apparaat, ongedaan heeft gemaakt vanaf het Android-apparaat (of iOS-apparaat).
+
+[De softwareversie controleren]
+Selecteer [WH-H900N Versie] in het menu in de rechterbovenhoek van het scherm van de applicatie Sony | Headphones Connect.
+
+
+LEES ONDERSTAAND BERICHT AANDACHTIG VOORDAT U UW SOFTWARE BIJWERKT.
+
+Dit product bevat software, waarvan de eigendom en het auteursrecht in handen zijn en onder de zeggenschap vallen van Sony Home Entertainment & Sound Products Inc., filialen van Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) en/of zijn externe licentiehouders. De software is beschermd door de wet op het auteursrecht, internationale verdragen inzake auteursrecht en andere intellectuele-eigendomswetten. U mag de software alleen gebruiken als onderdeel van de functies die door het product worden geleverd, tenzij anders wordt toegestaan in een afzonderlijke licentieovereenkomst tussen u en Sony Home Entertainment & Sound Products Inc., Sony Group Company en/of zijn externe licentiehouders.
+
+Dit updateprogramma wordt verstrekt om de software van dit product bij te werken met het oog op (i) het verbeteren van de beveiligingsfunctie, (ii) het oplossen of aanpassen van fouten, en (iii) het verbeteren van de updatefuncties. U erkent uitdrukkelijk en gaat ermee akkoord dat het gebruik van dit updateprogramma niet alle bugs en fouten uit het product zal corrigeren. Door het installeren van dit updateprogramma kunnen er toevoegingen, wijzigingen of verwijderingen gebeuren aan de functie van de software.
+
+De eigendom en het auteursrecht van de bijgewerkte software behoort toe aan Sony Home Entertainment & Sound Products Inc., Sony Group Company en/of externe licentiehouders. 
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company en externe licentiehouders zijn niet aansprakelijk voor enig verlies of schade die voortvloeit uit de uitvoering of de niet-uitvoering van het bijgewerkte programma.
+
+Bovenvermelde voorwaarden zullen geenszins de rechten beperken die voortvloeien uit enige toepasselijke wetgeving.
+
+※Google en Android zijn handelsmerken van Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Sweden">
+        <Text><![CDATA[
+※Innan du uppdaterar programvaran måste du stänga av "Google Assistant" -funktion.
+※ Uppdatera i en miljö där Bluetooth-anslutningen är mest stabil.
+* Var noga med att inte uppdatera vid färd i något fordon, exempelvis tåg, eller i miljöer där radiovågor på bandet 2.4 GHz , exempelvis Wi-Fi, mikrovågsugnar, trådlösa telefoner och många andra radiovågor blandas. 
+
+※ Sony | Headphones Connect ※
+Uppdatera till den senaste versionen innan uppdatering av huvudenheten
+
+[Uppdateringsinformation i version 4.5.2]
+[1] Systemets programvara har förbättrade säkerhetsfunktioner.
+[2] Andra funktioner har förbättrats.
+
+Denna uppdatering inkluderar uppdatering av innehåll som tidigare har tillämpats för lämpliga modeller ovan.
+
+[Försiktighet]
+1) Det tar ungefär 60 minuter för Android eller ungefär 60 minuter för iOS att uppdatera programvaran.
+"Slå AV" ska aldrig användas under hämtning av uppdateringen, dataöverföring och uppdatering.
+Om du gör detta kan enheten bli oanvändbar.
+2) Utför uppdateringen efter att du kontrollerat så att återstående batteriladdning är tillräcklig för hörlurarna och Android-enheten (eller iOS-enhet).
+3)Det kanske inte går att uppdatera om en Bluetooth-enhet med låg energi (bärbar enhet, smartklocka osv.) är ansluten till Android-enheten (eller iOS-enhet). Utför uppdateringen efter att du kopplat bort alla Bluetooth-enheter förutom denna enhet från Android-enheten (eller iOS-enhet).
+
+[Hur programvaruversionen kontrolleras]
+Välj [WH-H900N Version] från den övre högra menyn på skärmen i applikationen Sony | Headphones Connect.
+
+
+INNAN DU UPPDATERAR DIN PROGRAMVARA MÅSTE DU NOGGRANT LÄSA DET NEDANSTÅENDE.
+
+Den här produkten innehåller programvara, anspråk på och upphovsrätt som ägs och kontrolleras av Sony Home Entertainment & Sound Products Inc., närstående företag till Sony Home Entertainment & Sound Products Inc. (“Sony Group Company”) och/eller dess tredje parts licensgivare. Programvaran skyddas av upphovsrättslagar, internationella upphovsrättsavtal och andra lagar om immateriella rättigheter. Du får endast använda programvaran som den ingår i de funktioner som produkten tillhandahåller, såvida inte annat beviljas genom ett separat licensavtal mellan dig och Sony Home Entertainment & Sound Products Inc., Sony Group Company och/eller dess tredje parts licensgivare.
+
+Det här uppdateringsprogrammet tillhandahålls för att uppdatera programvaran till den här produkten i syfte att (i) uppgradera säkerhetsfunktion (ii) buggkorrigering eller felmodifieringar och (iii) uppgradering av uppdateringsfunktioner. Du godkänner uttryckligen och accepterar att användningen av uppdateringsprogrammet inte korrigerar alla buggar eller fel i den programvara som produkten innehåller. Genom att installera det här uppdateringsprogrammet kan funktioner i programvaran läggas till, ändras eller raderas.
+
+Anspråken på och upphovsrätten för den uppdaterade programvaran ska tillhöra Sony Home Entertainment & Sound Products Inc., Sony Group Company och/eller dess tredje parts licensgivare.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company och tredje parts licensgivare ska inte hållas ansvariga för någon förlust eller skada som uppstår från prestanda eller avsaknad av prestanda i sådant uppdaterat program.
+
+Ovanstående villkor begränsar inte dina lagstadgade rättigheter.
+
+※Google och Android är varumärken som tillhör Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Finland">
+        <Text><![CDATA[
+※Ennen ohjelmiston päivittämistä, sinun täytyy kytkeä "Google Assistant" -toiminto pois päältä.
+※ Päivitä ympäristössä, jossa Bluetooth-yhteys on mahdollisimman vakaa.
+* Älä päivitä ollessasi ajoneuvossa, kuten junassa, äläkä ympäristössä, jossa esiintyy 2,4 GHz:n kaistan radioaaltoja, jollaisia muodostavat esimerkiksi Wi-Fi, mikroaaltouuni, langattomat puhelimet ja muut laitteet.
+
+※ Sony | Headphones Connect ※
+Päivitä uusimpaan versioon  ennen kuin päivität päälaitteen 
+
+[Päivitystiedot versiolle 4.5.2]
+[1] Järjestelmäohjelmiston parannetut tietoturvaominaisuudet.
+[2] Parannetut muut toiminnot.
+
+Tämä päivitys sisältää päivityssisällön, jota oli aikaisemmin sovellettu edellä oleviin malleihin.
+
+[Huomio]
+1) Ohjelmistopäivitys vie noin 60 Android-järjestelmällä tai noin 60 minuuttia iOS-järjestelmällä.
+Älä koskaan kytke virtaa pois päältä päivityksen lataamisen, tietojen siirtämisen tai päivittämisen aikana.
+Muuten laitteesta voi tulla käyttökelvoton.
+2) Suorita päivitys varmistettuasi, että akun jäljellä oleva varaus kuulokkeissa ja Android-laitteessa (tai iOS-laitteessa) riittää.
+3)Päivitys ei ehkä ole käytettävissä, jos Bluetooth Low Energy -laite (puettava laite, älykello jne.) on yhdistetty Android-laitteeseen (tai iOS-laitteeseen). Suorita päivitys, kun olet irrottanut tätä laitetta lukuun ottamatta kaikki muut Bluetooth-laitteet Android-laitteesta (tai iOS-laitteesta).
+
+[Ohjelmistoversion katsominen]
+Valitse [WH-H900N Versio] oikean yläkulman valikosta Sony | Headphones Connect -sovellusnäytössä.
+
+
+LUE SEURAAVA HUOLELLISESTI ENNEN OHJELMISTON PÄIVITTÄMISTÄ.
+
+Tämä tuote sisältää ohjelmiston, jonka nimen ja tekijänoikeudet omistaa ja joita hallitsee Sony Home Entertainment & Sound Products Inc., Sony Home Entertainment & Sound Products Inc. (”Sony Group Company”) tai sen yhteistyökumppanit ja/tai sen kolmannen osapuolen lisensoijat. Ohjelmistoa suojaavat tekijänoikeuslait, kansainväliset tekijänoikeussopimukset ja muut immateriaalioikeuslait. Ohjelmistoa saa käyttää vain tuotteen toimintojen osana, ellei muuta sanota erillisessä sopimuksessa, joka on sinun ja Sony Home Entertainment & Sound Products Inc:n, Sony Group Companyn ja/tai sen kolmannen osapuolen lisensoijien välinen.
+
+Tämä päivitys tarjotaan tämän tuotteen ohjelmiston päivittämiseen siinä tarkoituksessa, että (i) turvatoimintoja päivitetään, (ii) bugeja ja virheitä korjataan ja (iii) toimintoja päivitetään. Ymmärrät ja hyväksyt, että päivitysohjelman käyttö ei korjaa kaikkia bugeja tai virheitä tuotteen ohjelmistossa. Kun tämä päivitysohjelma asennetaan, ohjelmiston toimintoja voidaan lisätä, muuttaa tai poistaa.
+
+Päivitetyn ohjelmiston nimi ja tekijänoikeus kuuluvat Sony Home Entertainment & Sound Products Inc:lle, Sony Group Companylle ja/tai kolmannen osapuolen lisensoijille.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company ja kolmannen osapuolen lisensoijat eivät ole missään vastuussa menetyksistä tai vahingoista, joita päivitetyn ohjelman toiminta tai toimimattomuus aiheuttavat.
+
+Edellä olevat ehdot eivät rajoita lakisääteisiä oikeuksiasi.
+
+※Google ja Android ovat tavaramerkkejä, jotka omistaa Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Russia">
+        <Text><![CDATA[
+※Перед обновлением программного обеспечения необходимо отключить функцию «Google Assistant».
+※ Выполняйте обновление в среде с наиболее стабильным приемом Bluetooth.
+* Не выполняйте обновление во время езды в транспорте, например в поездах, или в среде, где используются радиоволны с частотой 2.4 GHz, например Wi-Fi, микроволновые печи, беспроводные телефоны либо многочисленные радиоволны.
+
+※ Sony | Headphones Connect ※
+Выполните обновление до последней версии перед обновлением основного устройства
+
+[Сведения об обновлении в версии 4.5.2]
+[1] Улучшение функций безопасности системного программного обеспечения.
+[2] Улучшены другие функции.
+
+Это обновление включает содержимое обновления, которое ранее применялось к вышеуказанным целевым моделям.
+
+[Внимание]
+1) Обновление программного обеспечения занимает около 60 минут для Android и около 60 минут для iOS.
+Никогда не отключайте питание во время загрузки обновления, передачи данный и обновления.
+Это может привести к нестабильной работе.
+2) Выполните обновление после подтверждения наличия достаточного уровня остаточного заряда аккумулятора в наушниках и в устройстве Android (или в устройстве iOS).
+3) Обновление может быть недоступно, если к устройству Android (или iOS-устройству) подключено энергосберегающее устройство Bluetooth (носимое устройство, смарт-часы и т.д.). Выполните обновление после отключения всех устройств Bluetooth, кроме этого устройства, от устройства Android (или устройства iOS).
+
+[Проверка версии программного обеспечения]
+Выберите [WH-H900N Версия] в правом верхнем углу меню экрана приложения Sony | Headphones Connect.
+
+
+ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ОЗНАКОМЬТЕСЬ С НИЖЕСЛЕДУЮЩИМ ТЕКСТОМ ПЕРЕД ОБНОВЛЕНИЕМ ВАШЕГО ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ.
+
+Настоящий продукт содержит программное обеспечение, исключительное право и авторские права, которые принадлежат компании Sony Home Entertainment & Sound Products Inc., филиалам компании Sony Home Entertainment & Sound Products Inc. («компания Sony Group») и/или их сторонним лицензиарам и контролируются ими. Программное обеспечение охраняется законодательством об авторских правах, международными соглашениями об охране авторских прав, а также иным законодательством об интеллектуальной собственности. Вы вправе использовать программное обеспечение только в качестве элемента функциональности продукта, за исключением случаев, когда Вам могут быть предоставлены иные права в отношении программного обеспечения на основании лицензионного договора между Вами и компанией Sony Home Entertainment & Sound Products Inc., компанией Sony Group и/или их сторонними лицензиарами.
+
+Настоящая программа обновления будет предоставлена для обновления программного обеспечения настоящего продукта для целей (i) улучшения функциональности системы защиты, (ii) исправления дефектов или ошибок, и (iii) улучшения функций обновления. Вы прямо подтверждаете и соглашаетесь с тем, что использование программы обновления может исправить не все дефекты или ошибки в программном обеспечении, встроенном в продукт. После установки настоящей программы обновления, определенные функции программного обеспечения могут быть добавлены, изменены или удалены.
+
+Исключительное право и авторские права на обновленное программное обеспечение будут принадлежать компании Sony Home Entertainment & Sound Products Inc., компании Sony Group и/или сторонним лицензиарам.
+
+Компания Sony Home Entertainment & Sound Products Inc., компания Sony Group и сторонние лицензиары не будут нести ответственность за какой-либо ущерб или какие-либо убытки, понесенные вследствие соответствия или несоответствия эксплуатационных качеств такого обновленного программного обеспечения каким-либо критериям.
+
+Приведенные Выше условия не ограничивают Ваши права, которыми Вы можете обладать в соответствии с каким-либо применимым правом.
+
+※Google и Android являются товарными знаками Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="China">
+        <Text><![CDATA[
+※在此之前更新软件，你必须关闭"Google Assistant"功能。
+※ 请在蓝牙连接最稳定的环境下进行更新。
+* 请注意，在乘坐火车等车辆时，或者在Wi-Fi、微波炉、无绳电话以及其他许多无线电波等2.4GHz频带的无线电波混杂的环境中，不要更新。
+
+※ Sony | Headphones Connect ※
+更新主机之前，请更新至最新版本
+
+[在版本4.5.2中更新详细信息]
+[1] 增强了系统软件的安全功能。
+[2] 改进了其他功
+
+此更新包括先前应用于上述适用型号的更新内容。
+
+[警告]
+1) 软件更新大约需要60分钟（Android）或60分钟（iOS）。
+更新下载、数据传输和更新期间切勿"关闭电源"。
+否则，该装置可能会变得无法使用。
+2) 确认耳机和Android设备（或iOS设备）的剩余电池电量充足后执行更新。
+3)如果有低功耗蓝牙设备（可穿戴设备、智能手表等）与Android设备（或iOS设备）连接，则可能无法更新。从Android设备（或iOS设备）断开除本设备之外的所有蓝牙设备后执行更新。
+
+[如何检查软件版本]
+从Sony | Headphones Connect应用程序屏幕右上方菜单中选择[WH-H900N 版本]。
+
+
+在更新您的软件之前，敬请仔细阅读以下条款。
+
+本产品所含软件的所有权和著作权由Sony Home Entertainment & Sound Products Inc.、其关联公司（“索尼集团公司”）和/或其第三方许可方拥有并控制。该软件受著作权法律、国际著作权条约以及任何其他知识产权法律的保护。除非您与Sony Home Entertainment & Sound Products Inc.、索尼集团公司和/或其第三方许可方另行签署的许可协议中另有授权，否则，您只可以将软件作为本产品所提供的功能的一部分而加以使用。
+
+提供这一更新程序，旨在为下列目的而更新本产品的软件：
+(i)安全功能的升级，(ii)错误修复或误差修正，以及(iii)更新功能的升级。您明确承认并同意，使用这一更新程序并不会修正本产品所含软件中的所有错误或误差。安装这一更新程序，可能会增加、改变或删除软件的功能。
+
+更新后软件的所有权和著作权应归Sony Home Entertainment & Sound Products Inc.、索尼集团公司和/或其第三方许可方所有。 
+
+对于此等更新后程序的运行或不运行所造成的任何损失或损害，Sony Home Entertainment & Sound Products Inc.、索尼集团公司和其第三方许可方不承担责任。 
+
+以上条款并不限制任何适用法律赋予您的各项权利。
+
+※Google和Android是Google LLC.的商标。
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Brazil">
+        <Text><![CDATA[
+※Antes de atualizar o software, você deve desligar a função "Google Assistant".
+※ Realize a atualização em um ambiente em que a conexão Bluetooth seja o mais estável possível.
+* Tenha cuidado para não realizar a atualização enquanto estiver viajando em veículos, como trens, ou em ambientes em que ondas de rádio de banda 2.4 GHz, como Wi-Fi, fornos de micro-ondas, telefones sem fio e outras ondas de rádio estiverem misturadas.
+
+※ Sony | Headphones Connect ※
+Atualize para a versão mais recenteantes de atualizar a unidade principal 
+
+[Detalhes da atualização na versão 4.5.2]
+[1] Recursos de segurança melhorados do software do sistema.
+[2] Outras funções melhoradas.
+
+Esta atualização inclui conteúdo de atualização que foi aplicado anteriormente aos modelos aplicáveis acima.
+
+[Atenção]
+1) A atualização do software leva cerca de 60 minutos para Android e aproximadamente 60 minutos para iOS. 
+Nunca desligue a unidade durante o download da atualização, a transferência de dados e a atualização.
+Se você fizer isso, a unidade poderá ficar inutilizável.
+2) Execute a atualização após confirmar que a carga restante da bateria é suficiente nos fones de ouvido e no dispositivo Android (ou dispositivo iOS).
+3)A atualização pode não estar disponível se um dispositivo Bluetooth Low Energy (dispositivo wearable, smartwatch, etc.) estiver conectado ao dispositivo Android (ou dispositivo iOS). Execute a atualização após desconectar todos os dispositivos Bluetooth, exceto este, do dispositivo Android (ou dispositivo iOS).
+
+[Como verificar a versão do software]
+Selecione [WH-H900N Versão] no menu superior direito da tela do aplicativo Sony | Headphones Connect.
+
+
+VOCÊ DEVERÁ LER ATENTAMENTE O TEXTO ABAIXO ANTES DE ATUALIZAR O SEU SOFTWARE. 
+
+Este produto contém software, cuja titularidade e direitos autorais pertencem e são controlados pela Sony Home Entertainment & Sound Products Inc., ou por seus terceiros licenciantes. O software é protegido pela legislação de direitos autorais, por tratados internacionais sobre direitos autorais e por quaisquer outras leis de propriedade intelectual. Você poderá usar o software somente como parte das funções fornecidas pelo produto, a menos que de outra forma autorizado através de um contrato de licença separado firmado entre você e terceiros licenciantes.
+
+Este programa de atualização será fornecido para atualizar o software deste produto com a finalidade de (i) melhorar funcionalidades de segurança, (ii) corrigir falhas ou modificar erros, e (iii) melhorar funcionalidades de atualização. Você reconhece e concorda expressamente que o uso do programa de atualização não corrigirá todos as falhas ou erros no software incorporado ao produto. Ao instalar este programa de atualização, funcionalidades do software poderão ser incrementadas, alteradas ou apagadas.
+
+A titularidade e os direitos autorais do software atualizado pertencem à Sony Home Entertainment & Sound Products Inc., e a terceiros licenciantes.
+
+A Sony Home Entertainment & Sound Products Inc., e os terceiros licenciantes não serão responsáveis por quaisquer perdas ou danos causados pelo desempenho ou pela falha de desempenho de tal programa atualizado.
+
+Os termos acima não limitarão direitos garantidos a você por qualquer lei aplicável.
+
+※Google e Android são marcas comerciais da Google LLC.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Taiwan">
+        <Text><![CDATA[
+※更新軟體之前，您必須關閉"Google Assistant"功能。
+※ 請在 Bluetooth 連線最穩定的環境下進行更新。
+* 請注意，搭乘車輛時請勿更新，例如，搭乘火車。或者，請勿在有 2.4 GHz 頻段的無線電波的環境下更新，例如，Wi-Fi、微波爐、無線電話與可能會混雜許多無線電波的地方。
+
+※ Sony | Headphones Connect ※
+更新主機前，請先更新到最新版本
+
+[版本 4.5.2 的更新詳情]
+[1] 已增強系統軟體的安全功能。
+[2] 已改善其他功能。
+
+本次更新包括以前曾經套用於以上適用機型的更新內容。
+
+[注意]
+1) 軟體更新在 Android 上需要約 60 分鐘，在 iOS 上需要約 60 分鐘。
+更新下載、資料傳輸與更新期間，切勿「關閉電源」。
+否則，您的裝置可能會變得無法使用。
+2) 確認耳機和Android裝置（或iOS裝置）上的剩餘電池電量充足後，進行更新。
+3)藍牙低功耗裝置（穿戴式裝置、智慧型手錶等）連線至Android裝置（或iOS裝置）時，可能無法更新。在將本裝置除外的所有藍牙裝置與Android裝置（或iOS裝置）中斷連線之後進行更新。
+
+[如何檢查版本]
+從 Sony | Headphones Connect 應用程式畫面右上角的選單中選擇[WH-H900N 版本]。
+
+
+在更新您的軟體之前，敬請仔細閱讀以下條款。
+
+本產品所含軟體之所有權和著作權由索尼家庭影音娛樂事業集團("索尼集團")和/或其第三方授權本產品所含軟體之所有權和著作權由Sony Home Entertainment & Sound Products Inc.("索尼集團")和/或其第三方授權人擁有並控制。該軟體受著作權法律、國際著作權條約及任何其他智慧財產權法律保護。除非您與Sony Home Entertainment & Sound Products Inc.、索尼集團和/或其第三方授權人另行簽署之授權協議另有授權，否則您只能將本軟體作為本產品所提供功能之一部分而使用。
+
+提供此更新程式係為下列目的而更新本產品之軟體：
+(i) 安全功能升級，(ii) 缺陷修復或錯誤修正，及 (iii) 更新功能升級。您明確承認並同意，使用此更新程式並不會修正本產品所含軟體之所有缺陷或錯誤。安裝此更新程式可能會增加、變更或刪除軟體的功能。
+
+更新後軟體的所有權和著作權應歸Sony Home Entertainment & Sound Products Inc.、索尼集團和其第三方授權人所有。 
+
+對於此等更新後程式運行或不運行所造成之任何損失或損害，Sony Home Entertainment & Sound Products Inc.、索尼集團和其第三方授權人不承擔責任。
+
+以上條款並不限制任何適用法律賦予您的各項權利。
+
+※Google和Android是Google LLC.的商標。
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Korea">
+        <Text><![CDATA[
+※소프트웨어를 업데이트하기 전에, "Google Assistant" 설정 해제가 필요합니다.
+※ Bluetooth 연결이 가장 안정된 환경에서 업데이트하십시오.
+* 기차와 같은 차량이나 Wi-Fi, 전자레인지, 무선 전화 및 기타 여러 전파 등 대역이 2.4 GHz인 전파가 섞인 환경에서 업데이트하지 않도록 주의하십시오.
+
+※ Sony | Headphones Connect ※
+본체를 업데이트하기 전 최신 버전으로 업데이트하십시오.
+
+[버전 4.5.2의 업데이트 세부 정보]
+[1] 시스템 소프트웨어의 보안 기능이 강화되었습니다.
+[2] 기타 기능이 개선되었습니다.
+
+이 업데이트에는 전에 위의 해당 모델에 적용된 업데이트 내용도 포함되어 있습니다.
+
+[주의]
+1) 소프트웨어 업데이트는 Android의 경우 약 60분, iOS의 경우 약 60분이 소요됩니다.
+업데이트 다운로드, 데이터 전송 및 업데이트 도중에는 절대로 "전원 끄기" 스위치를 건드리지 마십시오.
+전원을 끄면 장치를 사용할 수 없게 될 수 있습니다.
+2) 헤드폰 및 Android 장치(또는 iOS 장치)의 배터리 잔량이 충분한지를 확인하신 후 업데이트하십시오.
+3)Bluetooth Low Energy 장치(웨어러블 장치, 스마트워치 등)가 Android 장치(또는 iOS 장치)에 연결되어 있으면 업데이트가 불가능할 수 있습니다. Android 장치(또는 iOS 장치)에서 본 장치를 제외한 모든 Bluetooth 장치의 연결을 해제한 후 업데이트하십시오.
+
+[소프트웨어 버전 확인 방법]
+Sony | Headphones Connect 응용 프로그램 화면의 오른쪽 상단 메뉴에서 [WH-H900N 버전]을 선택하십시오.
+
+
+귀하의 소프트웨어를 업데이트하기 전에 다음 사항을 주의 깊게 읽으십시오.
+
+본 상품에는 소프트웨어가 포함되어 있고, 이 소프트웨어에 대한 소유권과 저작권은 Sony Home Entertainment & Sound Products Inc., Sony Home Entertainment & Sound Products Inc.의 계열사("Sony Group Company") 및/또는 제3자 라이센스 허여자가 소유하고 관리합니다. 이 소프트웨어는 저작권법, 국제 저작권 조약 및 기타 지적재산권 법률에 의해 보호됩니다. 귀하와 Sony Home Entertainment & Sound Products Inc., Sony Group Company 및/또는 제3자 라이선스 허여자 간에 체결한 별도의 라이센스 계약에 의하여 달리 부여된 바가 없다면, 귀하는 이 제품이 제공하는 기능의 부분으로서만 이 소프트웨어를 사용할 수 있습니다.
+
+본 업데이트 프로그램은 (i) 보안 기능의 향상, (ii) 버그 해결 또는 에러 수정 및 (iii) 업데이트 기능의 향상을 위한 목적으로 본 제품의 소프트웨어를 업데이트하기 위해 제공되는 것입니다. 귀하는 이 업데이트 프로그램의 사용이 이 제품에 통합되어 있는 소프트웨어의 모든 버그나 에러를 수정하지는 않는다는 것을 명시적으로 인정하고 동의 합니다. 본 업데이트 프로그램을 설치함으로써, 소프트웨어의 기능이 추가되거나 변경되거나 삭제될 수 있습니다.
+
+업데이트된 소프트웨어에 대한 소유권 및 저작권은 Sony Home Entertainment & Sound Products Inc., Sony Group Company 및/또는 제3자 라이선스 허여자에게 속합니다.
+
+Sony Home Entertainment & Sound Products Inc., Sony Group Company 및/또는 제3자 라이선스 허여자는 그 업데이트된 프로그램의 작동 또는 미작동으로부터 발생하는 어떠한 손실이나 손해에 대해서도 책임지지 않습니다. 
+
+위 약정은 관련 법령에 의해 부여되는 귀하의 권리를 제한하지 않습니다.
+
+※Google 및 Android는 Google LLC.의 상표입니다.
+
+]]></Text>
+    </Notice>
+    <Notice Locale="Turkey">
+        <Text><![CDATA[
+※Yazılım güncellenmesine başlamadan önce "Google Assistant" fonksiyonunu kapatmalısınız.
+※ Lütfen güncellemeyi Bluetooth bağlantısının en kararlı olduğu ortamda yapın.
+* Lütfen bir araçta yolculuk ederken (örneğin trenler) ya da Wi-Fi, mikrodalga fırın, kablosuz telefon ve pek çok başka radyo dalgasının karışık durumda olduğu yerler gibi 2.4 GHz bandında radyo dalgalarının olduğu ortamlarda güncelleme yapmayın.
+
+※ Sony | Headphones Connect ※
+Lütfen ana ünitede güncelleme yapmadan önce son sürüme güncelleyin
+
+[Sürüm 4.5.2 için güncelleme detayları]
+[1] Sistem yazılımının güvenlik özellikleri artırıldı.
+[2] Diğer işlevler iyileştirildi.
+
+Bu güncelleme, önceden yukarıdaki uygulanabilir modellere uygulanan güncelleme içeriğini içerir.
+
+[Dikkat]
+1) Yazılım güncellemesi Android'de yaklaşık 60 dakika veya iOS'ta yaklaşık 60 dakika sürer.
+Güncelleme indirilirken, veri aktarılırken ve güncelleme yapılırken asla "Güç KAPALI" durumuna getirmeyin.
+Bunu yaparsanız ünite kullanılamaz hale gelebilir.
+2) Kalan pil şarjının kulaklıklarda ve Android cihazda (veya iOS cihazda) yeterli olduğunu onayladıktan sonra güncellemeyi yapın.
+3)Android cihaza (veya iOS cihaza) bir Bluetooth Düşük Enerjili cihaz (giyilebilir cihaz, akıllı saat vb.) bağlanırsa güncelleme yapılamayabilir. Güncellemeyi bu cihaz dışındaki tüm Bluetooth cihazların Android cihazıyla (veya iOS cihazıyla) bağlantısını kestikten sonra yapın.
+
+[Yazılım sürümü nasıl kontrol edilir]
+Sony | Headphones Connect uygulaması ekranının sağ üst menüsünden [WH-H900N Sürüm] öğesini seçin.
+
+
+YAZILIMINIZI GÜNCELLEMEDEN ÖNCE AŞAĞIDAKİLERİ DİKKATLE OKUMANIZ GEREKİR.
+
+Bu ürün, hak sahipliği ve telif hakkı Sony Home Entertainment & Sound Products Inc., Sony Home Entertainment & Sound Products Inc. iştirakleri (“Sony Grup Şirketi”) ve/veya üçüncü taraf lisans sahiplerine ait yazılım içermektedir. Yazılım telif hakkı kanunları, uluslararası telif hakkı antlaşmaları ve tüm diğer fikri mülkiyet kanunları tarafından korunmaktadır. Siz ve Sony Home Entertainment & Sound Products Inc., Sony Grup Şirketi ve/veya üçüncü taraf lisans sahipleri arasında yapılan ayrı bir lisans anlaşması tarafından bu yönde bir hak verilmediği müddetçe, yazılımı yalnızca ürün tarafından sağlanan işlevler kapsamında kullanabilirsiniz.
+
+Bu güncelleme programı bu ürünün yazılımını güncellemek için şu amaçlarla sağlanır: (i) güvenlik işlevini yükseltme, (ii) hata onarımı veya hata değiştirmesi ve (iii) güncelleme özelliklerini yükseltme. Güncelleme programı kullanımının ürünle sağlanan yazılımdaki tüm hataları düzeltmeyeceğini açıkça onaylamış ve kabul etmiş olursunuz. Bu güncelleme programını yükleyerek yazılımın işlevi eklenebilir, değiştirilebilir veya silinebilir.
+
+Güncellenen yazılımın hak sahipliği ve telif hakkı Sony Home Entertainment & Sound Products Inc., Sony Grup Şirketi ve/veya üçüncü taraf lisans sahiplerine ait olacaktır.
+
+Sony Home Entertainment & Sound Products Inc., Sony Grup Şirketi ve üçüncü taraf lisans sahipleri güncellenen programın performansından ya da performans göstermeyişinden kaynaklanacak hiçbir kayıp ya da zarardan sorumlu olmayacaktır.
+
+Yukarıdaki koşullar yürürlükteki yasaların verdiği haklarınızı sınırlamaz.
+
+※Google ve Android, Google LLC.’in ticari markalarıdır.
+
+]]></Text>
+    </Notice>
+</NoticeFile>
+
