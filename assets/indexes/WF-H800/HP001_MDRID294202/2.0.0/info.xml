@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2020-08-25T05:34:15Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WF-H800" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="2.0.0" Operator="LessThan"/>
+                <Rule Type="System" Key="ClientVersion" Value="7.1.0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="4bbd9899446baacb80a9b486e52154763cb6a818" Size="1053904" Type="" URI="http://info.update.sony.net/HP001/MDRID294202/contents/0001/UPG_NOVP_2942_2.0.0_enc.bin" Version="2.0.0"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="96f748fd69149d9d7701e20d73274e9b4b12625d" Size="72921" Type="" URI="http://info.update.sony.net/HP001/MDRID294202/contents/0001/WF-H800_NoG_v2.0.0_.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="Brazilian" Title="BRPT"><![CDATA[Não insira os próprios fones de ouvido na caixa de carregamento.]]></Description>
+                <Description Lang="Chinese(Simplified)" Title="CS"><![CDATA[请勿将耳机本身插入充电保护盒。]]></Description>
+                <Description Lang="Chinese(Traditional)" Title="CT"><![CDATA[請勿將耳機本身插入充電盒。]]></Description>
+                <Description Lang="Dutch" Title="NL"><![CDATA[Het is verboden de hoofdtelefoon aan te sluiten op de lader.]]></Description>
+                <Description Lang="English" Title="GB"><![CDATA[Do not insert the headphones themselves into the charging case.]]></Description>
+                <Description Lang="Finnish" Title="FI"><![CDATA[Älä aseta kuulokkeita latauskoteloon.]]></Description>
+                <Description Lang="French" Title="FR"><![CDATA[Ne pas insérer le casque dans le boîtier de chargement.]]></Description>
+                <Description Lang="German" Title="DE"><![CDATA[Setzen Sie nicht die eigentlichen Kopfhörer in die Ladehülle ein.]]></Description>
+                <Description Lang="Italian" Title="IT"><![CDATA[Non inserire le cuffie nella custodia di ricarica.]]></Description>
+                <Description Lang="Japanese" Title="JP"><![CDATA[ヘッドホン本体を充電ケースに挿入しないでください。]]></Description>
+                <Description Lang="Korean" Title="KR"><![CDATA[충전 케이스에 헤드폰을 직접 끼우지 마십시오.]]></Description>
+                <Description Lang="Portuguese" Title="PT"><![CDATA[Não introduza os próprios auscultadores na caixa de carregamento.]]></Description>
+                <Description Lang="Russian" Title="RU"><![CDATA[Не вставляйте наушники в чехол для зарядки.]]></Description>
+                <Description Lang="Spanish" Title="ES"><![CDATA[No introduzca los auriculares en el estuche de carga.]]></Description>
+                <Description Lang="Swedish" Title="SE"><![CDATA[Sätt inte i själva hörlurarna i laddningsväskan.]]></Description>
+                <Description Lang="Turkish" Title="TR"><![CDATA[Kulaklıkların kendisini şarj kılıfına sokmayın.]]></Description>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+    
