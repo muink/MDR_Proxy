@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2021-04-12T14:25:12Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WF-SP800N" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.1.0" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="84037d13a8b39f6d3bef3a6a579a38b857c251ad" Size="1086480" Type="" URI="https://info.update.sony.net/HP002/MDRID294600/contents/0001/UPG_HDX-2946_V1.1.0_enc.bin" Version="1.1.0"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="0fcd9b19d3c1596ce25fed98b1a562d1f5ce213f" Size="89193" Type="" URI="https://info.update.sony.net/HP002/MDRID294600/contents/0001/HDX-2946_V0110_disclaimer_20210412.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="Brazilian" Title="BRPT"><![CDATA[Não insira os próprios fones de ouvido na caixa de carregamento. 
+Isso pode causar mau funcionamento da unidade.]]></Description>
+                <Description Lang="Chinese(Simplified)" Title="CS"><![CDATA[请勿将耳机本身插入充电保护盒。 
+否则可能会导致本设备发生故障。]]></Description>
+                <Description Lang="Chinese(Traditional)" Title="CT"><![CDATA[請勿將耳機本身插入充電盒。 
+否則可能會造成主機故障。]]></Description>
+                <Description Lang="Dutch" Title="NL"><![CDATA[Het is verboden de hoofdtelefoon aan te sluiten op de lader. 
+Dat kan leiden tot storingen in het toestel.]]></Description>
+                <Description Lang="English" Title="GB"><![CDATA[Do not insert the headphones themselves into the charging case. 
+Doing so may cause malfunction of this unit.]]></Description>
+                <Description Lang="Finnish" Title="FI"><![CDATA[Älä aseta kuulokkeita latauskoteloon. 
+Muuten seurauksena voi olla tämän yksikön toimintahäiriö.]]></Description>
+                <Description Lang="French" Title="FR"><![CDATA[Ne pas insérer le casque dans le boîtier de chargement. 
+Cette opération pourrait affecter le fonctionnement de cette unité.]]></Description>
+                <Description Lang="German" Title="DE"><![CDATA[Setzen Sie nicht die eigentlichen Kopfhörer in die Ladehülle ein. 
+Andernfalls kann es zu einer Fehlfunktion des Geräts kommen.]]></Description>
+                <Description Lang="Italian" Title="IT"><![CDATA[Non inserire le cuffie nella custodia di ricarica. 
+Questa operazione può causare un malfunzionamento dell'unità.]]></Description>
+                <Description Lang="Japanese" Title="JP"><![CDATA[ヘッドホン本体を充電ケースに挿入しないでください。 
+これらの操作をすると、本機が使用できなくなることがあります。]]></Description>
+                <Description Lang="Korean" Title="KR"><![CDATA[충전 케이스에 헤드폰을 직접 끼우지 마십시오. 
+본 기기의 오작동을 유발할 수 있습니다.]]></Description>
+                <Description Lang="Portuguese" Title="PT"><![CDATA[Não introduza os próprios auscultadores na caixa de carregamento. 
+Se o fizer, poderá avariar esta unidade.]]></Description>
+                <Description Lang="Russian" Title="RU"><![CDATA[Не вставляйте наушники в чехол для зарядки. 
+Это может привести к неисправности устройства.]]></Description>
+                <Description Lang="Spanish" Title="ES"><![CDATA[No introduzca los auriculares en el estuche de carga. 
+Si lo hace, podría provocar un funcionamiento incorrecto de la unidad.]]></Description>
+                <Description Lang="Swedish" Title="SE"><![CDATA[Sätt inte i själva hörlurarna i laddningsväskan. 
+Det kan göra så att den här enheten slutar fungera.]]></Description>
+                <Description Lang="Turkish" Title="TR"><![CDATA[Kulaklıkların kendisini şarj kılıfına sokmayın. 
+Bunu yapmanız bu ünitenin arızalanmasına yol açabilir.]]></Description>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+        
