@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2022-01-14T04:25:58Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WH-XB910N" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.2.2" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="88cddabbb79a2dfa2b4de500bde519ef02d944d7" Size="2913920" Type="" URI="https://info.update.sony.net/HP002/MDRID295100/contents/0002/1.2.2_UPG_english_enc_secureboot.bin" Version="1.2.2"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="7dd6f32be1c04ce989025fd275c135646d57b4b8" Size="80659" Type="" URI="https://info.update.sony.net/HP002/MDRID295100/contents/0002/WH-XB910N_G_v1.2.2_20220112.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+       
