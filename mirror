@@ -51,7 +51,7 @@ genMDRIDlist() {
 
 # mirror <stdval_model>
 mirror() {
-local model categoryid serviceid info index version fwurl fwname fwsize fwhash dlurl dlname dlsize dlhash
+local model categoryid serviceid info index order version fwurl fwname fwsize fwhash dlurl dlname dlsize dlhash
 
 if [ -f "$ASSETDIR$1" ]; then
   for _id in $(cat "$ASSETDIR$1"); do
@@ -60,10 +60,14 @@ if [ -f "$ASSETDIR$1" ]; then
     info="$(mdr -c "$categoryid" -s "$serviceid")"
     [ -z "$info" ]&& >&2 echo -e "$(basename $0): Get info.xml failed.\n\tPlease check MDRIDlist file and the network connection." && exit 1
     index="$(echo "$info"|base64 -d)"
-    model="$(echo "$index"|sed -En 's|\s*<Rule Type="System" Key="Model" Value="(.+)" Operator=".+"/>.*|\1| p')"
-    version="$(echo "$index"|sed -En 's|\s*<Rule Type="System" Key="FirmwareVersion" Value="(.+)" Operator=".+"/>.*|\1| p')"
-    fwurl=; fwname=; fwsize=; fwhash=; eval "$(echo "$index"|sed -En 's|\s*<Distribution ID="FW" InstallParams=".*" InstallType="binary" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|fwhash="\1"; fwsize="\2"; fwurl="\3"| p')"; fwname="${fwurl##*/}"
-    dlurl=; dlname=; dlsize=; dlhash=; eval "$(echo "$index"|sed -En 's|\s*<Distribution ID="Disclaimer" InstallParams=".*" InstallType="notice" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|dlhash="\1"; dlsize="\2"; dlurl="\3"| p')"; dlname="${dlurl##*/}"
+    for _i in $(echo "$index"|sed -En 's|\s*<ApplyCondition ApplyOrder="([0-9]+)" Force=".+">|\1| p'); do
+      order="$(echo "$index"|sed -En "/\s*<ApplyCondition ApplyOrder=\"$_i\" Force=\".+\">/,/\s*<\/ApplyCondition>/ p")"
+      model="$(echo "$order"|sed -En 's|\s*<Rule Type="System" Key="Model" Value="(.+)" Operator=".+"/>.*|\1| p')"
+      version="$(echo "$order"|sed -En 's|\s*<Rule Type="System" Key="FirmwareVersion" Value="(.+)" Operator=".+"/>.*|\1| p')"
+      fwurl=; fwname=; fwsize=; fwhash=; eval "$(echo "$order"|sed -En 's|\s*<Distribution ID="FW" InstallParams=".*" InstallType="binary" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|fwhash="\1"; fwsize="\2"; fwurl="\3"| p')"; fwname="${fwurl##*/}"
+      dlurl=; dlname=; dlsize=; dlhash=; eval "$(echo "$order"|sed -En 's|\s*<Distribution ID="Disclaimer" InstallParams=".*" InstallType="notice" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|dlhash="\1"; dlsize="\2"; dlurl="\3"| p')"; dlname="${dlurl##*/}"
+
+mkdir -p "$INDEXDIR${model:=$1}/"
 
 # Write info.xml
 mkdir -p "$INDEXDIR$model/${categoryid}_${serviceid}/$version/"
@@ -95,6 +99,7 @@ if [ ! -f "$DISCLAIMERDIR${dlhash:0:2}/$dlhash" ]; then
 fi
 
 
+    done
   done
 else
   >&2 echo -e "$(basename $0): The MDRIDlist file for '$1' is missing.\n\tPlease regenerate the file." && exit 1
@@ -110,5 +115,4 @@ setElements "$1" model categoryID serviceID
 genMDRIDlist "$model" "$categoryID" "$serviceID"
 # Mirror the latest firmware
 mirror "$model"
-
 
