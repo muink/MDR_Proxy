@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2022-05-26T00:42:18Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.6.0" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="e1680d54768c340b69df41e61d21c628965fedea" Size="3037104" Type="" URI="https://info.update.sony.net/HP002/MDRID295303/contents/0003/1.6.0_UPG_japanese_enc_secureboot.bin" Version="1.6.0"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="004a9023094bca06e3cf9491c3d7fe92994ae4ce" Size="92322" Type="" URI="https://info.update.sony.net/HP002/MDRID295303/contents/0003/HDX-2953_V0160_disclaimer_20220524.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+    
