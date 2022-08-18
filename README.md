@@ -7,6 +7,7 @@
   使用方法为`./mdr -c <categoryID> -s <serviceID> | base64 -d`
 + `mirror`: 固件镜像工具, 可以从官网下载最新的固件并保存到`./assets`目录下
   使用方法为`./mirror <Model>`
+  刷新整个库存: `sed -nE "1,/^Model\|categoryID\|serviceID\|HTTPS$/d; /^-\|-\|-\|-$/n;p" README.md | cut -f1 -d'|' | xargs -I{} ./mirror {}`
 
 Model|categoryID|serviceID|HTTPS
 -|-|-|-
