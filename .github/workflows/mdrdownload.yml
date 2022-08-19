@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  '0 8 * * *'
+    - cron:  '0 8 * * 3'
 
 jobs:
   download:
@@ -13,24 +13,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Caching npm dependencies
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-      
       - name: Download
-        run: npm run download
+        run: sed -nE "1,/^Model\|categoryID\|serviceID\|HTTPS$/d; /^-\|-\|-\|-$/n;p" README.md | cut -f1 -d'|' | xargs -I{} ./mirror {}
 
       - name: Commit files
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add firmware/* mdrdownload.json
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add assets/*
           git diff-index --cached --quiet HEAD -- || (git commit -m "auto download firmware" && git push)
