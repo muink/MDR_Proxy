@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2022-11-08T09:41:51Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="Model" Value="WF-1000XM4" Operator="Equal"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.6.1" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="910a0a00358b5b31fe615b5094cd958563d92ca8" Size="2280672" Type="" URI="https://info.update.sony.net/HP002/MDRID294803/contents/0005/UPG_1.6.1_except_enc.bin" Version="1.6.1"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="696cdec2955c0a6b8af270992399605076fb16f3" Size="89229" Type="" URI="https://info.update.sony.net/HP002/MDRID294803/contents/0005/HPC_WF-1000XM4_v1.6.1_20221108.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+               
