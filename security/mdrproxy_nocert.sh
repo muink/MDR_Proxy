@@ -1,8 +1,8 @@
 # 生成证书
 # generating a certificate
-openssl req -x509 -days 365 -config info.update.sony.net.conf -out mdrproxy_ca.pem -keyout mdrproxy_key.pem
-cp mdrproxy_ca.pem mdrproxy-cert.pem
-cp mdrproxy_key.pem mdrproxy-key.pem
+# openssl req -x509 -days 365 -config info.update.sony.net.conf -out mdrproxy_ca.pem -keyout mdrproxy_key.pem
+# cp mdrproxy_ca.pem mdrproxy-cert.pem
+# cp mdrproxy_key.pem mdrproxy-key.pem
 # 解包app
 # unpacking app
 java -jar apktool.jar d --output Headphones --no-src $1
