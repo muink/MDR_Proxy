@@ -63,7 +63,7 @@ if [ -f "$ASSETDIR$1" ]; then
     for _i in $(echo "$index"|sed -En 's|\s*<ApplyCondition ApplyOrder="([0-9]+)" Force=".+">|\1| p'); do
       order="$(echo "$index"|sed -En "/\s*<ApplyCondition ApplyOrder=\"$_i\" Force=\".+\">/,/\s*<\/ApplyCondition>/ p")"
       model="$(echo "$order"|sed -En 's|\s*<Rule Type="System" Key="Model" Value="(.+)" Operator=".+"/>.*|\1| p')"
-      version="$(echo "$order"|sed -En 's|\s*<Rule Type="System" Key="FirmwareVersion" Value="(.+)" Operator=".+"/>.*|\1| p')"
+      version="$(echo "$order"|sed -En 's|\s*<Rule Type="System" Key="FirmwareVersion" Value="(.+)" Operator="(.+)"/>.*|\1 \2| p'|grep -v 'GreaterThanEqual'|cut -f1 -d' ')"
       fwurl=; fwname=; fwsize=; fwhash=; eval "$(echo "$order"|sed -En 's|\s*<Distribution ID="FW" InstallParams=".*" InstallType="binary" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|fwhash="\1"; fwsize="\2"; fwurl="\3"| p')"; fwname="${fwurl##*/}"
       dlurl=; dlname=; dlsize=; dlhash=; eval "$(echo "$order"|sed -En 's|\s*<Distribution ID="Disclaimer" InstallParams=".*" InstallType="notice" MAC="(.+)" Size="(.+)" Type=".*" URI="(.+)" Version=".+"/>.*|dlhash="\1"; dlsize="\2"; dlurl="\3"| p')"; dlname="${dlurl##*/}"
 

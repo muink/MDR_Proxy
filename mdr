@@ -75,7 +75,7 @@ decryptData() {
   local headerSplit=(eaid daid digest)
   for _key in "${headerSplit[@]}"; do
     eval "local $_key=\$(echo \"\$1\"|sed -En \"/^\$_key:.*/I s|^\$_key:||i p\")"
-    if [ -z "$(eval "echo \$$_key")" ]; then >&2 echo -e "$(basename $0): Data header error."; exit 1; fi
+    if [ -z "$(echo ${!_key})" ]; then >&2 echo -e "$(basename $0): Data header error."; exit 1; fi
   done
 # Analytical header
 local enc has datahash hash
@@ -96,8 +96,8 @@ esac
 if [ -z "$enc" -o -z "$has" ]; then >&2 echo -e "$(basename $0): Undefined encryption method:\n\t$eaid:{eaid:-null}\n\tdaid:${daid:-null}"; exit 1; fi
 # Decrypt
 case "$enc" in
-  none)eval "$3=\$(echo \"\$2\"|base64 -d|base64)";;
-  des-ede3)eval "$3=\$(echo \"\$2\"|base64 -d|openssl enc -d -des-ede3 -K 000000000000000000000000000000000000000000000000 -nopad|base64)";;
+  none)       eval "$3=\$(echo \"\$2\"|base64 -d|base64)";;
+  des-ede3)   eval "$3=\$(echo \"\$2\"|base64 -d|openssl enc -d -des-ede3 -K 000000000000000000000000000000000000000000000000 -nopad|base64)";;
   aes-128-ecb)eval "$3=\$(echo \"\$2\"|base64 -d|openssl enc -d -aes-128-ecb -K 4FA27999FFD08B1FE4D260D57B6D3C17 -nopad|base64)";;
 esac
 # openssl enc -e -des-ede3 -in des-ede3_decrypted.xml -out des-ede3_out.txt -K 000000000000000000000000000000000000000000000000 -nosalt -nopad
@@ -107,8 +107,8 @@ esac
 # Verify
 case "$has" in
   none)hash="$digest";;
-  md5)eval "datahash=\$(echo \"\$$3\"|base64 -d|md5sum -b|cut -f1 -d' ')"; hash="$(echo -n "$datahash$serviceID$categoryID"|md5sum -b|cut -f1 -d' ')";;
-  sha1)eval "datahash=\$(echo \"\$$3\"|base64 -d|sha1sum -b|cut -f1 -d' ')"; hash="$(echo -n "$datahash$serviceID$categoryID"|sha1sum -b|cut -f1 -d' ')";;
+  md5) datahash=$(echo "${!3}"|base64 -d|md5sum -b |cut -f1 -d' '); hash="$(echo -n "$datahash$serviceID$categoryID"|md5sum -b |cut -f1 -d' ')";;
+  sha1)datahash=$(echo "${!3}"|base64 -d|sha1sum -b|cut -f1 -d' '); hash="$(echo -n "$datahash$serviceID$categoryID"|sha1sum -b|cut -f1 -d' ')";;
 esac
 if [ "$hash" != "$digest" ]; then >&2 echo -e "$(basename $0): Data checksum error. Decryption failed."; exit 1; fi
 }
