@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Download
-        run: sed -nE "1,/^Model\|categoryID\|serviceID\|HTTPS$/d; /^-\|-\|-\|-$/n;p" README.md | cut -f1 -d'|' | xargs -I{} ./mirror {}
+        run: sed -nE "1,/^\| +Model +\| +categoryID +\| +serviceID +\| +HTTPS +\|$/d; /^\| +-+ +\| +-+ +\| +-+ +\| +-+ +\|$/n;p" README.md | cut -f2 -d'|' | sed -E "s|^ +||g;s| +$||g" | xargs -I{} ./mirror "{}"
 
       - name: Commit files
         run: |

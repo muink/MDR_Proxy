@@ -36,7 +36,7 @@ The following are some links, if you want to add or remove your content from the
   使用方法为`./mdr -c <categoryID> -s <serviceID> | base64 -d`
 + `mirror`: 固件镜像工具, 可以从官网下载最新的固件并保存到`./assets`目录下
   使用方法为`./mirror <Model>`  
-  如要刷新整个库存: `sed -nE "1,/^\| *Model *\| *categoryID *\| *serviceID *\| *HTTPS *\|$/d; /^\| *-+ *\| *-+ *\| *-+ *\| *-+ *\|$/n;p" README.md | cut -f2 -d'|' | sed -E "s|^ +||g;s| +$||g" | xargs -I{} ./mirror "{}"`
+  如要刷新整个库存: `sed -nE "1,/^\| +Model +\| +categoryID +\| +serviceID +\| +HTTPS +\|$/d; /^\| +-+ +\| +-+ +\| +-+ +\| +-+ +\|$/n;p" README.md | cut -f2 -d'|' | sed -E "s|^ +||g;s| +$||g" | xargs -I{} ./mirror "{}"`
 
 ## Appendix
 
