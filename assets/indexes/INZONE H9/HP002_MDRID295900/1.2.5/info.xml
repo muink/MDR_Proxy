@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2022-10-12T01:26:09Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.2.5" Operator="LessThan"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="1.0.1" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="48bf6fc4c7b1dbfbbcaf4765a19e0002d672a8fa" Size="1533669" Type="" URI="https://info.update.sony.net/HP002/MDRID295900/contents/0001/GHP-UPG-010205.zip" Version="1.2.5"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="874fa0348d1ffa2f65edf8713c69adddf3d84696" Size="74568" Type="" URI="https://info.update.sony.net/HP002/MDRID295900/contents/0001/INZONEHub_disclaimer.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="Title"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+       
