@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2023-02-13T08:46:13Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="2.1.3" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="cb1d8636045d7941c5b39bcb2a2f3ac1e37ea311" Size="3574256" Type="" URI="https://info.update.sony.net/HP002/MDRID295303/contents/0005/2.1.3_UPG_japanese_enc_secureboot.bin" Version="2.1.3"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="58a58cab48eaa7760fa07dbb1a3650331083db2c" Size="92547" Type="" URI="https://info.update.sony.net/HP002/MDRID295303/contents/0005/LinkBuds_WW_v2.1.3_20230206.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+           
