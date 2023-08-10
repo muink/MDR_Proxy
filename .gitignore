@@ -42,7 +42,7 @@ custom/*.bin
 temp
 apk
 *.js
-*.xml
+#*.xml
 security/Headphones
 security/*.apk
 security/*.jar
