@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NoticeFile Version="1.0" DefaultLocale="UK">
+    <Notice Locale="Japan">
+        <Text><![CDATA[
+﻿※極力Bluetoothの接続が安定している環境でアップデートを行って下さい。
+※Android機器（もしくはiOS機器）にBluetooth Low Energy機器（ウェアラブル端末、スマート・ウォッチなど）が接続されていると、アップデートできないことがあります。本機以外のすべてのBluetooth機器とAndroid機器（もしくはiOS機器）の接続を切断してからアップデートをおこなってください。
+※電車など乗り物に乗っている状態やWi-Fiや電子レンジ、コードレス電話などの2.4GHz帯の電波が多く飛び交うような環境ではアップデートを行わないようご注意ください。
+
+※ Sony | Headphones Connect ※
+本体アップデート前に、最新のバージョンにアップデートをしてください
+
+[バージョン2.0.0でのアップデート内容]
+[1] ヘッドホンが2台の機器と同時に接続できるようになりました。
+[2] 音楽再生時にヘッドホン本体で音量調節する方法を追加しました。
+[3] その他の機能を改善しました。
+
+[ご注意]
+1)ソフトウェア更新には、およそ10分(Android機器/iOS機器)かかります。
+アップデートのダウンロード中、データ転送中はヘッドホンとしてお使いいただけません。
+2)本ヘッドホンやAndroid機器（もしくはiOS機器）のバッテリー残量が十分にあることをご確認の上アップデートを行って下さい。
+
+[ソフトウェアバージョン確認方法]
+Sony | Headphones Connectアプリの画面右上のメニューから[WF-C700N バージョン]を選択し確認してください。
+
+
+・アップデートの前に以下の注意をお読みください。
+
+対象製品にはソニー株式会社、ソニー株式会社の関係会社（以下「ソニーグループ会社」といいます）及び／又はその他第三者ライセンサーが著作権を有するソフトウェア（そのアップデート版を含み、以下「ソフトウェア」といいます）が組み込まれています。このソフトウェアは日本国内外の著作権法並びに著作者の権利及びこれに隣接する権利に関する諸条約その他知的財産権に関する法令によって保護されています。
+お客様はソフトウェアを対象製品の機能の一部としてのみお使いいただけます。ただし、お客様とソニー株式会社、ソニーグループ会社及び／又はその他第三者ライセンサーとの間の使用許諾契約で別途明示的に許諾される場合はこの限りでありません。
+
+アップデートプログラムは、セキュリティ機能の向上、バグ・エラーの修正その他の機能向上・改善等の目的で対象製品上のソフトウェアをアップデートするものです。
+ただし、アップデートプログラムによって対象製品上のソフトウェアのすべてのバグ・エラー等が修正されるものではありません。また、アップデートに伴い、ソフトウェアの機能が追加、変更又は削除されることがあります。また、アップデート後は前のバージョンに戻すことはできません。
+
+ソフトウェアは、現状有姿の状態でお客様に提供及び使用許諾されます。ソニー株式会社、ソニーグループ会社及び／又はその他第三者ライセンサーは、ソフトウェアにエラー・バグ等の不具合がないこと、ソフトウェアが中断なく稼動すること、ソフトウェアの使用がお客様及び／又は第三者に損害を与えないことその他一切の保証をいたしません。
+また、ソフトウェアの使用、又はそのアップデートプログラムを適用したこともしくは適用しないことに付随又は関連してお客様に生じる損害について、ソニー株式会社、ソニーグループ会社及び／又はその他第三者ライセンサーが負う損害賠償責任は、故意又は重過失による場合を除きいかなる場合も、お客様に直接かつ現実に生じた通常の損害に限定され、かつ、お客様が証明する対象製品の購入代金を上限とします。ただし、当該制限を禁止する法律の定めがある場合はこの限りではありません。
+
+以上をご了承いただいた上、アップデートにお進みください。
+
+※Android は Google LLC の商標です。
+]]></Text>
+    </Notice>
+    <Notice Locale="UK">
+        <Text><![CDATA[
+﻿※Please update in an environment where the Bluetooth connection is most stable.
+※Update may be unavailable if a Bluetooth Low Energy device (wearable device, smartwatch, etc.) is connected to the Android device (or iOS device). Perform update after disconnecting all Bluetooth devices other than this device from the Android device (or iOS device).
+※Please be careful not to update while in riding on vehicles, such as trains, or in environments where 2.4 GHz band radio waves such as Wi-Fi, microwave ovens, cordless phones and many other radio waves are intermingled.
+
+※ Sony | Headphones Connect ※
+Please update to the latest version before updating the main unit
+
+[Update details in version 2.0.0]
+[1] You can now simultaneously connect 2 devices to the headphones.
+[2] Added a method to adjust the volume on the headphones while playing music.
+[3] Improved other functions.
+
+[Notes]
+1)Software update takes about 10 minutes for Android or about 10 minutes for iOS.
+Unavailable for use as headphones while downloading updates and transferring data.
+2)Perform update after confirming that the remaining battery charge is sufficient on the headphones and Android device (or iOS device).
+
+[How to check the software version]
+Select [WF-C700N Version] from the upper right menu of Sony | Headphones Connect application screen.
+
+
+YOU SHOULD CAREFULLY READ THESE TERMS BELOW BEFORE UPDATING SOFTWARE.
+
+This product contains software (including its updated and/or modified version, “Software”), of which title in and to and copyright are owned and controlled by Sony Corporation, affiliates of Sony Corporation (“Sony Group Company”) and/or its third party licensors.  The Software is protected by copyright and other intellectual property laws and international treaties.
+You may only use the Software as a part of functions provided by the product, unless otherwise granted by a separate license agreement made between you and Sony Corporation, Sony Group Company and/or its third party licensors.
+
+This update program shall be provided to update or otherwise modify the Software of this product, including, but not limited to, for the purpose of (i) enhancement of security function, (ii) bug fix or error correction, and (iii) other upgrade and/or improvement of features. 
+You expressly acknowledge and agree that (i) application of the update program shall not correct all bugs or errors in the Software incorporated in the product, (ii) such updates or modifications may delete or change the nature of features or other aspects of the Software, including, but not limited to, functions you may rely upon, and (iii) the installation of an older Software version is not available after such updates or modifications. 
+
+THE SOFTWARE IS PROVIDED AND LICENSED TO YOU “AS IS” AND WITHOUT WARRANTY OF ANY KIND.  SONY CORPORATION, SONY GROUP COMPANY AND THIRD PARTY LICENSORS EXPRESSLY DISCLAIM ALL WARRANTIES, DUTIES OR CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, (I) THAT THE SOFTWARE IS OR WILL BE FREE FROM INCORRECT, ERRORS, BUGS OR OTHER DEFECTS, (II) THAT THE SOFTWARE WORK OR WILL WORK CORRECTLY AND PERFECTLY WITHOUT INTERRUPTION, AND (III) THAT USE OF THE SOFTWARE WILL NOT DAMAGE TO YOU AND/OR ANY THIRD PARTIES.
+EXCEPT FOR LIABILITIES ARISING IN CONNECTION WITH GROSS NEGLIGENCE TORT OR WILLFUL MISCONDUCT BY SONY CORPORATION, SONY GROUP COMPANY AND/OR THIRD PARTY LICENSORS, SONY CORPORATION, SONY GROUP COMPANY AND THIRD PARTY LICENSORS SHALL NOT BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES TO YOU OR FOR ANY EXEMPLARY OR PUNITIVE DAMAGES, ARISING FROM ANY USE OF THE SOFTWARE OR THE PERFORMANCE OR NON-PERFORMANCE OF ITS UPDATED PROGRAM, EVEN IF ANY OF THEM HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN ANY CASE, EACH AND ALL OF THEIR AGGREGATE LIABILITY REGARDING THE SOFTWARE SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID FOR THIS PRODUCT.  SOME JURISDICTIONS DO NOT ALLOW SUCH LIMITATION OF LIABILITY, SO SUCH LIMITATION MAY NOT APPLY TO YOU.
+
+IF YOU ACCEPT THESE TERMS ABOVE, PLEASE PROCEED TO UPDATING SOFTWARE.
+
+※Android is a trademark of Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="France">
+        <Text><![CDATA[
+﻿※Veuillez actualiser dans un environnement où la connexion Bluetooth est la plus stable possible.
+※La mise à jour risque de ne pas être possible si un appareil Bluetooth basse consommation (ordinateur vestimentaire, montre intelligente, etc.) est connecté à l’appareil Android (ou à l’appareil iOS). Effectuez la mise à jour après avoir déconnecté tous les appareils Bluetooth autres que cet appareil-ci à partir de l’appareil Android (ou de l’appareil iOS).
+※Assurez-vous de ne pas actualiser si vous êtes dans des véhicules, comme des trains, ou dans des environnements avec des ondes radio de 2,4 GHz comme celles des réseaux Wi-Fi, des fours à micro-ondes, des téléphones sans fils et où de nombreuses autres ondes radio se mélangent.
+
+※ Sony | Headphones Connect ※
+Veuillez actualiser à la dernière version avant d'actualiser l'unité principale
+
+[Mettez à jour les détails dans la version 2.0.0]
+[1] Vous pouvez désormais connecter simultanément 2 appareils au casque.
+[2] Ajout d’une méthode pour régler le volume du casque pendant la lecture de la musique.
+[3] Amélioration d’autres fonctions.
+
+[Avertissement]
+1)La mise à jour du logiciel prend environ 10 minutes pour Android et environ 10 minutes pour iOS.
+ Utilisation du casque non disponible pendant le téléchargement de mises à jour ou du transfert de données.
+2)Effectuez la mise à jour après avoir vérifié que le niveau de charge de la batterie est suffisant sur le casque et l’appareil Android (ou l’appareil iOS).
+
+[Comment vérifier la version du logiciel]
+Sélectionnez [WF-C700N Version] à partir du menu en haut à droite de l'écran dans l'application Sony | Headphones Connect.
+
+
+VEUILLEZ LIRE ATTENTIVEMENT LES PRÉSENTES CONDITIONS CI-DESSOUS AVANT DE METTRE À JOUR LE LOGICIEL.
+
+Le présent produit contient un logiciel (y compris sa version mise à jour et/ou modifiée, « Logiciel »), dont le droit de propriété et le droit d’auteur appartiennent à et sont contrôlés par Sony Corporation, les affiliés de Sony Corporation (« Société du Groupe Sony ») et/ou ses détenteurs de licence tiers. Le Logiciel est protégé par les lois régissant les droits d’auteur et les autres lois et traités internationaux régissant la propriété intellectuelle.
+Vous pouvez uniquement utiliser le Logiciel en tant que partie intégrante des fonctions fournies par le produit, sauf octroi contraire par un contrat de licence séparé conclu entre vous et Sony Corporation, Société du Groupe Sony et/ou ses détenteurs de licence tiers.
+
+Le présent programme de mise à jour sera fourni pour mettre à jour ou sinon modifier le Logiciel du présent produit, y compris, mais sans toutefois s’y limiter, dans le but de fournir (i) une amélioration de la fonction de sécurité, (ii) une résolution de bogue ou une correction d’erreurs, et (iii) une autre mise à niveau et/ou amélioration des fonctionnalités. 
+Vous reconnaissez expressément et acceptez que (i) l’application du programme de mise à jour ne corrige pas tous les bogues ou toutes les erreurs dans le Logiciel intégré au produit, (ii) ces mises à jour ou ces modifications peuvent supprimer ou modifier la nature des fonctionnalités ou d’autres aspects du Logiciel, y compris, mais sans toutefois s’y limiter, les fonctions sur lesquelles vous comptez, et (iii) l’installation d’une version plus ancienne du Logiciel ne sera pas possible après ces mises à jour ou ces modifications. 
+
+LE LOGICIEL VOUS EST FOURNI ET CONCÉDÉ EN LICENCE « EN L’ÉTAT » ET SANS GARANTIE D’AUCUNE SORTE. SONY CORPORATION, SOCIÉTÉ DU GROUPE SONY ET LES DÉTENTEURS SOUS LICENCE DÉCLINENT EXPRESSÉMENT TOUTE GARANTIE, OBLIGATION OU CONDITION, EXPLICITE OU IMPLICITE, Y COMPRIS, MAIS SANS TOUTEFOIS S’Y LIMITER, (I) QUE LE LOGICIEL EST OU SERA EXEMPT D’IMPRÉCISIONS, D’ERREURS, DE BOGUES OU D’AUTRES DÉFAUTS, (II) QUE LE LOGICIEL FONCTIONNE OU FONCTIONNERA CORRECTEMENT ET PARFAITEMENT, SANS INTERRUPTION, ET (III) QUE L’UTILISATION DU LOGICIEL NE CAUSERA AUCUN DOMMAGE À VOUS ET/OU À DES TIERS.
+EXCEPTÉ POUR LES RESPONSABILITÉS QUI DÉCOULENT D’UNE NÉGLIGENCE GRAVE, D’UN DÉLIT OU D’UNE FAUTE DÉLIBÉRÉE DE LA PART DE SONY CORPORATION, SOCIÉTÉ DU GROUPE SONY ET/OU DE DÉTENTEURS DE LICENCE TIERS, SONY CORPORATION, SOCIÉTÉ DU GROUPE SONY ET LES DÉTENTEURS DE LICENCE TIERS NE PEUVENT ÊTRE TENUS RESPONSABLES POUR DES DOMMAGES SPÉCIAUX, INDIRECTS, IMMATÉRIELS OU ACCESSOIRES ENVERS VOUS OU DE TOUS DOMMAGES EXEMPLAIRES OU PUNITIFS, QUI DÉCOULENT DE TOUTE UTILISATION DU LOGICIEL OU DE L’EXÉCUTION OU DE L’INEXÉCUTION DE SON PROGRAMME MIS À JOUR, MÊME DANS LE CAS OÙ L’UN D’ENTRE EUX AURAIT ÉTÉ AVERTI DE LA POSSIBILITÉ DE TELS DOMMAGES. DANS TOUS LES CAS, TOUTES LEURS RESPONSABILITÉS GLOBALES ET CHACUNE D’ENTRE ELLES CONCERNANT LE LOGICIEL SERONT LIMITÉES AU MONTANT PAYÉ EFFECTIVEMENT POUR LE PRÉSENT PRODUIT. CERTAINES JURIDICTIONS N’AUTORISENT PAS UNE TELLE LIMITATION DE RESPONSABILITÉ, ET DONC UNE TELLE LIMITATION PEUT NE PAS S’APPLIQUER À VOUS.
+
+SI VOUS ACCEPTEZ LES PRÉSENTES CONDITIONS CI-DESSUS, VEUILLEZ PROCÉDER À LA MISE À JOUR DU LOGICIEL.
+
+※Android est une marque de Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Germany">
+        <Text><![CDATA[
+﻿※Führen Sie die Aktualisierung in einer Umgebung durch, in der die Bluetooth-Verbindung besonders stabil ist.
+※Das Update ist möglicherweise nicht verfügbar, wenn ein Bluetooth Low Energy-Gerät (tragbares Gerät, Smartwatch usw.) mit dem Android-Gerät (oder iOS-Gerät) verbunden ist. Führen Sie das Update durch, nachdem Sie alle anderen Bluetooth-Geräte als dieses Gerät vom Android-Gerät (oder iOS-Gerät) getrennt haben.
+※Achten Sie darauf, die Aktualisierung nicht während der Fahrt in Fahrzeugen, wie Zügen, oder in Umgebungen durchzuführen, in denen 2,4-GHz-Band-Radiowellen (wie Wi-Fi, Mikrowellengeräte, kabellose Telefone) und viele andere Funkwellen vorhanden sind.
+
+※ Sony | Headphones Connect ※
+Führen Sie vor der Aktualisierung des Hauptgeräts eine Aktualisierung auf die aktuelle Version durch 
+
+[Aktualisierungsdetails in Version 2.0.0]
+[1] Sie können jetzt 2 Geräte gleichzeitig mit den Kopfhörern verbinden.
+[2] Es wurde eine Methode hinzugefügt, um die Lautstärke der Kopfhörer bei der Wiedergabe von Musik anzupassen.
+[3] Andere Funktionen wurden verbessert.
+
+[Achtung]
+1)Die Softwareaktualisierung dauert ungefähr 10 Minuten für Android bzw. ungefähr 10 Minuten für iOS.
+Steht während des Downloads von Aktualisierungen und der Übertragung von Daten nicht zur Verwendung als Kopfhörer zur Verfügung.
+2)Führen Sie das Update durch, nachdem Sie bestätigt haben, dass die verbleibende Batterieladung auf dem Kopfhörer und dem Android-Gerät (oder iOS-Gerät) ausreichend ist.
+
+[So prüfen Sie die Softwareversion]
+Wählen Sie [WF-C700N Version] im oben rechts angezeigten Menü des Anwendungsbildschirms Sony | Headphones Connect aus.
+
+
+SIE SOLLTEN DIESE BEDINGUNGEN SORGFÄLTIG LESEN, BEVOR SIE DIE SOFTWARE AKTUALISIEREN.
+
+Dieses Produkt enthält Software (einschließlich der aktualisierten und/oder geänderten Version, „Software“), deren Eigentums- und Urheberrecht von der Sony Corporation, den verbundenen Unternehmen der Sony Corporation („Unternehmen der Sony-Gruppe“) und/oder deren Dittlizenzgebern gehören und von diesen kontrolliert werden.  Die Software ist durch Urheberrecht und andere Gesetze zum Schutz geistigen Eigentums sowie durch internationale Verträge geschützt.
+Sie dürfen die Software nur als Teil der von dem Produkt bereitgestellten Funktionen verwenden, es sei denn, dies wird durch eine gesonderte Lizenzvereinbarung zwischen Ihnen und der Sony Corporation, der Unternehmen der Sony-Gruppe und/oder deren Drittlizenzgebern gewährt.
+
+Dieses Aktualisierungsprogramm wird bereitgestellt, um die Software dieses Produkts zu aktualisieren oder anderweitig zu ändern, einschließlich, aber nicht beschränkt auf (i) Verbesserung der Sicherheitsfunktion, (ii) Fehlerbehebung oder Fehlerkorrektur und (iii) sonstige Upgrades und/oder Verbesserung von Features. 
+Sie erkennen ausdrücklich an und erklären sich damit einverstanden, dass (i) die Anwendung des Aktualisierungsprogramms nicht alle Störungen oder Fehler in der im Produkt enthaltenen Software korrigiert, (ii) solche Aktualisierungen oder Änderungen die Art der Features oder andere Aspekte der Software löschen oder ändern können, einschließlich, aber nicht beschränkt auf Funktionen, auf die Sie sich möglicherweise verlassen, und (iii) die Installation einer älteren Softwareversion nach solchen Aktualisierungen oder Änderungen nicht möglich ist.
+
+DIE SOFTWARE WIRD IHNEN „WIE BESEHEN“ UND OHNE JEGLICHE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT UND LIZENZIERT.  SONY CORPORATION, UNTERNEHMEN DER SONY-GRUPPE UND DRITTLIZENZGEBER LEHNEN AUSDRÜCKLICH ALLE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GARANTIEN, PFLICHTEN ODER BEDINGUNGEN AB, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF, (I) DASS DIE SOFTWARE FREI VON INKORREKTHEITEN, FEHLERN, STÖRUNGEN ODER ANDEREN MÄNGELN IST ODER SEIN WIRD, (II) DASS DIE SOFTWARE RICHTIG UND PERFEKT OHNE UNTERBRECHUNG FUNKTIONIERT ODER FUNKTIONIEREN WIRD UND (III) DASS DIE VERWENDUNG DER SOFTWARE IHNEN UND/ODER JEGLICHEN DRITTEN KEINEN SCHADEN ZUFÜGEN WIRD.
+MIT AUSNAHME VON VERBINDLICHKEITEN, DIE IM ZUSAMMENHANG MIT FAHRLÄSSIGKEITSDELIKTEN ODER VORSÄTZLICHEM MISSVERHALTEN DURCH DIE SONY CORPORATION, UNTERNEHMEN DER SONY-GRUPPE UND/ODER DRITTLIZENZGEBERN ENTSTEHEN, SIND DIE SONY CORPORATION, UNTERNEHMEN DER SONY-GRUPPE UND DRITTLIZENZGEBER NICHT HAFTBAR FÜR JEGLICHE SPEZIELLE, INDIREKTE, ZUFÄLLIGE ODER RESULTIERENDE SCHÄDEN FÜR SIE ODER FÜR JEGLICHE EXEMPLARISCHE SCHÄDEN ODER STRAFSCHADENERSATZ, DIE SICH AUS DER VERWENDUNG DER SOFTWARE ODER DER LEISTUNG ODER NICHTLEISTUNG IHRES AKTUALISIERTEN PROGRAMMS ERGEBEN, AUCH WENN EINER VON IHNEN AUF DIE MÖGLICHKEIT DIESER SCHÄDEN HINGEWIESEN WURDE.  IN JEDEM FALL IST JEDE UND IHRE GESAMTE HAFTUNG BEZÜGLICH DER SOFTWARE AUF DEN TATSÄCHLICH FÜR DIESES PRODUKT BEZAHLTEN BETRAG BESCHRÄNKT.  EINIGE GERICHTSBARKEITEN ERLAUBEN DIESE HAFTUNGSBESCHRÄNKUNG NICHT, DAHER GILT DIESE BESCHRÄNKUNG MÖGLICHERWEISE NICHT FÜR SIE. 
+
+WENN SIE DIESE OBEN GENANNTEN BEDINGUNGEN AKZEPTIEREN, FAHREN SIE BITTE MIT DER AKTUALISIERUNG DER SOFTWARE FORT.
+
+※Android ist eine Marke von Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Spain">
+        <Text><![CDATA[
+﻿※Realice la actualización en un entorno con la conexión Bluetooth más estable.
+※Tal vez no se pueda realizar la actualización si un dispositivo Bluetooth de bajo consumo (dispositivo portátil, reloj inteligente, etc.) está conectado al dispositivo Android (o al dispositivo iOS). Realice la actualización después de desconectar todos los dispositivos Bluetooth distintos de este dispositivo desde el dispositivo Android (o desde el dispositivo iOS).
+※Evite realizar la actualización mientras esté circulando en vehículos, como un tren, o en entornos en los que las ondas de radio de la banda de 2.4 GHz, como conexiones Wi-Fi, hornos microondas, teléfonos inalámbricos y otras ondas de radio, puedan provocar interferencias.
+
+※ Sony | Headphones Connect ※
+Actualice a la última versión antes de actualizar la unidad principal.
+
+[Detalles de la actualización en la versión 2.0.0]
+[1] Ahora podrá conectar simultáneamente 2 dispositivos a los auriculares.
+[2] Nuevo método para ajustar el volumen en los auriculares al reproducir música.
+[3] Optimización de otras funciones.
+
+[Precaución]
+1)La actualización de software tarda aproximadamente 10 minutos en el caso de Android o unos 10 minutos en el caso de iOS.
+No disponible para su uso como auriculares durante la descarga de actualizaciones y la transferencia de datos.
+2)Realice la actualización después de haber comprobado que la carga restante de la batería es suficiente en los auriculares y en el dispositivo Android (o en el dispositivo iOS).
+
+[Comprobación de la versión del software]
+Seleccione [WF-C700N Versión] en el menú de la parte superior derecha de la pantalla de la aplicación Sony | Headphones Connect.
+
+
+LEA ATENTAMENTE LOS TÉRMINOS SIGUIENTES ANTES DE ACTUALIZAR EL SOFTWARE.
+
+El presente producto contiene software (incluyendo su versión actualizada y/o modificada, “Software”), cuyos título en y para y derecho de autor están poseídos y controlados por Sony Corporation, filiales de Sony Corporation (“Compañía del Grupo Sony”) y/o sus licenciadores terceros. El Software está protegido por leyes de derechos de autor y otras leyes de propiedad intelectual y tratados internacionales.
+Solo puede utilizar el Software como parte de las funciones proporcionadas por el producto, a menos que se haya otorgado otra cosa por un acuerdo de licencia separado concluido entre usted y Sony Corporation, Compañía del Grupo Sony y/o sus licenciadores terceros.
+
+El presente programa de actualización se proporcionará para actualizar o de otro modo modificar el Software del presente producto, incluido pero sin limitarse a, para el propósito de (i) mejora de la función de seguridad, (ii) solución de fallos o corrección de errores, y (iii) otra actualización y/o mejora de características. 
+Usted reconoce y acepta expresamente que (i) la aplicación del programa de actualización no corregirá todos los fallos o errores en el Software integrado en el producto, (ii) dichas actualizaciones o modificaciones pueden borrar o cambiar la naturaleza de las características u otros aspectos del Software, incluido pero sin limitarse a, funciones de las que usted depende, y (iii) la instalación de una versión anterior del Software no es posible después de dichas actualizaciones o modificaciones. 
+
+EL SOFTWARE Y LA LICENCIA SE LE PROPORCIONAN A USTED “TAL CUAL” Y SIN NINGÚN TIPO DE GARANTÍA. SONY CORPORATION, COMPAÑÍA DEL GRUPO SONY Y LOS LICENCIADORES TERCEROS RENUNCIAN EXPRESAMENTE A TODA GARANTÍA, OBLIGACIÓN O CONDICIÓN, TANTO IMPLÍCITA COMO EXPLÍCITA, INCLUIDO PERO SIN LIMITARSE A, (I) DE QUE EL SOFTWARE ESTÉ O ESTARÁ EXENTO DE IMPRECISIONES, ERRORES, FALLOS U OTROS DEFECTOS, (II) DE QUE EL SOFTWARE FUNCIONE O FUNCIONARÁ CORRECTAMENTE Y PERFECTAMENTE SIN INTERRUPCIÓN, Y (III) DE QUE EL USO DEL SOFTWARE NO LE CAUSARÁ DAÑO A USTED Y/O TERCEROS.
+CON EXCEPCIÓN DE LA RESPONSABILIDAD QUE SURGE EN RELACIÓN CON LA NEGLIGENCIA GRAVE, EL AGRAVIO O LA CONDUCTA DOLOSA POR SONY CORPORATION, COMPAÑÍA DEL GRUPO SONY Y/O LICENCIADORES TERCEROS, SONY CORPORATION, COMPAÑÍA DEL GRUPO SONY Y LICENCIADORES TERCEROS NO SERÁN RESPONSABLES POR CUALQUIER DAÑO ESPECIAL, INDIRECTO, FORTUITO O CONSECUENCIAL ANTE USTED O POR CUALQUIER DAÑO EJEMPLAR O PUNITIVO, QUE SURGE DE CUALQUIER USO DEL SOFTWARE O DE LA EJECUCIÓN O NO EJECUCIÓN DE SU PROGRAMA ACTUALIZADO, AUNQUE ALGUNO DE ELLOS HAYA SIDO ADVERTIDO DE LA POSIBILIDAD DE TAL DAÑO. EN CUALQUIER CASO, TODAS Y CADA UNA DE SUS RESPONSABILIDADES TOTALES CON RESPECTO AL SOFTWARE SE LIMITARÁN AL IMPORTE REALMENTE PAGADO PARA EL PRESENTE PRODUCTO. ALGUNAS LEGISLACIONES NO PERMITEN TAL LIMITACIÓN DE RESPONSABILIDAD, POR LO QUE DICHA LIMITACIÓN PODRÍA NO SER APLICABLE EN SU CASO.
+
+SI ACEPTA LOS TÉRMINOS ANTEDICHOS, REALICE LA ACTUALIZACIÓN DEL SOFTWARE.
+
+※Android es una marca de Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Italy">
+        <Text><![CDATA[
+﻿※Effettuare l'aggiornamento in un ambiente in cui la connessione Bluetooth sia più stabile.
+※L’aggiornamento potrebbe non essere disponibile se al dispositivo Android (o iOS) è connesso un dispositivo Bluetooth Low Energy (dispositivo indossabile, smartwatch, ecc.). Eseguire l’aggiornamento dopo aver scollegato tutti i dispositivi Bluetooth diversi da questo dispositivo dal dispositivo Android (o iOS).
+※Fare attenzione a non effettuare l'aggiornamento durante la guida di veicoli, come ad esempio i treni, o in ambienti in cui si mescolano onde radio della banda 2.4 GHz, come ad esempio Wi-Fi, onde del forno a microonde, telefoni cordless e molte altre onde radio.
+
+※ Sony | Headphones Connect ※
+Eseguire l'aggiornamento alla versione più recente prima di aggiornare l'unità principale 
+
+[Dettagli dell'aggiornamento nella versione 2.0.0]
+[1] Ora è possibile connettere alle cuffie 2 dispositivi contemporaneamente.
+[2] Aggiunto un metodo per regolare il volume delle cuffie durante la riproduzione di musica.
+[3] Migliorate altre funzioni.
+
+[Attenzione]
+1)L'aggiornamento del software richiede circa 10 minuti per Android o circa 10 minuti per iOS.
+Non disponibile per l’uso come cuffie durante il download di aggiornamenti e il trasferimento di dati.
+2)Eseguire l’aggiornamento dopo aver verificato che la carica residua della batteria nelle cuffie e nel dispositivo Android (o iOS) sia sufficiente.
+
+[Come verificare la versione del software]
+Selezionare [WF-C700N Versione] dal menu in alto a destra della schermata dell'applicazione Sony | Headphones Connect.
+
+
+L’UTENTE DEVE LEGGERE ATTENTAMENTE I SEGUENTI TERMINI PRIMA DI AGGIORNARE IL SOFTWARE.
+
+Il presente prodotto contiene un software (inclusa la sua versione aggiornata e/o modificata, “Software”), il cui titolo e diritto d’autore sono posseduti e controllati da Sony Corporation, dalle affiliate di Sony Corporation (“Sony Group Company”) e/o dai suoi licenziatari terzi.  Il Software è protetto ai sensi del diritto d’autore, di altre leggi sulla proprietà intellettuale e dei trattati internazionali.
+L’utente può utilizzare il Software solo come parte delle funzioni fornite dal prodotto, a meno che non diversamente garantito da un contratto di licenza separato stipulato tra l’utente e Sony Corporation, Sony Group Company e/o i suoi licenziatari terzi.
+
+Il presente programma di aggiornamento viene fornito per aggiornare o modificare in altro modo il Software di questo prodotto, incluso, ma non limitato a, allo scopo di (i) miglioramento della funzione di sicurezza, (ii) correzione di bug o errori, e (iii) altro aggiornamento e/o miglioramento delle caratteristiche. 
+L’utente riconosce e accetta espressamente che (i) l’applicazione del programma di aggiornamento non correggerà tutti i bug o gli errori nel Software incorporato nel prodotto, (ii) tali aggiornamenti o modifiche possono eliminare o cambiare la natura delle caratteristiche o altri aspetti del Software, incluse, ma non solo, le funzioni su cui l’utente fa affidamento, e (iii) l’installazione di una versione precedente del Software non è disponibile dopo tali aggiornamenti o modifiche. 
+
+IL SOFTWARE È VIENE FORNITO E CONCESSO IN LICENZA ALL’UTENTE “COSÌ COM’È” E SENZA GARANZIE DI ALCUN TIPO.  SONY CORPORATION, SONY GROUP COMPANY E I LICENZIATARI DI TERZE PARTI DECLINANO ESPRESSAMENTE TUTTE LE GARANZIE, I DOVERI O LE CONDIZIONI, ESPRESSE O IMPLICITE, INCLUSO, MA NON LIMITATO A, (I) CHE IL SOFTWARE È O SARÀ PRIVO DI ERRORI, BUG O ALTRI DIFETTI, (II) CHE IL SOFTWARE FUNZIONA O FUNZIONERÀ CORRETTAMENTE E PERFETTAMENTE SENZA INTERRUZIONI, E (III) CHE L’USO DEL SOFTWARE NON CAUSERÀ DANNI ALL’UTENTE E/O A TERZE PARTI.
+AD ECCEZIONE DELLE RESPONSABILITÀ DERIVANTI DA NEGLIGENZA GRAVE O COMPORTAMENTO DOLOSO DA PARTE DI SONY CORPORATION, SONY GROUP COMPANY E/O LICENZIATARI TERZI, SONY CORPORATION, SONY GROUP COMPANY E I LICENZIATARI TERZI NON SARANNO RESPONSABILI DI ALCUN DANNO SPECIALE, INDIRETTO, INCIDENTALE O CONSEQUENZIALE NEI CONFRONTI DELL’UTENTE O DI ALCUN DANNO ESEMPLARE O PUNITIVO, DERIVANTE DA QUALSIASI USO DEL SOFTWARE O DALLA PRESTAZIONE O MANCATA PRESTAZIONE DEL RELATIVO PROGRAMMA AGGIORNATO, SEBBENE UNO QUALSIASI DI ESSI POSSA ESSERE STATO AVVISATO DELLA POSSIBILITÀ DI TALI DANNI.  IN OGNI CASO, CIASCUNA E TUTTE LE RESPONSABILITÀ AGGREGATE DI ESSI IN RELAZIONE AL SOFTWARE SARANNO LIMITATE ALL’IMPORTO EFFETTIVAMENTE PAGATO PER QUESTO PRODOTTO.  ALCUNE GIURISDIZIONI NON CONSENTONO TALE LIMITAZIONE DI RESPONSABILITÀ, PERTANTO TALE LIMITAZIONE PUÒ NON APPLICARSI ALL’UTENTE.
+
+PREVIA ACCETTAZIONE DEI TERMINI DI CUI SOPRA, SI PREGA DI PROCEDERE ALL’AGGIORNAMENTO DEL SOFTWARE.
+
+※Android è un marchio di Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Portugal">
+        <Text><![CDATA[
+﻿※Efetue a atualização num ambiente em que a ligação Bluetooth seja muito estável.
+※A atualização poderá estar indisponível se tiver um dispositivo Bluetooth de baixo consumo (dispositivo de usar no corpo, smartwatch, etc.) ligado ao dispositivo Android (ou dispositivo iOS). Execute a atualização após desligar todos os dispositivos Bluetooth, exceto este, do dispositivo Android (ou dispositivo iOS).
+※Tenha cuidado e não efetue a atualização dentro de veículos, como comboios, nem em ambientes em que existam interferências nas ondas de rádio da banda de 2,4 GHz, como Wi-Fi, fornos micro-ondas, telefones sem fios e outros dispositivos emissores de ondas de rádio.
+
+※ Sony | Headphones Connect ※
+Atualize para a versão mais recente antes de atualizar a unidade principal.
+
+[A versão 2.0.0 tem as seguintes atualizações]
+[1] Pode, agora, ligar simultaneamente 2 dispositivos aos auscultadores.
+[2] Adicionou um método para ajustar o volume nos auscultadores durante a reprodução de música.
+[3] Melhorias noutras funções.
+
+[Atenção]
+1)A atualização do software demora cerca de 10 minutos para Android ou cerca de 10 minutos para iOS.
+Não disponível para usar como auscultadores ao descarregar atualizações e transferir dados.
+2)Execute a atualização após confirmar que as cargas restantes nas baterias dos auscultadores e do dispositivo Android (ou dispositivo iOS) são suficientes.
+
+[Como verificar a versão do software]
+Selecione [WF-C700N Versão] no menu superior direito do ecrã da aplicação Sony | Headphones Connect.
+
+
+DEVERÁ LER CUIDADOSAMENTE ESTES TERMOS ABAIXO ANTES DE ATUALIZAR O SOFTWARE.
+
+Este produto contém software (incluindo a sua versão atualizada e/ou modificada, “Software”), cujo título e direitos de autor são detidos e controlados pela Sony Corporation, filiais da Sony Corporation (“Sony Group Company”) e/ou pelos seus terceiros licenciados.  O Software está protegido por direitos de autor e outras leis de propriedade intelectual e tratados internacionais.
+Apenas poderá utilizar o Software como parte de funções disponibilizadas pelo produto, exceto se de outra forma lhe tiver sido concedido esse direito mediante acordo de licença separado celebrado entre si e Sony Corporation, Sony Group Company e/ou os seus terceiros licenciados.
+
+Este programa de atualização deverá ser disponibilizado para atualização ou modificação do Software deste produto, incluindo, entre outros, para efeitos de (i) melhoramento de funcionalidades de segurança, (ii) correção de falhas (bugs) ou correção de erros e (iii) outras atualizações e/ou melhoramento de funcionalidades. 
+O utilizador reconhece e concorda expressamente que (i) a aplicação do programa de atualização não corrigirá todas as falhas (bugs) ou erros do Software incorporado no produto, (ii) essas atualizações e modificações poderão eliminar ou alterar a natureza das funcionalidades ou outros aspetos do Software, incluindo, entre outros, funções das quais o utilizador poderia depender e (iii) a instalação de versão mais antiga do Software não estará disponível após essas atualizações ou modificações. 
+
+O SOFTWARE É FORNECIDO AO UTILIZADOR “TAL COMO ESTÁ” E SEM QUALQUER GARANTIA.  A SONY CORPORATION, SONY GROUP COMPANY E OS TERCEIROS LICENCIADOS RECUSAM EXPRESSAMENTE QUAISQUER GARANTIAS, OBRIGAÇÕES OU CONDIÇÕES, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, ENTRE OUTRAS, (I) DE QUE O SOFTWARE SE ENCONTRA OU ENCONTRARÁ LIVRE DE INCORREÇÕES, ERROS, FALHAS (BUGS) OU OUTROS DEFEITOS, (II) QUE O SOFTWARE FUNCIONA OU FUNCIONARÁ CORRETAMENTE E PERFEITAMENTE SEM INTERRUPÇÕES E (III) QUE A UTILIZAÇÃO DO SOFTWARE NÃO IRÁ CAUSAR DANOS AO UTILIZADOR E/OU A TERCEIROS.
+EXCETO PARA RESPONSABILIDADES RESULTANTES DE CULPA GRAVE, DELITO OU INCUMPRIMENTO INTENCIONAL POR PARTE DA SONY CORPORATION, SONY GROUP COMPANY E/OU TERCEIROS LICENCIADOS, A SONY CORPORATION, SONY GROUP COMPANY E TERCEIROS LICENCIADOS NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS ESPECIAIS, INDIRETOS, ACIDENTAIS OU CONSEQUENCIAIS AO UTILIZADOR OU POR QUAISQUER DANOS EXEMPLARES OU PUNITIVOS DECORRENTES DE QUALQUER UTILIZAÇÃO DO SOFTWARE OU DO DESEMPENHO OU NÃO DESEMPENHO DO SEU PROGRAMA ATUALIZADO, AINDA QUE QUALQUER DELES TENHA SIDO NOTIFICADO DA POSSIBILIDADE DA OCORRÊNCIA DE TAIS DANOS.  EM QUALQUER CASO, TODAS E CADA UMA DAS SUAS RESPONSABILIDADES AGREGADAS A ESTE SOFTWARE DEVEM ESTAR LIMITADAS AO MONTANTE EFETIVAMENTE PAGO POR ESTE PRODUTO.  ALGUMAS JURISDIÇÕES NÃO PERMITEM ESSA LIMITAÇÃO DE RESPONSABILIDADE, ASSIM, ESSA LIMITAÇÃO PODERÁ NÃO SE APLICAR A SI.
+
+SE ACEITAR ESTES TERMOS ACIMA, PROCEDA À ATUALIZAÇÃO DO SOFTWARE.
+
+※Android é uma marca comercial da Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Netherlands">
+        <Text><![CDATA[
+﻿※Voer de update uit in een omgeving waar de Bluetooth-verbinding het meest stabiel is.
+※Mogelijk kunt u de update niet uitvoeren als er een Bluetooth Low Energy-apparaat (draagbaar apparaat, smartwatch enz.) verbonden is met het Android-apparaat (of iOS-apparaat). Voer de update uit nadat u de verbinding met alle Bluetooth-apparaten, behalve met dit apparaat, ongedaan heeft gemaakt vanaf het Android-apparaat (of iOS-apparaat).
+※Voer de update niet uit terwijl u in een voertuig zoals een trein rijdt, of in omgevingen waar radiogolven in de 2,4 GHz-band zoals Wi-Fi, magnetronovens, draadloze telefoons en talrijke andere radiogolven door elkaar worden gebruikt.
+
+※ Sony | Headphones Connect ※
+Voer een update uit naar de recentste versie voor u de update van de hoofdeenheid uitvoert
+
+[Updategegevens in versie 2.0.0]
+[1] U kunt nu 2 apparaten tegelijk verbinden met uw hoofdtelefoon.
+[2] Methode toegevoegd voor het regelen van het volume op de hoofdtelefoon terwijl er muziek wordt afgespeeld.
+[3] Verbetering van overige functies.
+
+[Waarschuwing]
+1)Het bijwerken van de software duurt ongeveer 10 minuten bij Android en ongeveer 10 minuten bij iOS.
+Niet beschikbaar voor gebruik als hoofdtelefoon terwijl er updates worden gedownload en gegevens worden overgezet.
+2)Voer de update uit nadat u gecontroleerd heeft dat de accu’s van de hoofdtelefoon en het Android-apparaat (of iOS-apparaat) voldoende geladen zijn.
+
+[De softwareversie controleren]
+Selecteer [WF-C700N Versie] in het menu in de rechterbovenhoek van het scherm van de applicatie Sony | Headphones Connect.
+
+
+U DIENT DE VOORWAARDEN HIERONDER ZORGVULDIG TE LEZEN VOORDAT U DE SOFTWARE BIJWERKT.
+
+Dit product bevat software (met inbegrip van zijn bijgewerkte en/of gewijzigde versie, "Software"), waarvan de eigendoms- en auteursrechten in het bezit zijn van en gecontroleerd worden door Sony Corporation, aan Sony Corporation gelieerde ondernemingen ("Sony-groepsbedrijf") en/of zijn externe licentiehouders. De Software is beschermd door auteurs- en andere intellectuele-eigendomsrechten en internationale verdragen.
+U mag alleen de Software gebruiken als onderdeel van functies die verstrekt zijn door het product, tenzij anderszins toegekend door een afzonderlijke licentieovereenkomst die werd gesloten tussen u en Sony Corporation, Sony-groepsbedrijf en/of zijn externe licentiehouders.
+
+Dit bijwerkingsprogramma wordt verstrekt voor de bijwerking of anderszins wijziging van de Software van dit product, met inbegrip van, maar niet beperkt tot, het doeleinde van (i) verbetering van beveiligingsfunctie, (ii) bug-oplossing of foutcorrectie, en (iii) overige upgrade en/of verbetering van functies. 
+U erkent uitdrukkelijk en stemt ermee in dat (i) de toepassing van het bijwerkingsprogramma niet alle bugs of fouten herstelt in de Software die ingebouwd is in het product, (ii) zulke bijwerkingen of wijzigingen de natuur van functies of andere aspecten van de Software kunnen wissen of wijzigen, met inbegrip van, maar niet beperkt tot, functies waarop u rekent, en (iii) de installatie van een oudere versie van de Software niet mogelijk is na zulke bijwerkingen of wijzigingen.
+
+DE SOFTWARE WORDT U "IN DE HUIDIGE STAAT" VERSCHAFT EN IN LICENTIE GEGEVEN, ZONDER ENIGE VORM VAN GARANTIE. SONY CORPORATION, SONY-GROEPSBEDRIJF EN EXTERNE LICENTIEHOUDERS WIJZEN UITDRUKKELIJK ALLE GARANTIES, VERPLICHTINGEN OF VOORWAARDEN AF, EXPLICIET OF IMPLICIET, MET INBEGRIP VAN, MAAR NIET BEPERKT TOT, (I) DAT DE SOFTWARE VRIJ IS OF ZAL ZIJN VAN ONNAUWKEURIGHEDEN, FOUTEN, BUGS OF ANDERE DEFECTEN, (II) DAT DE SOFTWARE OP CORRECTE EN JUISTE WIJZE ZONDER ONDERBREKING WERKT OF ZAL WERKEN, EN (III) DAT HET GEBRUIK VAN DE SOFTWARE U EN/OF DERDEN GEEN SCHADE ZAL BEROKKENEN.
+BEHOUDENS DE AANSPRAKELIJKHEID DIE ONTSTAAT MET BETREKKING TOT GROVE SCHULD, ONRECHTMATIGE DAAD OF OPZET DOOR SONY CORPORATION, SONY-GROEPSBEDRIJF EN/OF EXTERNE LICENTIEHOUDERS, ZIJN SONY CORPORATION, SONY-GROEPSBEDRIJF EN EXTERNE LICENTIEHOUDERS NIET AANSPRAKELIJK VOOR SPECIALE, ONRECHTSTREEKSE, INCIDENTELE OF GEVOLGSCHADE JEGENS U OF VOOR MORELE OF ALS STRAF OPGELEGDE SCHADE, DIE ONTSTAAT ALS GEVOLG VAN ELK GEBRUIK VAN DE SOFTWARE OF HET AL DAN NIET UITVOEREN VAN ZIJN BIJGEWERKTE PROGRAMMA, OOK NIET ALS EEN VAN HEN VOORAF OP DE HOOGTE WERD GESTELD VAN DE MOGELIJKHEID VAN DERGELIJKE SCHADE. IN IEDER GEVAL ZAL ELKE EN ALLE VAN HUN GEZAMENLIJKE AANSPRAKELIJKHEDEN MET BETREKKING TOT DE SOFTWARE BEPERKT ZIJN TOT HET BEDRAG DAT DAADWERKELIJK WERD BETAALD VOOR DIT PRODUCT. IN SOMMIGE RECHTSGEBIEDEN IS DERGELIJKE BEPERKING VAN AANSPRAKELIJKHEID NIET TOEGESTAAN; DERHALVE GELDT DERGELIJKE BEPERKING MOGELIJK NIET VOOR U.
+
+INDIEN U DE VOORWAARDEN HIERBOVEN ACCEPTEERT, KUNT U DOORGAAN MET HET BIJWERKEN VAN DE SOFTWARE.
+
+※Android is een handelsmerk van Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Sweden">
+        <Text><![CDATA[
+﻿※Uppdatera i en miljö där Bluetooth-anslutningen är mest stabil.
+※Det kanske inte går att uppdatera om en Bluetooth-enhet med låg energi (bärbar enhet, smartklocka osv.) är ansluten till Android-enheten (eller iOS-enhet). Utför uppdateringen efter att du kopplat bort alla Bluetooth-enheter förutom denna enhet från Android-enheten (eller iOS-enhet).
+※Var noga med att inte uppdatera vid färd i något fordon, exempelvis tåg, eller i miljöer där radiovågor på bandet 2.4 GHz , exempelvis Wi-Fi, mikrovågsugnar, trådlösa telefoner och många andra radiovågor blandas. 
+
+※ Sony | Headphones Connect ※
+Uppdatera till den senaste versionen innan uppdatering av huvudenheten
+
+[Uppdateringsinformation i version 2.0.0]
+[1] Du kan nu ansluta 2 enheter till hörlurarna samtidigt.
+[2] En metod för justering av volymen på hörlurarna när musik spelas har lagts till.
+[3] Andra funktioner har förbättrats.
+
+[Försiktighet]
+1)Det tar ungefär 10 minuter för Android eller ungefär 10 minuter för iOS att uppdatera programvaran.
+Ej tillgänglig för användning som hörlurar vid nerladdning av uppdateringar och överföring av data.
+2)Utför uppdateringen efter att du kontrollerat så att återstående batteriladdning är tillräcklig för hörlurarna och Android-enheten (eller iOS-enhet).
+
+[Hur programvaruversionen kontrolleras]
+Välj [WF-C700N Version] från den övre högra menyn på skärmen i applikationen Sony | Headphones Connect.
+
+
+DU UPPMANAS ATT LÄSA NEDAN VILLKOR NOGGRANT INNAN PROGRAMMET UPPDATERAS.
+
+Den här produkten innehåller program (inklusive dess uppdaterade och/eller ändrade version, ”Program”) för vilken anspråk om och för samt upphovsrätt ägs och kontrolleras av Sony Corporation, närstående företag till Sony Corporation (”Sony Group Company”) och/eller dess tredjepartslicensgivare.  Programmet skyddas av upphovsrätt och andra lagar om immateriella rättigheter och internationella fördrag.
+Du får endast använda Programmet som en del av de funktioner som produkten tillhandahåller, såvida inte ett separat licensavtal upprättas mellan dig och Sony Corporation, Sony Group Company och/eller dess tredjepartslicensgivare.
+
+Det här uppdaterade programmet ska tillhandahållas för att uppdatera eller på annat sätt modifiera Programmet till den här produkten, inklusive, men inte begränsat till, i syfte att (i) förbättra säkerhetsfunktion, (ii) åtgärda programfel och felkorrigering, och (iii) övriga uppgraderingar och/eller förbättringar av egenskaper. 
+Du godkänner uttryckligen samt samtycker till att (i) applicering av uppdateringsprogrammet inte åtgärdar alla programfel eller fel i Programmet som är integrerat med produkten, (ii) sådana uppdateringar eller ändringar kan radera eller ändra karaktären på egenskaper eller andra aspekter i Programmet, inklusive, men inte begränsat till, funktioner du är beroende av, och (iii) installationen av en äldre Programversion inte finns tillgänglig efter sådana uppdateringar eller ändringar. 
+
+PROGRAMMET TILLHANDAHÅLLS OCH LICENSIERAS TILL DIG ”I BEFINTLIG SKICK” OCH UTAN NÅGRA SOM HELST GARANTIER.  SONY CORPORATION, SONY GROUP COMPANY OCH TREDJEPARTSLICENSGIVARE FRÅNSÄGER SIG UTTRYCKLIGEN ALLA GARANTIER, SKYLDIGHETER ELLER UTFÄSTELSER, UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, (I) ATT PROGRAMMET ÄR ELLER KOMMER ATT VARA UTAN ORIKTIGHETER, FEL, PROGRAMFEL ELLER ANDRA DEFEKTER, (II) ATT PROGRAMMET FUNGERAR KORREKT OCH PERFEKT UTAN AVBROTT, OCH (III) ATT ANVÄNDNING AV PROGRAMMET INTE SKADAR DIG OCH/ELLER ANNAN TREDJE PART.
+MED UNDANTAG FÖR ANSVAR SOM UPPSTÅR I SAMBAND MED GROV OAKTSAM ÅTALBAR HANDLING ELLER UPPSÅTLIG MISSKÖTSAMHET FRÅN SONY CORPORATION, SONY GROUP COMPANY OCH/ELLER TREDJEPARTSLICENSGIVARE SKA SONY CORPORATION, SONY GROUP COMPANY OCH TREDJEPARTSLICENSGIVARE INTE HÅLLAS ANSVARIGA FÖR NÅGRA SÄRSKILDA, INDIREKTA, OFÖRUTSEDDA ELLER FÖLJDSKADOR INFÖR DIG FÖR NÅGRA IDEELLA ELLER STRAFFSKADESTÅNG SOM UPPSTÅR UR ANVÄNDNINGEN AV PROGRAMMET ELLER FUNKTIONER ELLER UTEBLIVNA FUNKTIONER AV DESS UPPDATERADE PROGRAM, ÄVEN OM NÅGON AV DEM HAR UNDERRÄTTATS OM MÖJLIGHETEN FÖR SÅDANA SKADOR.  I ALLA FALL SKA DERAS SAMMANLAGDA ANSVAR AVSEENDE PROGRAMMET VARA BEGRÄNSAT TILL DET BELOPP SOM FAKTISKT BETALATS FÖR DEN HÄR PRODUKTEN.  VISSA JURISDIKTIONER TILLÅTER INTE SÅDANT UTESLUTANDE AV ANSVAR SÅ SÅDAN UTESLUTNING KANSKE INTE GÄLLER FÖR DIG.
+
+OM DU GODKÄNNER OVAN VILLKOR KAN DU FORTSÄTTA TILL ATT UPPDATERA PROGRAMMET.
+
+※Android är ett varumärke som tillhör Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Finland">
+        <Text><![CDATA[
+﻿※Päivitä ympäristössä, jossa Bluetooth-yhteys on mahdollisimman vakaa.
+※Päivitys ei ehkä ole käytettävissä, jos Bluetooth Low Energy -laite (puettava laite, älykello jne.) on yhdistetty Android-laitteeseen (tai iOS-laitteeseen). Suorita päivitys, kun olet irrottanut tätä laitetta lukuun ottamatta kaikki muut Bluetooth-laitteet Android-laitteesta (tai iOS-laitteesta).
+※Älä päivitä ollessasi ajoneuvossa, kuten junassa, äläkä ympäristössä, jossa esiintyy 2,4 GHz:n kaistan radioaaltoja, jollaisia muodostavat esimerkiksi Wi-Fi, mikroaaltouuni, langattomat puhelimet ja muut laitteet.
+
+※ Sony | Headphones Connect ※
+Päivitä uusimpaan versioon  ennen kuin päivität päälaitteen 
+
+[Päivitystiedot versiolle 2.0.0]
+[1] Nyt voit yhdistää kuulokkeisiin 2 laitetta samanaikaisesti.
+[2] Lisätty menetelmä kuulokkeiden äänenvoimakkuuden säätämiseksi musiikin toiston aikana.
+[3] Parannetut muut toiminnot.
+
+[Huomio]
+1)Ohjelmistopäivitys vie noin 10 Android-järjestelmällä tai noin 10 minuuttia iOS-järjestelmällä.
+Ei voida käyttää kuulokkeina päivitysten lataamisen ja tiedonsiirron aikana.
+2)Suorita päivitys varmistettuasi, että akun jäljellä oleva varaus kuulokkeissa ja Android-laitteessa (tai iOS-laitteessa) riittää.
+
+[Ohjelmistoversion katsominen]
+Valitse [WF-C700N Versio] oikean yläkulman valikosta Sony | Headphones Connect -sovellusnäytössä.
+
+
+LUE NÄMÄ EHDOT HUOLELLISESTI ENNEN OHJELMISTON PÄIVITYSTÄ.
+
+Tämä tuote sisältää ohjelmiston (mukaan lukien sen päivitetyn ja/tai muunnetun version, ”Ohjelmisto”), jonka tekijänoikeudet omistaa ja joita hallitsee Sony Corporation, Sony Corporationin tytäryhtiöt (”Sony Group Company”) ja/tai sen kolmannen osapuolen lisenssinantajat.  Ohjelmisto on suojattu tekijänoikeuslaeilla ja muita aineettomia oikeuksia koskevilla laeilla sekä kansainvälisillä sopimuksilla.
+Saat käyttää ohjelmistoa vain osana tuotteen tarjoamia toimintoja, ellei sinun ja Sony Corporationin, Sony Group Companyn ja/tai sen kolmansien osapuolten lisenssinantajien välillä tehdyssä erillisessä lisenssisopimuksessa toisin määrätä.
+
+Tämä päivitysohjelma on toimitettava tämän tuotteen ohjelmiston päivittämistä tai muuta muuttamista varten, mukaan lukien mutta niihin rajoittumatta (i) suojaustoiminnon parantamiseen, (ii) vikojen ja virheiden korjaamiseen ja (iii) muuhun päivittämiseen ja/tai ominaisuuksien parantamiseen. 
+Hyväksyt nimenomaisesti ja suostut siihen, että (i) päivitysohjelman käyttäminen ei korjaa kaikkia tuotteeseen sisältyvän ohjelmiston vikoja tai virheitä, (ii) tällaiset päivitykset tai muutokset voivat poistaa tai muuttaa ohjelmiston toimintojen tai muiden ominaisuuksien luonnetta, mukaan lukien mutta niihin rajoittumatta, toiminnot, joihin voit luottaa, ja (iii) vanhemman ohjelmistoversion asennus ei ole mahdollista tällaisten päivitysten tai muutosten jälkeen. 
+
+OHJELMISTO TOIMITETAAN JA LISENSOIDAAN SINULLE ”SELLAISENAAN” JA ILMAN MINKÄÄNLAISTA TAKUUTA.  SONY CORPORATION, SONY GROUP COMPANY JA KOLMANSIEN OSAPUOLTEN LISENSOIJAT SANOUTUVAT IRTI KAIKISTA TAKUISTA, VELVOITTEISTA TAI EHDOISTA, ILMAISTUNA TAI EPÄSUORASTI, MUKAAN LUKIEN MUTTA NIIHIN RAJOITTUMATTA, (I) ETTÄ OHJELMISTOSSA EI OLE VIRHEITÄ, EPÄTÄYDELLISYYKSI, VIKOJA TAI MUITA PUUTTEITA, (II) ETTÄ OHJELMISTO TOIMII TAI TULEE TOIMIMAAN OIKEIN JA TÄYDELLISESTI KESKEYTYKSETTÄ (III) ETTÄ OHJELMISTON KÄYTTÖ EI VAHINGOITA SINUN JA/TAI KOLMANSIA OSAPUOLIA.
+LUKUUN OTTAMATTA VELVOITTEITA, JOTKA JOHTUVAT SONY CORPORATIONIN, SONY GROUP COMPANYN JA/TAI KOLMANSIEN OSAPUOLTEN LISENSSINANTAJIEN TÖRKEÄSTÄ HUOLIMATTOMUUDESTA TAI TAHALLISESTA VÄÄRINKÄYTÖKSESTÄ, SONY CORPORATION, SONY GROUP COMPANYN JA KOLMANSIEN OSAPUOLTEN LISENSSINANTAJAT EIVÄT OLE VASTUUSSA ERITYISISTÄ, EPÄSUORISTA, SATUNNAISISTA VAHINGOISTA TAI MAHDOLLISISTA ENNAKOIVISTA TAI RANGAISTAVISTA VAHINGOISTA, JOTKA JOHTUVAT OHJELMISTON KÄYTÖSTÄ TAI SEN PÄIVITETYN OHJELMAN SUORITTAMISESTA TAI SUORITTAMATTA JÄTTÄMISESTÄ, VAIKKA JOLLEKIN HEISTÄ OLISI ILMOITETTU TÄLLAISTEN VAHINKOJEN MAHDOLLISUUDESTA.  KAIKISSA TAPAUKSISSA NIIDEN YHTEENLASKETTU VASTUU OHJELMISTOSTA MINKÄÄN TÄMÄN KÄYTTÖOIKEUSSOPIMUKSEN EHDON NOJALLA EI YLITÄ TÄSTÄ TUOTTEESTA TOSIASIASSA MAKSETTUA SUMMAA.  JOILLAKIN LAINKÄYTTÖALUEILLA EI SALLITA TÄLLAISTA VASTUUN RAJOITTAMISTA, JOTEN TÄLLAISET RAJOITUKSET EIVÄT EHKÄ KOSKE SINUA.
+
+JOS HYVÄKSYT NÄMÄ EDELLÄ MAINITUT EHDOT, JATKA PÄIVITTÄMÄÄN OHJELMISTO.
+
+※Android on Google&nbsp;LLC:n tavaramerkki.
+]]></Text>
+    </Notice>
+    <Notice Locale="Russia">
+        <Text><![CDATA[
+﻿※Выполняйте обновление в среде с наиболее стабильным приемом Bluetooth.
+※Обновление может быть недоступно, если к устройству Android (или iOS-устройству) подключено энергосберегающее устройство Bluetooth (носимое устройство, смарт-часы и т.д.). Выполните обновление после отключения всех устройств Bluetooth, кроме этого устройства, от устройства Android (или устройства iOS).
+※Не выполняйте обновление во время езды в транспорте, например в поездах, или в среде, где используются радиоволны с частотой 2.4 GHz, например Wi-Fi, микроволновые печи, беспроводные телефоны либо многочисленные радиоволны.
+
+※ Sony | Headphones Connect ※
+Выполните обновление до последней версии перед обновлением основного устройства
+
+[Сведения об обновлении в версии 2.0.0]
+[1] Теперь к наушникам можно одновременно подключить 2 устройства.
+[2] Добавлен способ регулировки громкости на наушниках во время воспроизведения музыки.
+[3] Улучшены другие функции.
+
+[Внимание]
+1)Обновление программного обеспечения занимает около 10 минут для Android и около 10 минут для iOS.
+Недоступно для использования в качестве наушников во время загрузки обновлений и передачи данных.
+2)Выполните обновление после подтверждения наличия достаточного уровня остаточного заряда аккумулятора в наушниках и в устройстве Android (или в устройстве iOS).
+
+[Проверка версии программного обеспечения]
+Выберите [WF-C700N Версия] в правом верхнем углу меню экрана приложения Sony | Headphones Connect.
+
+
+ПЕРЕД ОБНОВЛЕНИЕМ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ВНИМАТЕЛЬНО ОЗНАКОМЬТЕСЬ С ПРИВЕДЕННЫМИ НИЖЕ УСЛОВИЯМИ.
+
+Настоящий продукт содержит программное обеспечение (включая его обновленную и / или модифицированную версию, “Программное обеспечение”), право собственности и авторские права на которое принадлежат и контролируются компанией Sony Corporation, филиалами Sony Corporation (“Компания Sony Group”) и / или ее третьими лицами-лицензиарами. Программное обеспечение защищено законами об авторском праве и другими законами об интеллектуальной собственности, а также международными соглашениями.
+Вы можете использовать Программное обеспечение только как часть функций, предоставляемых продуктом, если иное не предусмотрено отдельным лицензионным соглашением, заключенным между вами и Sony Corporation, компанией Sony Group и / или ее сторонними лицензиарами.
+
+Настоящая программа обновления предназначена для обновления или иного изменения Программного обеспечения данного продукта, включая, но не ограничиваясь перечисленным, в целях (i) усиления функции безопасности, (ii) устранения недочетов или исправления ошибок и (iii) иного обновления и / или улучшения функций.
+Вы прямо признаете и соглашаетесь с тем, что (i) применение программы обновления не должно исправлять все недочеты или ошибки в Программном обеспечении, встроенном в продукт, (ii) такие обновления или модификации могут удалять или изменять характер функций или других аспектов Программного обеспечения, включая, помимо прочего, функции, на которые вы можете положиться, и (iii) установка более старой версии Программного обеспечения после таких обновлений или модификаций становится недоступной.
+
+ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ ВАМ И ЛИЦЕНЗИРУЕТСЯ “КАК ЕСТЬ” БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ. SONY CORPORATION, КОМПАНИЯ SONY GROUP И СТОРОННИЕ ЛИЦЕНЗИАРЫ ПРЯМО ОТКАЗЫВАЮТСЯ ОТ ВСЕХ ГАРАНТИЙ, ОБЯЗАТЕЛЬСТВ ИЛИ УСЛОВИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, ПОМИМО ПРОЧЕГО, (I) ТО, ЧТО ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ЯВЛЯЕТСЯ ИЛИ БУДЕТ ЯВЛЯТЬСЯ СВОБОДНЫМ ОТ ОШИБОК, НЕДОЧЕТОВ ИЛИ ДРУГИХ ДЕФЕКТОВ, (II) ТО, ЧТО ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ РАБОТАЕТ ИЛИ БУДЕТ РАБОТАТЬ КОРРЕКТНО И БЕЗ СБОЕВ, И (III) ТО, ЧТО ИСПОЛЬЗОВАНИЕ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ НЕ ПОВРЕДИТ ВАМ И / ИЛИ ЛЮБЫМ ТРЕТЬИМ ЛИЦАМ.
+ЗА ИСКЛЮЧЕНИЕМ ОБЯЗАТЕЛЬСТВ, ВОЗНИКАЮЩИХ В СВЯЗИ С ПРАВОНАРУШЕНИЕМ ПО ПРИЧИНЕ СЕРЬЕЗНОЙ НЕБРЕЖНОСТИ ИЛИ УМЫШЛЕННЫХ НЕПРАВОМЕРНЫХ ДЕЙСТВИЙ СО СТОРОНЫ КОМПАНИИ SONY CORPORATION, КОМПАНИИ SONY GROUP И/ИЛИ СТОРОННИХ ЛИЦЕНЗИАРОВ, КОМПАНИЯ SONY CORPORATION, КОМПАНИЯ SONY GROUP И СТОРОННИЕ ЛИЦЕНЗИАРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА КАКИЕ-ЛИБО КОНКРЕТНЫЕ, КОСВЕННЫЕ, СЛУЧАЙНЫЕ ИЛИ СОПУТСТВУЮЩИЕ УБЫТКИ, А ТАКЖЕ ЗА ЛЮБЫЕ ТИПИЧНЫЕ ИЛИ ШТРАФНЫЕ УБЫТКИ, ВОЗНИКАЮЩИЕ В СВЯЗИ С ЛЮБЫМ ИСПОЛЬЗОВАНИЕМ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИСПОЛНЕНИЕМ ИЛИ НЕИСПОЛНЕНИЕМ ЕГО ОБНОВЛЕННОЙ ПРОГРАММЫ, ДАЖЕ ПРИ УСЛОВИИ, ЧТО КТО-ЛИБО ИЗ НИХ БЫЛ ПРЕДУПРЕЖДЕН О ВОЗМОЖНОСТИ ТАКИХ УБЫТКОВ. В ЛЮБОМ СЛУЧАЕ КАЖДАЯ И ВСЯ ИХ СОВОКУПНАЯ ОТВЕТСТВЕННОСТЬ В ОТНОШЕНИИ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ОГРАНИЧИВАЕТСЯ СУММОЙ, ФАКТИЧЕСКИ УПЛАЧЕННОЙ ЗА ДАННЫЙ ПРОДУКТ. В НЕКОТОРЫХ ЮРИСДИКЦИЯХ ТАКОЕ ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ НЕ ПРЕДУСМАТРИВАЕТСЯ, ПОЭТОМУ ТАКОЕ ОГРАНИЧЕНИЕ МОЖЕТ НЕ РАСПРОСТРАНЯТЬСЯ НА ВАС.
+
+ЕСЛИ ВЫ ПРИНИМАЕТЕ ВЫШЕПЕРЕЧИСЛЕННЫЕ УСЛОВИЯ, ПОЖАЛУЙСТА, ПЕРЕХОДИТЕ К ОБНОВЛЕНИЮ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ.
+
+※Android является товарным знаком компании Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="China">
+        <Text><![CDATA[
+﻿※请在蓝牙连接最稳定的环境下进行更新。
+※如果有低功耗蓝牙设备（可穿戴设备、智能手表等）与Android设备（或iOS设备）连接，则可能无法更新。从Android设备（或iOS设备）断开除本设备之外的所有蓝牙设备后执行更新。
+※请注意，在乘坐火车等车辆时，或者在Wi-Fi、微波炉、无绳电话以及其他许多无线电波等2.4GHz频带的无线电波混杂的环境中，不要更新。
+
+※ Sony | Headphones Connect ※
+更新主机之前，请更新至最新版本
+
+[在版本2.0.0中更新详细信息]
+[1] 可以同时将2台设备连接到耳机。
+[2] 已新增播放音乐时调整耳机音量的方法。
+[3] 改进了其他功能。
+
+[警告]
+1)软件更新大约需要10分钟（Android）或10分钟（iOS）。
+下载更新和传输数据时，不能作为耳机使用。
+2)确认耳机和Android设备（或iOS设备）的剩余电池电量充足后执行更新。
+
+[如何检查软件版本]
+从Sony | Headphones Connect应用程序屏幕右上方菜单中选择[WF-C700N 版本]。
+
+
+在更新软件之前，您应仔细阅读以下条款。
+
+本产品包含软件（包括其更新和/或修改版本，统称为“软件”），其所有权和版权由Sony Corporation、Sony Corporation的附属公司（统称为“Sony Group Company”）和/或其第三方许可方拥有和控制。本软件受版权法和其他知识产权法以及国际条约的保护。
+除非您与Sony Corporation、Sony Group Company和/或其第三方许可方之间签订的单独许可协议另有许可，否则您只能将本软件作为产品提供的功能的一部分使用。
+
+提供本更新程序是为了更新或以其他方式修改本产品的软件，目的包括但不限于：（i）增强安全功能，（ii）修复漏洞或修正错误，以及（iii）更新和/或改善其他功能。 
+您明确承认并同意，（i）应用更新程序不会纠正产品所包含软件中的所有漏洞或错误，（ii）此类更新或修改可能会删除或更改软件功能或其他方面的性质，包括但不限于您可能依赖的功能，以及（iii）在进行此类更新或修改后，将无法安装旧版本的软件。 
+
+本软件按“原样”提供并授权给您，不提供任何形式的担保。SONY CORPORATION、SONY GROUP COMPANY和第三方许可方明确否认所有明示或暗示的担保、义务或条件，包括但不限于：（I）本软件现在或将来没有不当、错误、漏洞或其他缺陷，（II）本软件现在或将来可以在不中断的情况下妥当运行，以及（III）使用本软件不会损害您和/或任何第三方。
+除因SONY CORPORATION、SONY GROUP COMPANY和/或第三方许可方的重大过失侵权或严重不当行为而引起的责任外，SONY CORPORATION、SONY GROUP COMPANY和第三方许可方不对因使用本软件或执行或不执行其更新程序而对您造成的任何特殊、间接、附带或后果性损害以及任何惩戒性或惩罚性损害负责，即使其中任何一方已被告知可能发生此类损害。在任何情况下，与本软件有关的每一项及其所有累计责任均应限于为本产品实际支付的金额。某些司法管辖区不允许此类责任限制，因此此类限制可能不适用于您。
+
+如果您接受上述条款，请继续更新软件。
+
+※“Android”是 Google LLC 的商标。
+]]></Text>
+    </Notice>
+    <Notice Locale="Brazil">
+        <Text><![CDATA[
+﻿※Realize a atualização em um ambiente em que a conexão Bluetooth seja o mais estável possível.
+※A atualização pode não estar disponível se um dispositivo Bluetooth Low Energy (dispositivo wearable, smartwatch, etc.) estiver conectado ao dispositivo Android (ou dispositivo iOS). Execute a atualização após desconectar todos os dispositivos Bluetooth, exceto este, do dispositivo Android (ou dispositivo iOS).
+※Tenha cuidado para não realizar a atualização enquanto estiver viajando em veículos, como trens, ou em ambientes em que ondas de rádio de banda 2.4 GHz, como Wi-Fi, fornos de micro-ondas, telefones sem fio e outras ondas de rádio estiverem misturadas.
+
+※ Sony | Headphones Connect ※
+Atualize para a versão mais recenteantes de atualizar a unidade principal 
+
+[Detalhes da atualização na versão 2.0.0]
+[1] Agora você pode conectar os fones de ouvido a 2 dispositivos simultaneamente.
+[2] Adicionado um método para ajustar o volume nos fones de ouvido durante a reprodução de música.
+[3] Outras funções melhoradas.
+
+[Atenção]
+1)A atualização do software leva cerca de 10 minutos para Android e aproximadamente 10 minutos para iOS.
+Indisponível para usar como fones de ouvido durante o download de atualizações e a transferência de dados.
+2)Execute a atualização após confirmar que a carga restante da bateria é suficiente nos fones de ouvido e no dispositivo Android (ou dispositivo iOS).
+
+[Como verificar a versão do software]
+Selecione [WF-C700N Versão] no menu superior direito da tela do aplicativo Sony | Headphones Connect.
+
+LEIA ATENTAMENTE OS TERMOS ABAIXO ANTES DE ATUALIZAR OS SOFTWARES.
+
+Este produto contém softwares (o que inclui suas versões atualizadas ou modificadas, aqui referidos como "Softwares"), cujos direitos de propriedade e autorais pertencem e são controlados pela Sony Corporation, as afiliadas da Sony Corporation ("Sony Group Company") e/ou outras empresas detentoras de componentes licenciados fornecidos com o produto.  Os Softwares são protegidos por direitos autorais e outras leis e tratados internacionais de propriedade intelectual.
+Você pode usar os Softwares apenas como parte das funções oferecidas pelo produto, exceto se estabelecido de outra forma em um contrato de licença à parte firmado entre você e a Sony Corporation, a Sony Group Company e/ou outras empresas detentoras de componentes licenciados fornecidos com o produto.
+
+Este programa de atualizações destina-se à atualização ou outra forma de modificação dos Softwares deste produto, incluindo, sem limitação, (i) melhoria da função de segurança, (ii) correção de falhas ou erros, e (iii) outros aprimoramentos e/ou melhoria de recursos. 
+Você compreende e concorda expressamente com o fato de que (i) a aplicação do programa de atualizações não tem obrigação de corrigir todas as falhas ou erros nos Softwares fornecidos com o produto, (ii) as referidas atualizações ou modificações poderão excluir ou alterar a natureza dos recursos ou outros aspectos dos Softwares, incluindo, sem limitação, funções que você esteja utilizando, e (iii) versões mais antigas dos Softwares não estarão disponíveis para instalação após tais atualizações ou modificações. 
+
+OS SOFTWARES SÃO FORNECIDOS E LICENCIADOS A VOCÊ “NO ESTADO EM QUE SE ENCONTRAM” E SEM NENHUM TIPO DE GARANTIA.  A SONY CORPORATION, A SONY GROUP COMPANY E AS OUTRAS EMPRESAS DETENTORAS DE COMPONENTES LICENCIADOS FORNECIDOS COM O PRODUTO SE ISENTAM EXPRESSAMENTE DE QUALQUER GARANTIA, RESPONSABILIDADE OU DECLARAÇÃO, EXPLÍCITA OU IMPLÍCITA, SOBRE AS CONDIÇÕES DO PRODUTO, INCLUINDO, SEM LIMITAÇÃO, GARANTIA DE QUE (I) OS SOFTWARES ESTÃO OU VÃO ESTAR LIVRES DE INADEQUAÇÕES, ERROS, FALHAS OU OUTROS DEFEITOS, (II) OS SOFTWARES ESTÃO FUNCIONANDO OU VÃO FUNCIONAR DE FORMA CORRETA E PERFEITA SEM INTERRUPÇÃO, E (III) O USO DOS SOFTWARES NÃO CAUSARÁ NENHUM DANO A VOCÊ E/OU A TERCEIROS.
+EXCETO POR DANOS RESULTANTES OU RELACIONADOS A CASOS GRAVES DE NEGLIGÊNCIA, ATOS ILÍCITOS OU MÁ CONDUTA VOLUNTÁRIA POR PARTE DA SONY CORPORATION, DA SONY GROUP COMPANY E/OU DE OUTRAS EMPRESAS DETENTORAS DE COMPONENTES LICENCIADOS FORNECIDOS COM O PRODUTO, A SONY CORPORATION, A SONY GROUP COMPANY E AS OUTRAS EMPRESAS DETENTORAS DE COMPONENTES LICENCIADOS FORNECIDOS COM O PRODUTO NÃO PODERÃO SER RESPONSABILIZADAS POR QUALQUER DANO ESPECIAL, INDIRETO, INCIDENTAL OU CONSEQUENCIAL CAUSADO A VOCÊ, OU PELO PAGAMENTO DE INDENIZAÇÃO PUNITIVA DECORRENTE DE DANOS CAUSADOS POR QUALQUER FORMA DE USO DOS SOFTWARES, OU PELO DESEMPENHO OU MAU DESEMPENHO DE SUA RESPECTIVA ATUALIZAÇÃO, MESMO QUE ALGUMA DELAS TENHA SIDO ADVERTIDA DA POSSIBILIDADE DE TAIS DANOS.  INDEPENDENTEMENTE DA CIRCUNSTÂNCIA, TODA E QUALQUER INDENIZAÇÃO RELACIONADA AOS SOFTWARES SERÁ LIMITADA AO VALOR REAL PAGO POR ESTE PRODUTO.  ALGUMAS JURISDIÇÕES NÃO PERMITEM TAL LIMITAÇÃO DE RESPONSABILIDADE, PORTANTO, ELA PODE NÃO SE APLICAR A VOCÊ.
+
+APÓS ACEITAR OS TERMOS ACIMA, DÊ INÍCIO À ATUALIZAÇÃO DOS SOFTWARES.
+
+※Android é uma marca registrada da Google LLC.
+]]></Text>
+    </Notice>
+    <Notice Locale="Taiwan">
+        <Text><![CDATA[
+﻿※請在 Bluetooth 連線最穩定的環境下進行更新。
+※藍牙低功耗裝置（穿戴式裝置、智慧型手錶等）連線至Android裝置（或iOS裝置）時，可能無法更新。在將本裝置除外的所有藍牙裝置與Android裝置（或iOS裝置）中斷連線之後進行更新。
+※請注意，搭乘車輛時請勿更新，例如，搭乘火車。或者，請勿在有 2.4 GHz 頻段的無線電波的環境下更新，例如，Wi-Fi、微波爐、無線電話與可能會混雜許多無線電波的地方。
+
+※ Sony | Headphones Connect ※
+更新主機前，請先更新到最新版本
+
+[版本2.0.0 的更新詳情]
+[1] 您現在可以同時將2個裝置連線至耳機。
+[2] 已新增播放音樂時調整耳機音量的方法。
+[3] 已改善其他功能。
+
+[注意]
+1)軟體更新在 Android 上需要約 10 分鐘，在 iOS 上需要約 10 分鐘。
+下載更新和傳輸資料時不能作為耳機使用。
+2)確認耳機和Android裝置（或iOS裝置）上的剩餘電池電量充足後，進行更新。
+
+[如何檢查版本]
+從 Sony | Headphones Connect 應用程式畫面右上角的選單中選擇[WF-C700N 版本]。
+
+
+您應該先仔細閱讀以下條款，再來更新軟體。
+
+本產品包含軟體（包括其更新版及/或修改版，簡稱「軟體」），其裡頭和所指標題以及版權歸Sony Corporation、Sony Corporation的關係企業（「Sony Group Company」）及/或其第三方授權人擁有及控制。本軟體受著作權法和其他智慧財產權法以及國際公約保護。
+除非您與Sony Corporation、Sony Group Company及/或其第三方授權人之間達成的單獨授權協議另行許可，否則您只能將本軟體用作為產品所提供功能的一部分。
+
+應提供本更新程式來更新或按其他方式修改本產品的本軟體，包括、但不限於為了以下目的：(i)增強安全功能，(ii)失誤修正或錯誤更正，以及(iii)其他功能升級及/或改進。 
+您明確承認並同意(i)更新程式之套用不應更正產品中所含本軟體中的所有失誤或錯誤，(ii)此類更新或修改可能會刪除或變更本軟體之功能或其他方面的性質，包括、但不限於您可能依賴的功能，以及(iii)在此類更新或修改之後便無法安裝舊版軟體。 
+
+本軟體是「按原樣」提供和授權給您且無任何種類之保固。SONY CORPORATION、SONY GROUP COMPANY和第三方授權人對於明示或暗示的所有保固、義務或條件明確表示免責，包括、但不限於(I)本軟體係或將免於不正確、錯誤、失誤或其他缺陷，(II)本軟體係或將正確地且完美地運作且無中斷，以及(III)使用本軟體將不會對您及/或任何第三方造成損害。
+除因SONY CORPORATION、SONY GROUP COMPANY及/或第三方授權人重大過失侵權或恣意不當行為而引起的責任外，就本軟體之任何使用或其更新程式之執行或不執行所引起，對於您所蒙受的任何特殊、間接、附隨性或衍生性損害或對於任何懲戒性或懲罰性損害，即使事先已知悉此種損害發生之可能性，SONY CORPORATION、SONY GROUP COMPANY和第三方授權人概不負責。無論如何，與本軟體有關之這些損害的每一筆及所有債務總額均應侷限於為本產品實際支付的金額。有些司法管轄區不允許此類債務限制，所以此類限制可能對您不適用。
+
+如果您接受以上這些條款，請繼續更新軟體。
+
+※「Android」是 Google LLC 的商標。
+]]></Text>
+    </Notice>
+    <Notice Locale="Korea">
+        <Text><![CDATA[
+﻿※Bluetooth 연결이 가장 안정된 환경에서 업데이트하십시오.
+※Bluetooth Low Energy 장치(웨어러블 장치, 스마트워치 등)가 Android 장치(또는 iOS 장치)에 연결되어 있으면 업데이트가 불가능할 수 있습니다. Android 장치(또는 iOS 장치)에서 본 장치를 제외한 모든 Bluetooth 장치의 연결을 해제한 후 업데이트하십시오.
+※기차와 같은 차량이나 Wi-Fi, 전자레인지, 무선 전화 및 기타 여러 전파 등 대역이 2.4 GHz인 전파가 섞인 환경에서 업데이트하지 않도록 주의하십시오.
+
+※ Sony | Headphones Connect ※
+본체를 업데이트하기 전 최신 버전으로 업데이트하십시오.
+
+[버전 2.0.0의 업데이트 세부 정보]
+[1] 이제 헤드폰에 장치 2개를 동시에 연결할 수 있습니다.
+[2] 음악 재생 중 헤드폰의 음량을 조절하는 방법이 추가되었습니다.
+[3] 기타 기능이 개선되었습니다.
+
+[주의]
+1)소프트웨어 업데이트는 Android의 경우 약 10분, iOS의 경우 약 10분이 소요됩니다.
+업데이트 다운로드 및 데이터 전송 중에는 헤드폰으로 사용할 수 없습니다.
+2)헤드폰 및 Android 장치(또는 iOS 장치)의 배터리 잔량이 충분한지를 확인하신 후 업데이트하십시오.
+
+[소프트웨어 버전 확인 방법]
+Sony | Headphones Connect 응용 프로그램 화면의 오른쪽 상단 메뉴에서 [WF-C700N 버전]을 선택하십시오.
+
+
+소프트웨어를 업데이트하기 전에 아래의 약관을 주의 깊게 읽어야 합니다.
+
+본 제품에는 소프트웨어(업데이트 및/또는 수정된 버전 포함, 이하 “소프트웨어”)가 포함되어 있으며, 해당 소유권 및 저작권은 Sony Corporation, Sony Corporation 계열사(“Sony Group 회사”) 및/또는 제3자 라이선스 제공자의 소유입니다. 소프트웨어는 저작권 및 기타 지적재산권 법과 국제 조약에 의해 보호됩니다.
+귀하와 Sony Corporation, Sony Group 회사 및/또는 제3자 라이선스 제공자 간에 체결된 별도의 라이선스 계약에 의해 달리 허여되지 않는 한, 귀하는 제품이 제공하는 기능의 일부로만 소프트웨어를 사용할 수 있습니다.
+
+본 업데이트 프로그램은 본 제품의 소프트웨어를 업데이트 또는 수정하기 위해 제공됩니다. 여기에는 (i) 보안 기능 강화, (ii) 버그 수정 또는 오류 수정, (iii) 기타 업그레이드 및/또는 기능 개선이 포함되며 이에 제한되지 않습니다. 
+귀하는 다음 사항을 명시적으로 인정하고 동의합니다. (i) 업데이트 프로그램을 적용해도 제품에 포함된 소프트웨어의 모든 버그 또는 오류가 수정되지는 않습니다. (ii) 이러한 업데이트 또는 수정의 결과 귀하가 의존할 수 있는 기능을 포함하여(이에 제한되지 않음) 소프트웨어의 기능 또는 기타 부분이 삭제 또는 변경될 수 있습니다. (iii) 업데이트 또는 수정 이후에는 이전 버전의 소프트웨어를 설치할 수 없습니다. 
+
+소프트웨어는 어떤 종류의 보증도 없이 “있는 그대로” 제공되고 라이선스가 부여됩니다. SONY CORPORATION, SONY GROUP 회사 및 제3자 라이선스 제공자는 (I) 소프트웨어가 부정확하거나 오류, 버그 또는 기타 결함이 없거나 없을 것, (II) 소프트웨어가 중단 없이 올바르고 완벽하게 작동하거나 작동할 것, (III) 소프트웨어의 사용이 귀하 및/또는 제3자에게 피해를 주지 않을 것 등을 포함하여(이에 제한되지 않음) 명시적이든 묵시적이든 모든 보증, 의무 또는 조건을 명시적으로 부인합니다.
+중대한 과실 불법 행위와 관련하여 발생하는 책임 또는 SONY CORPORATION의 고의적 위법 행위를 제외하고, SONY GROUP 회사 및/또는 제3자 라이선스 제공자, SONY CORPORATION, SONY GROUP 회사, 제3자 라이선스 제공자는 소프트웨어의 사용이나 업데이트된 프로그램의 작용이나 비작용으로 인해 발생하는 특별, 간접, 부수적 또는 결과적 손해에 대해 책임을 지지 않으며, 이들로부터 그러한 손상 가능성에 대해 조언을 받은 경우에도 마찬가지입니다. 어떠한 경우에도 소프트웨어와 관련된 모든 총괄적인 책임은 본 제품에 대해 실제로 지급된 금액으로 제한됩니다. 일부 관할권에서는 이러한 책임 제한을 허용하지 않으므로 이러한 제한이 귀하에게 적용되지 않을 수 있습니다.
+
+위의 약관에 동의하면 소프트웨어 업데이트를 진행하십시오.
+
+※Android(은)는 Google LLC의 상표입니다.
+]]></Text>
+    </Notice>
+    <Notice Locale="Turkey">
+        <Text><![CDATA[
+﻿※Lütfen güncellemeyi Bluetooth bağlantısının en kararlı olduğu ortamda yapın.
+※Android cihaza (veya iOS cihaza) bir Bluetooth Düşük Enerjili cihaz (giyilebilir cihaz, akıllı saat vb.) bağlanırsa güncelleme yapılamayabilir. Güncellemeyi bu cihaz dışındaki tüm Bluetooth cihazların Android cihazıyla (veya iOS cihazıyla) bağlantısını kestikten sonra yapın.
+※Lütfen bir araçta yolculuk ederken (örneğin trenler) ya da Wi-Fi, mikrodalga fırın, kablosuz telefon ve pek çok başka radyo dalgasının karışık durumda olduğu yerler gibi 2.4 GHz bandında radyo dalgalarının olduğu ortamlarda güncelleme yapmayın.
+
+※ Sony | Headphones Connect ※
+Lütfen ana ünitede güncelleme yapmadan önce son sürüme güncelleyin
+
+[Sürüm 2.0.0 için güncelleme detayları]
+[1] Artık aynı anda 2 cihazı kulaklıklara bağlayabilirsiniz.
+[2] Müzik çalarken kulaklıktaki ses düzeyini ayarlamak için bir yöntem eklendi.
+[3] Diğer işlevler iyileştirildi.
+
+[Dikkat]
+1)Yazılım güncellemesi Android'de yaklaşık 10 dakika veya iOS'ta yaklaşık 10 dakika sürer.
+Güncellemeleri indirirken ve verileri aktarırken kulaklık kullanılamaz.
+2)Kalan pil şarjının kulaklıklarda ve Android cihazda (veya iOS cihazda) yeterli olduğunu onayladıktan sonra güncellemeyi yapın.
+
+[Yazılım sürümü nasıl kontrol edilir]
+Sony | Headphones Connect uygulaması ekranının sağ üst menüsünden [WF-C700N Sürüm] öğesini seçin.
+
+
+YAZILIMI GÜNCELLEMEDEN ÖNCE AŞAĞIDAKİ ŞARTLARI DİKKATLİCE OKUMALISINIZ.
+
+Bu ürün, başlıkları ve telif hakkı Sony Corporation, Sony Corporation iştirakleri (“Sony Group Şirketi”) ve/veya üçüncü taraf lisans veren kişilere ait olan ve onlar tarafından kontrol edilen yazılım (güncellenen ve/veya değiştirilen sürümü, “Yazılım” dahil olmak üzere) içerir.  Yazılım telif hakkı ve diğer fikri mülkiyet kanunları ve uluslararası sözleşmeler ile korunur.
+Siz ve Sony Corporation, Sony Group Şirketi ve/veya üçüncü taraf lisans veren kişiler arasında ayrı bir lisans anlaşması yapılmadığı takdirde yazılımı yalnızca ürünle birlikte sağlanan işlevlerin bir parçası olarak kullanabilirsiniz.
+
+Bu güncelleme programı, (i) güvenlik işlevinin geliştirilmesi, (ii) hata düzeltme ve (iii) özelliklerin iyileştirilmesi ve/veya geliştirilmesi amacı dahil ancak bunlarla sınırlı olmamak üzere bu ürünün yazılımını güncellemek veya başka türlü değiştirmek üzere sağlanabilir. 
+(i) Güncellemenin uygulanmasının ürüne dahil olan yazılımdaki tüm hataları düzeltmeyeceğini, (ii) bu tür güncellemelerin veya değişikliklerin özelliklerin niteliğini veya yazılımın güvendiğiniz işlevleri dahil ancak bunlarla sınırlı olmamak üzere diğer yönlerini silebileceğini veya değiştirebileceğini, (iii) daha eski bir yazılım sürümünün kurulmasının bu tür güncellemeler veya değişikliklerden sonra kullanılamayacağını açıkça onaylıyor ve kabul ediyorsunuz. 
+
+YAZILIM HİÇBİR GARANTİ OLMAKSIZIN SİZE “OLDUĞU GİBİ” SUNULMAKTADIR.  SONY CORPORATION, SONY GROUP ŞİRKETİ VE ÜÇÜNCÜ TARAF LİSANS VERENLERİ AÇIK VEYA ZIMNİ TÜM GARANTİLERİ, SORUMLULUKLARI VEYA KOŞULLARI, (I) YAZILIMIN YANLIŞ, HATA VEYA KUSURLU BİR ŞEY İÇERMEDİĞİ VEYA İÇERMEYECEĞİ, (II) YAZILIMIN DOĞRU VE MÜKEMMEL BİR ŞEKİLDE KESİNTİSİZ ÇALIŞTIĞI VEYA ÇALIŞACAĞI VE (III) YAZILIMIN KULLANILMASININ SİZE VE/VEYA HERHANGİ BİR ÜÇÜNCÜ TARAFA ZARAR VERMEYECEĞİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE REDDEDER.
+SONY CORPORATION, SONY GROUP ŞİRKETİ VE/VEYA ÜÇÜNCÜ TARAF LİSANS VERENLERİNİN AĞIR İHMAL HASARI VEYA KASTEN KÖTÜYE KULLANIMINDAN ORTAYA ÇIKAN YÜKÜMLÜLÜKLER HARİCİNDE SONY CORPORATION, SONY GROUP ŞİRKETİ VE ÜÇÜNCÜ TARAF LİSANS VERENLERİ YAZILIMIN KULLANILMASINDAN VEYA GÜNCELLENMİŞ PROGRAMININ İŞLEVİNİ YERİNE GETİRMESİ VEYA GETİRMEMESİNDEN, TÜM BU OLASI HASARLAR HAKKINDA BİLGİ VERİLSE DE SİZE VERİLEN HİÇBİR ÖZEL, DOLAYLI, ÖNEMSİZ ZARARDAN, CEZAİ ZARAR VEYA TAZMİNATTAN SORUMLU OLMAYACAKTIR.  HERHANGİ BİR DURUMDA, YAZILIMLA İLİŞKİLİ TOPLAM SORUMLULUKLARININ HERBİRİ VE TÜMÜ, ÜRÜN İÇİN ÖDENEN GERÇEK MİKTARLA SINIRLI OLACAKTIR.  BAZI YARGI BÖLGELERİ SORUMLULUKLARIN BU TÜR SINIRLAMALARINA İZİN VERMEMEKTEDİR, BU SEBEPLE BU SINIRLAMALAR SİZİN İÇİN GEÇERLİ OLMAYABİLİR.
+
+YUKARIDAKİ ŞARTLARI KABUL EDİYORSANIZ LÜTFEN YAZILIMI GÜNCELLEMEYE DEVAM EDİN.
+
+※Android, Google LLC'nin ticari markasıdır.
+]]></Text>
+    </Notice>
+</NoticeFile>
+

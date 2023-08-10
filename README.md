@@ -67,3 +67,5 @@ The following are some links, if you want to add or remove your content from the
 | WH-1000XM5 | HP002      | MDRID295400           | ✔️    |
 | INZONE H9  | HP002      | MDRID295900           | ✔️    |
 | WH-CH720N  | HP002      | MDRID296600           | ✔️    |
+| WF-1000XM5 | HP002      | MDRID296300           | ✔️    |
+| WF-C700N   | HP002      | MDRID296800           | ✔️    |

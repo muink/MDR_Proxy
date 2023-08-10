@@ -22,4 +22,5 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "actions-user@users.noreply.github.com"
           git add assets/*
-          git diff-index --cached --quiet HEAD -- || (git commit -m "auto download firmware" && git push)
+          updated_service_ids=`git status -s | grep "^A " | awk '{print $2}' | grep '/indexes/' | cut -f3 -d'/' | sort -u | sed -z 's/\n/, /g' | sed 's/, $//'`
+          git diff-index --cached --quiet HEAD -- || (git commit -m "Auto download firmware (${updated_service_ids})" && git push)

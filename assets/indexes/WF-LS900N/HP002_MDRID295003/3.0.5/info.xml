@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2023-05-12T00:21:46Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="3.0.5" Operator="LessThan"/>
+                <Rule Type="System" Key="ClientVersion" Value="9.5.0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="5d41897b1dd11003b4e6e6523f9ec3c43bc4e9a7" Size="4048720" Type="" URI="https://info.update.sony.net/HP002/MDRID295003/contents/0005/3.0.5_UPG_japanese_enc_secureboot.bin" Version="3.0.5"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="e68849dcd8a1a369384386a0a91a639a2c4f6c2c" Size="94137" Type="" URI="https://info.update.sony.net/HP002/MDRID295003/contents/0005/HDX-2950_V3.0.5_20230508_disclaimer.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+               

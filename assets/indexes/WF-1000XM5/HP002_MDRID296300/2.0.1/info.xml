@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2023-07-20T02:45:11Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="FirmwareVersion" Value="2.0.1" Operator="NotEqual"/>
+                <Rule Type="System" Key="ClientVersion" Value="10.0.0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="0881995eadaf374833f9bb541842a1403abb70fa" Size="3593456" Type="" URI="https://info.update.sony.net/HP002/MDRID296300/contents/0008/UPG_2.0.1_except_enc.bin" Version="2.0.1"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="887475f69c234420980d4bb506b9bb6364a2829e" Size="91274" Type="" URI="https://info.update.sony.net/HP002/MDRID296300/contents/0008/HDX-2963_V2.0.1_20230607_disclaimer.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+           
