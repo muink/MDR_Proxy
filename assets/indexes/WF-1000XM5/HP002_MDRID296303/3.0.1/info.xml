@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2023-10-26T09:30:58Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="3.0.1" Operator="LessThan"/>
+                <Rule Type="System" Key="ClientVersion" Value="10.2.0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="abe684f2e81cf2f563c8ae8c594d05a6ab08e2ef" Size="3649760" Type="" URI="https://info.update.sony.net/HP002/MDRID296303/contents/0002/UPG_3.0.1_except_enc.bin" Version="3.0.1"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="564776b9b5b162cf6dbb3b5cd4484d0f66a6f721" Size="92741" Type="" URI="https://info.update.sony.net/HP002/MDRID296303/contents/0002/HDX2963_G_v3.0.1_20231025.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+     
