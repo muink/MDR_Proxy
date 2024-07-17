@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2024-06-28T07:43:45Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="3.3.1" Operator="LessThan"/>
+                <Rule Type="System" Key="ClientVersion" Value="10.4.0" Operator="GreaterThanEqual"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="22558868a27eaffa4b531355144a2e87fd2583e1" Size="3655344" Type="" URI="https://info.update.sony.net/HP002/MDRID296303/contents/0004/3.3.1_UPG_except_enc.bin" Version="3.3.1"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="c387f9dfb1a48b710ecc049546d27ea9e8defc74" Size="89442" Type="" URI="https://info.update.sony.net/HP002/MDRID296303/contents/0004/WF-1000XM5_G_v3.3.1_20240606.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+  
