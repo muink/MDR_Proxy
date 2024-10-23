@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><InformationFile LastUpdate="2024-10-15T05:19:42Z" Noop="false" Version="1.0">
+    <ControlConditions DefaultServiceStatus="open" DefaultVariance="0"/>
+    <ApplyConditions>
+        <ApplyCondition ApplyOrder="1" Force="false">
+            <Rules>
+                <Rule Type="System" Key="SerialNo" Value="0" Operator="GreaterThanEqual"/>
+                <Rule Type="System" Key="FirmwareVersion" Value="2.1.0" Operator="LessThan"/>
+            </Rules>
+            <Distributions>
+                <Distribution ID="FW" InstallParams="" InstallType="binary" MAC="bf15d7bd92559ece3484b2b3bceaf3849d415649" Size="3740672" Type="" URI="https://info.update.sony.net/HP002/MDRID294802/contents/0009/2.1.0_UPG_chinese_enc.bin" Version="2.1.0"/>
+                <Distribution ID="Disclaimer" InstallParams="" InstallType="notice" MAC="2df2f166e30564c49bfbad21fb5ea01a2110c844" Size="91395" Type="" URI="https://info.update.sony.net/HP002/MDRID294802/contents/0009/WF-1000XM4_NoG_v2.1.0_20240926.xml" Version="1"/>
+            </Distributions>
+            <Descriptions DefaultLang="English">
+                <Description Lang="English" Title="GB"/>
+            </Descriptions>
+        </ApplyCondition>
+    </ApplyConditions>
+</InformationFile>
+    
